@@ -6,18 +6,29 @@ ottrpal::set_knitr_image_path()
 # Introduction
 
 
+## Target Audience  
+
+The course is intended for individuals in biomedical scientists who want to learn the best practices and techniques for data management and sharing.
+
+_This course is written for individuals who:_   
+TODO: describe our persona here
+
+## Topics covered
+
+This course covers how to properly manage and share data
+
+
 ## Motivation
 
 
-## Target Audience  
-
-The course is intended for ...
-
 ## Curriculum  
 
-The course covers...
+The course includes information on how to manage and share data
+
+**Goal of this course:**  
 
 
-```{r}
-devtools::session_info()
-```
+**What is not the goal**  
+
+
+## How to use the course

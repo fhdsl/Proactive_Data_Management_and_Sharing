@@ -1,9 +1,21 @@
-book_filename: "Course_Name"
+book_filename: "Data Management and Sharing"
 chapter_name: "Chapter "
-repo: https://github.com/jhudsl/OTTR_Template/
+repo: https://github.com/fhdsl/Data_Management_and_Sharing
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-chapter_of_course.Rmd",
+            "02-data-sharing-is-important.Rmd",
+            "03-why-nih-dms.Rmd",
+            "04-defining-reproducibility.Rmd",
+            "05-data-privacy.Rmd",
+            "06-project-organization.Rmd",
+            "07-creating-guides.Rmd",
+            "08-why-documentation.Rmd",
+            "09-collaboration.Rmd",
+            "10-guidines-for-metadata.Rmd",
+            "11-overview-nih-dms.Rmd",
+            "12-computing-infrastructure.Rmd",
+            "13-data-storage-and-repos.Rmd",
+            "14-data-submission-tips.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
