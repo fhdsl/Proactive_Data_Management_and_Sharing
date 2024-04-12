@@ -5,19 +5,65 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
+```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gd422c5de97_0_0")
+```
 
-## Motivation
+```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gd422c5de97_0_10")
+```
 
 
 ## Target Audience  
 
-The course is intended for ...
+The course is intended for individuals in biomedical scientists and program managers who want to learn the best practices and techniques for data management and sharing.
+
+_This course is written for individuals who:_   
+
+- Have or plan to have biomedical data they need to manage
+- Have or plan to have or apply for NIH funding
+- Either work directly with the data or help mentor those who work with data
+- Have not had much training or background in data handling practices
+
+
+```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.g1173f7473f7_0_0")
+```
+
+## Topics covered
+
+This course covers how to properly manage and share data including:
+
+
+```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gfd7c7a0ba8_0_0")
+```
+
+- Understand what data sharing is and why is it important?
+- Effectively manage your data including the associated skills relating to data heavy projects
+- Maintain and write effective documentation
+- Keep effective records that will help you track your project properly but securely
+- Create good metadata that can enhance the use your data
+- Organize your project so that it is reproducible and well understood by others
+- Create a data management sharing plan consistent with NIH requirements
+- Identify and use computing resources that best fit your project needs
+- Store and submit your data to repositories
+
+
+```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.g1173f7473f7_0_0")
+```
+
+## Motivation
+
+Biomedical projects are increasingly data based. Not only is proper data sharing and management a non negotiable necessity for data heavy projects but NIH and other grant funding institutions have mandates that require you to do so. But it can be difficult to be brought up to speed on these effective management especially as data requirements and best practices continue to change rapidly.
+
+Effective data management and sharing can mean the difference between more funding or not. Well documented and properly shared data is not only the right thing to do as a part of a scientific community but it will help shed a spotlight on your work in the community. It also is not only helpful for yourself but for you and your future colleagues should you need to return to your work or build upon it (which is what science usually aims to do).
 
 ## Curriculum  
 
-The course covers...
+**Goal of this course:**  
+This course will be a great reference of the best practices for data management and sharing practices and a lot of the associated skills that are needed in data based biomedical projects.
 
-
-```{r}
-devtools::session_info()
-```
+**What is not the goal**  
+Data projects come in all shapes and sizes. Not all the advice in this book might work for you right out the gate. We encourage you to continue to consult data experts especially when it comes to matters of data security and privacy. This course will prepare you with the basics and best practices for data but it will not make you an end all be all expert in every topic you'd need to do when managing and sharing data.
