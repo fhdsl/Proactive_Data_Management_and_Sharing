@@ -26,7 +26,7 @@ Including multiple team members who can each evaluate the research can improve t
 Collaborations involving experts of multiple areas can improve the perceived credibility of the work by others.
 
 
-<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_p.png" title=" Benefits of collaboration are: shared cost, shared expertise, shared burden, shared reliability, and shared credibility" alt=" Benefits of collaboration are: shared cost, shared expertise, shared burden, shared reliability, and shared credibility" width="100%" />
+<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_p.png" alt=" Benefits of collaboration are: shared cost, shared expertise, shared burden, shared reliability, and shared credibility" width="100%" />
 
 ### Potential challenges
 
@@ -34,7 +34,7 @@ There are always challenges when collaborating with others, but some of these ar
 
 Bad collaboration:
 
-<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gc53d3d234f_0_210.png" title=" Charlie the unclear leader says: jargon, jargon, jargon... so I'd guess this will take you a day? Meanwhile, Francis the frustrated informaticist thinks to herself: What is he talking about? Are we even at the same table?" alt=" Charlie the unclear leader says: jargon, jargon, jargon... so I'd guess this will take you a day? Meanwhile, Francis the frustrated informaticist thinks to herself: What is he talking about? Are we even at the same table?" width="100%" />
+<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gc53d3d234f_0_210.png" alt=" Charlie the unclear leader says: jargon, jargon, jargon... so I'd guess this will take you a day? Meanwhile, Francis the frustrated informaticist thinks to herself: What is he talking about? Are we even at the same table?" width="100%" />
 
 
 1. **Communication Differences**
@@ -97,4 +97,8 @@ Don't forget to provide some budget for your informatics collaborators, as their
 
 
 
-<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gdd469195e0_0_5.png" title=" Ways to overcome collaboration challenges 1) To avoid issues with communication differences take care, educate each other, considering co-mentoring trainees or hiring experts that speak your collaborator's language. 2) To avoid issues with different styles or goals, make unified standards and discuss what success means early and often. 3) To avoid issues with different capabilities, Make sure everyone has defined roles and tasks that actually use their expertise.4) To avoid issues with a reduced sense of responsibility, keep everyone motivated with defined due dates (discuss dates to make sure they make sense!). 5) To avoid issues with the fact that research is a dynamic process, expect change and occasional failure. 6) To avoid issues with differences in resources, be mindful of potential budget and resource differences. " alt=" Ways to overcome collaboration challenges 1) To avoid issues with communication differences take care, educate each other, considering co-mentoring trainees or hiring experts that speak your collaborator's language. 2) To avoid issues with different styles or goals, make unified standards and discuss what success means early and often. 3) To avoid issues with different capabilities, Make sure everyone has defined roles and tasks that actually use their expertise.4) To avoid issues with a reduced sense of responsibility, keep everyone motivated with defined due dates (discuss dates to make sure they make sense!). 5) To avoid issues with the fact that research is a dynamic process, expect change and occasional failure. 6) To avoid issues with differences in resources, be mindful of potential budget and resource differences. " width="100%" />
+<img src="10-collaboration_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gdd469195e0_0_5.png" alt=" Ways to overcome collaboration challenges 1) To avoid issues with communication differences take care, educate each other, considering co-mentoring trainees or hiring experts that speak your collaborator's language. 2) To avoid issues with different styles or goals, make unified standards and discuss what success means early and often. 3) To avoid issues with different capabilities, Make sure everyone has defined roles and tasks that actually use their expertise.4) To avoid issues with a reduced sense of responsibility, keep everyone motivated with defined due dates (discuss dates to make sure they make sense!). 5) To avoid issues with the fact that research is a dynamic process, expect change and occasional failure. 6) To avoid issues with differences in resources, be mindful of potential budget and resource differences. " width="100%" />
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+</div>

@@ -5,11 +5,12 @@
 
 ## Learning Objectives
 
-<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_51.png" title="This chapter will demonstrate how to: Identify what aspects make an analysis project more easily navigable. Set up a project with an organizational scheme that will work for the author and their colleagues." alt="This chapter will demonstrate how to: Identify what aspects make an analysis project more easily navigable. Set up a project with an organizational scheme that will work for the author and their colleagues." width="1250" style="display: block; margin: auto;" />
+<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_51.png" alt="This chapter will demonstrate how to: Identify what aspects make an analysis project more easily navigable. Set up a project with an organizational scheme that will work for the author and their colleagues." width="1250" style="display: block; margin: auto;" />
 
 Keeping your files organized is a skill that has a high long-term payoff. As you are in the thick of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
 
-<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_56.png" title="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data?" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data?" width="1250" style="display: block; margin: auto;" />
+<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_56.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data?" width="1250" style="display: block; margin: auto;" />
+
 
 @Tayo2019 discusses four particular reasons why it is important to organize your project:
 
@@ -20,7 +21,7 @@ Keeping your files organized is a skill that has a high long-term payoff. As you
 
 Organization is yet another aspect of reproducibility that saves you and your colleagues time!
 
-<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_180.png" title="Ruby is looking at her computer that has clearly named folders and files. Ruby says to herself: I read my README to get me back up to speed with this project. Now I know that I can run a single command to call run_analysis.sh to re-run my analysis." alt="Ruby is looking at her computer that has clearly named folders and files. Ruby says to herself: I read my README to get me back up to speed with this project. Now I know that I can run a single command to call run_analysis.sh to re-run my analysis." width="1250" style="display: block; margin: auto;" />
+<img src="resources/images/06-project-organization_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_180.png" alt="Ruby is looking at her computer that has clearly named folders and files. Ruby says to herself: I read my README to get me back up to speed with this project. Now I know that I can run a single command to call run_analysis.sh to re-run my analysis." width="1250" style="display: block; margin: auto;" />
 
 ## Organizational strategies
 
@@ -131,3 +132,8 @@ After your files are organized, you are ready to move on to the next chapter and
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**
+
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+</div>
