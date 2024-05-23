@@ -105,3 +105,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1cd434bkLer_CJ04G
 ```
 
 Now that you are hopefully energized and ready for creating documentation for your tool, let's talk about a bit user-centered design concepts!
+
+<div class = disclaimer>
+`r config::get("disclaimer")`
+</div>

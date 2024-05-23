@@ -33,3 +33,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby has uploaded her data to a repository and now its being used by many other researchers. Ruby says to her funders, represented as a bank, ‘The data you funded is getting so much mileage!’", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_1_37")
 ```
+
+<div class = disclaimer>
+`r config::get("disclaimer")`
+</div>

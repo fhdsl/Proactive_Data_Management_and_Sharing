@@ -67,3 +67,7 @@ This course will be a great reference of the best practices for data management 
 
 **What is not the goal**  
 Data projects come in all shapes and sizes. Not all the advice in this book might work for you right out the gate. We encourage you to continue to consult data experts especially when it comes to matters of data security and privacy. This course will prepare you with the basics and best practices for data but it will not make you an end all be all expert in every topic you'd need to do when managing and sharing data.
+
+<div class = disclaimer>
+`r config::get("disclaimer")`
+</div>

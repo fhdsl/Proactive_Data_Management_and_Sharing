@@ -13,3 +13,7 @@ The following are the major sections of the NIH DMS plan:
 6. **Oversight** - describe who will manage compliance of the DMS plan
 
 We will cover specific requirements for each of these sections later. However, before starting to write your plan, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications prior.
+
+<div class = disclaimer>
+`r config::get("disclaimer")`
+</div>
