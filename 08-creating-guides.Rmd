@@ -174,3 +174,8 @@ TODO: Write this!
 We used a url-checker GitHub action for developing this course!
 You can see [ours here for an example](https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).  
 - If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
+
+
+<div class = disclaimer>
+`r config::get("disclaimer")`
+</div>
