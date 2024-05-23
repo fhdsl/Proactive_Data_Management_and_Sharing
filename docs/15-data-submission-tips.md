@@ -4,7 +4,7 @@ Uploading a dataset to a data repository is a great step toward sharing your dat
 
 Keep in mind that although you may understand the ins and outs of your dataset and project, its likely that others who look at your data will not understand your notation.
 
-<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" title="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
+<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g117c57cc481_0_455.png" alt="Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data? " width="100%" style="display: block; margin: auto;" />
 
 To make your data truly shared, you need to take the time to make sure it is well-organized and well-described!
 There are two files you should make sure to include to help describe and organize your data project:
@@ -60,11 +60,11 @@ REDCap allows for various roles to be established for users on a project. Thus a
 
 You can modify these roles using the `User Rights` menu.
 
-<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" title="REDCap User Rights Menu" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
+<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_17.png" alt="REDCap User Rights Menu" width="100%" style="display: block; margin: auto;" />
 
 This will first show you who has what role on the project and their rights. You can click on an individual role to modify it.
 
-<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" title="Menu items within the User Rights menu on REDcap" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
+<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_22.png" alt="Menu items within the User Rights menu on REDcap" width="100%" style="display: block; margin: auto;" />
 
 These roles should be verified by your institutional review board (IRB) before beginning a study. Changes to roles should also be reviewed by your IRB.
 
@@ -74,7 +74,7 @@ Reports that are exported can be customized to only show data that should be sha
 
 For example, you might remove the dates from the following report:
 
-<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" title="REDCap reports can be modified to remove identifiable information." alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
+<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_10.png" alt="REDCap reports can be modified to remove identifiable information." width="100%" style="display: block; margin: auto;" />
 
 
 3) Auditing
@@ -90,11 +90,15 @@ If your instruments are too long, this can result in accidentally sharing data t
 You can protect your data from accidentally being modified by locking specific data. Furthermore, at later stages of the project the data can no longer be modified.
 
 
-<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" title="Later project steps in REDCap can lock all data from being modified." alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
+<img src="15-data-submission-tips_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g133b14b2804_28_28.png" alt="Later project steps in REDCap can lock all data from being modified." width="100%" style="display: block; margin: auto;" />
 
 
 <!-- Scott Carey can help with this section maybe -->
 
 <div class = "warning">
 Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.
+</div>
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
 </div>

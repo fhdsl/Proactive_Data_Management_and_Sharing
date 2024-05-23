@@ -4,7 +4,7 @@
 
 First we will discuss the motivations behind the new data management and sharing policy that will go into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g16b04bd80e5_1_103.png" title="We are on the first step of the pathway- understanding the motivations of the policy." alt="We are on the first step of the pathway- understanding the motivations of the policy." width="80%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g16b04bd80e5_1_103.png" alt="We are on the first step of the pathway- understanding the motivations of the policy." width="80%" style="display: block; margin: auto;" />
 
 Why is the NIH doing this? There are several reasons why sharing data can be beneficial to the scientific community.
 
@@ -43,7 +43,7 @@ A plan describing an approach to data management, preservation, and sharing of s
 
 > You can refer to the [NIH overview](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policy/research-covered-under-the-data-management-sharing-policy#after){target="_blank"} of which research will be covered by this new policy.  
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g16b04bd80e5_4_12.png" title="We are on the second step of the pathway - personal considerations of the policy." alt="We are on the second step of the pathway - personal considerations of the policy." width="80%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g16b04bd80e5_4_12.png" alt="We are on the second step of the pathway - personal considerations of the policy." width="80%" style="display: block; margin: auto;" />
 
 The major requirement of the policy is that all grant proposals (submitted after January 25th, 2023) for mechanisms that require compliance, must include a plan for how they will manage and share their data.
 
@@ -90,11 +90,11 @@ You can look up your NIH Activity Code [here](https://sharing.nih.gov/node/112){
 
 For example, I am interested in applying to a **R03** award.
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_56.png" title="I can find the R03 activity code in the request for applications." alt="I can find the R03 activity code in the request for applications." width="80%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_56.png" alt="I can find the R03 activity code in the request for applications." width="80%" style="display: block; margin: auto;" />
 
 According to the table, a **DMS Plan is required** for this particular award.
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_64.png" title="I can determine if a DMS plan is required using the table here: https://sharing.nih.gov/sites/default/files/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf" alt="I can determine if a DMS plan is required using the table here: https://sharing.nih.gov/sites/default/files/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf" width="80%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_64.png" alt="I can determine if a DMS plan is required using the table here: https://sharing.nih.gov/sites/default/files/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf" width="80%" style="display: block; margin: auto;" />
 
 
 
@@ -105,7 +105,7 @@ Does my research generate scientific data?
 
 The NIH Data Management and Sharing (DMS) Policy applies to **all NIH-supported research generating scientific data**. But what is "scientific data"?
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_0.png" title="Scientific data should be shared under the new DMS policy, but there are many scientific products that are not considered scientific data." alt="Scientific data should be shared under the new DMS policy, but there are many scientific products that are not considered scientific data." width="70%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_0.png" alt="Scientific data should be shared under the new DMS policy, but there are many scientific products that are not considered scientific data." width="70%" style="display: block; margin: auto;" />
 
 #### Scientific data
 
@@ -188,7 +188,7 @@ Is it possible to not share data?
 
 There are legitimate reasons you might not share your data. Data might not be shareable due to ethical, legal, or technical concerns. **You will still need to submit a DMS Plan even if you plan to withhold data sharing**. You must explain your reasoning in your DMS Plan.
 
-<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_36.png" title="Researchers with scientific data must justify why they will not share data with an appropriate exception." alt="Researchers with scientific data must justify why they will not share data with an appropriate exception." width="70%" style="display: block; margin: auto;" />
+<img src="03-why-nih-dms_files/figure-html//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g1740f401082_0_36.png" alt="Researchers with scientific data must justify why they will not share data with an appropriate exception." width="70%" style="display: block; margin: auto;" />
 
 Justifiable ethical, legal, and technical factors for limiting sharing of data include:
 
@@ -235,3 +235,8 @@ The following are **NOT** good reasons to limit the sharing of your data:
 - Data are not thought to have a suitable repository
 - You don't have the right personnel to manage data or share data
 - You don't want to pay for data storage
+
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+</div>

@@ -3,9 +3,9 @@
 
 # Introduction
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_0.png" title="CAPTION HERE" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_0.png" alt="Data Management and Sharing, written by Carrie Wright and Candace Savonen" width="100%" style="display: block; margin: auto;" />
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png" title="CAPTION HERE" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png" alt="This overall learning objectives of this course are to demonstrate how to: Understand what data sharing is and why is it important?, Effectively manage your data including the associated skills relating to data heavy projects, Maintain and write effective documentation, records, and metadata, Organize your project so that it is reproducible and well understood by others, Create a data management sharing plan consistent with NIH requirements, Identify and use computing resources that best fit your project needs, Store and submit your data to repositories" width="100%" style="display: block; margin: auto;" />
 
 
 ## Target Audience  
@@ -20,14 +20,14 @@ _This course is written for individuals who:_
 - Have not had much training or background in data handling practices
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" title="CAPTION HERE" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="For individuals who:Have or plan to have biomedical data they need to manage, Have or plan to have or apply for NIH funding, Either work directly with the data or help mentor those who work with data,Have not had much training or background in data handling practices" width="100%" style="display: block; margin: auto;" />
 
 ## Topics covered
 
 This course covers how to properly manage and share data including:
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png" title="CAPTION HERE" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
 
 - Understand what data sharing is and why is it important?
 - Effectively manage your data including the associated skills relating to data heavy projects
@@ -40,7 +40,7 @@ This course covers how to properly manage and share data including:
 - Store and submit your data to repositories
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" title="CAPTION HERE" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
 
 ## Motivation
 
@@ -55,3 +55,7 @@ This course will be a great reference of the best practices for data management 
 
 **What is not the goal**  
 Data projects come in all shapes and sizes. Not all the advice in this book might work for you right out the gate. We encourage you to continue to consult data experts especially when it comes to matters of data security and privacy. This course will prepare you with the basics and best practices for data but it will not make you an end all be all expert in every topic you'd need to do when managing and sharing data.
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+</div>

@@ -7,13 +7,13 @@ output: html_document
 
 # Creating handy reference guides
 
-<img src="resources/images/08-creating-guides_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g2df9e1c7fe6_0_0.png" title="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." width="1250" />
+<img src="resources/images/08-creating-guides_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g2df9e1c7fe6_0_0.png" alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." width="1250" />
 
 ## The goal of a reference guide
 
 Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable. Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
 
-<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_97.png" title="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." width="1250" />
+<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_97.png" alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." width="1250" />
 ^[For all cartoons:     
 Avataars by https://getavataaars.com/.   
 Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
@@ -76,7 +76,7 @@ Depending on the destination of your package, a consistent format may already be
 
 **To recap:**
 
-<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_0.png" title="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." width="1250" />
+<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_0.png" alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." width="1250" />
 
 ## Good examples of reference guides
 
@@ -106,7 +106,7 @@ output: html_document
 
 ## How to keep your documentation up to date
 
-<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." width="1250" />
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png" alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." width="1250" />
 
 ### The goal of documentation maintenance
 
@@ -114,7 +114,7 @@ Perhaps you’ve been making improvements or otherwise updating your software to
 
 But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than having a tool with no documentation at all is having a tool with documentation that is out of date or otherwise incorrect.
 
-<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." width="1250" />
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png" alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." width="1250" />
 
 If documentation updates aren't prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.
 
@@ -131,7 +131,7 @@ However you track your tasks, also track your documentation issues and always pa
 
 A very simple but all too common problem with out of date documentation is broken links!
 
-<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." width="1250" />
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png" alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." width="1250" />
 
 You can catch these broken links by manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are GitHub actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!
 
@@ -158,3 +158,8 @@ TODO: Write this!
 We used a url-checker GitHub action for developing this course!
 You can see [ours here for an example](https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).  
 - If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
+
+
+<div class = disclaimer>
+**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+</div>
