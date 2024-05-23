@@ -1,3 +1,15 @@
 # (PART\*) Data sharing Expectations {-}
 
-# Overview of NIH DMS Plan
+# Overview of the DMS Plan
+The NIH has provided an outline for what components of the Data Sharing and Management Plan are required. We'll introduce these sections and then discuss in more detail some of the important considerations you'll need to include in your specific plan.
+
+The following are the major sections of the NIH DMS plan:
+
+1. **Data type** - describe what data (amount and type) will be generated over the course of funding and what data will or will not be shared
+2. **Tools, software, and code** - describe what tools (and versions) you intend to use to manage and analyze the data (note code is not required to be shared)
+3. **Standards** - describe any standards that you might need to use for your data and metadata to make them usable by others or be contributed to a repository
+4. **Data preservation, access, timelines** - describe where the data will be made available and when
+5. **Access, distribution, reuse considerations** - describe how you have carefully considered any reasons that might limit sharing
+6. **Oversight** - describe who will manage compliance of the DMS plan
+
+We will cover specific requirements for each of these sections later. However, before starting to write your plan, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications prior.

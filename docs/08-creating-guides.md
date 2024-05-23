@@ -1,1 +1,160 @@
-# Creating Handy References Guides
+---
+title: "Creating handy reference guides  "
+output: html_document
+---
+
+
+
+# Creating handy reference guides
+
+<img src="resources/images/08-creating-guides_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g2df9e1c7fe6_0_0.png" title="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." alt="This chapter will demonstrate how to: Understand the goals of a reference guide. Describe characteristics of helpful reference guides. Create a reference guide that will aid your user’s ability to interpret and utilize your tool to the next level." width="1250" />
+
+## The goal of a reference guide
+
+Reference guides are the dictionary of your tool: they aren't meant to be read front to back, but the best ones are easily searchable. Your user will have something in mind that they are trying to find information on -- the quicker they can find it, the quicker their question can be answered.
+
+<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gcdcbd8d802_0_97.png" title="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." alt="Uri the tool user has encountered an error in the tool that says Error flux capacitor cannot take this data format. This causes Uri to think of a question: What kinds of data formats does the flux capacitor take? This will lead Uri to look up flux capacitor in the reference guide." width="1250" />
+^[For all cartoons:     
+Avataars by https://getavataaars.com/.   
+Icons by https://thenounproject.com/ License CC BY-NC-ND 2.0.     
+Emojis by OpenMoji License: CC BY-SA 4.0.]
+
+Our goal for a reference guide is to be as comprehensive, navigable, and as always, as _clear_ as possible.
+
+## Characteristics of handy reference guides
+
+### Is easy to find
+
+As with our other documentation sections, no matter how well they are crafted, they are of no use if no one can find them. Make sure that a link to the reference guide is clear to find in a navigation bar and/or the main page.
+
+If the reference guide is a part of a command line package, make sure that it is clear in your documentation what command you need to see it (e.g. `--help`).
+
+### Is searchable
+
+Users will be digging into your reference guide looking for a specific entry. Making your reference guide alphabetical is a start. If you are able to make terms searchable that's even better, but at the very least, if your reference guide is visually easy to be scan, that can serve a similar function.
+
+### Is comprehensive
+
+All items are covered in the reference guide -- every. single. thing.
+This includes all:
+
+- Terms
+- Functions
+- Arguments
+- Parameters
+- Defaults
+- Datasets or items included in the package
+- Buttons (in the case of a GUI)
+
+**The most useful entries in these reference guides...**  
+
+- Not only define the item, but tell how it relates to other items (and they have links where relevant).
+- Discuss all the possible inputs that can be used as well as how to decide which input fits the user's needs.
+- Make any existing defaults very clear.
+- Shows the usage of that item in context -- some example lines of code go a long way.
+- Tries to avoid the use of jargon, but if it is absolutely necessary to use a jargon-y term it links to information about the meaning of the term.
+
+Take a look at [DESeq2's reference guide](https://bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf), @Love2014 do a great job at their entries -- covering the right amounts of information and informing the user about how to decide what works for them.
+
+### Data formats are described
+
+Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
+
+Ideally, your tool can use a data format that is common. But the more that your tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like.
+
+- Include example files for a positive control/example.
+- Send your user to any tools they can use to convert their data format automatically.
+- If its feasible, include an automatic data converter as a part of your tool.
+
+[GSEA has great descriptions of their data formats](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_Loading_Data) with examples of what the data formats look like.
+
+### Entries should have a consistent format
+
+Consistency helps your users know what to expect and know where to find information! Each entry in the reference guide should have the same format and sections, in the same order.
+
+Depending on the destination of your package, a consistent format may already be determined for you. Bioconductor packages have [specific guidance on these reference manuals](http://cran.fhcrc.org/doc/manuals/R-exts.html#Documenting-functions).
+
+**To recap:**
+
+<img src="resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd2cd8e726d_0_0.png" title="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." alt="Helpful Reference Guides: Are searchable. Are comprehensive. Describes data formats. Entries are consistently formatted." width="1250" />
+
+## Good examples of reference guides
+
+[QIIME2 has a great reference guide](https://docs.qiime2.org/2021.2/glossary/)! @Bolyen2019 cover all items and terms with lots of links to more information or related entries.
+
+[Bioconductor packages](https://bioconductor.org/packages/3.12/bioc/) have a consistent reference guide format that the packages there adhere to which makes it easier for users to find what they are looking for once they are familiar with the format. A typical package's reference guide [looks like this](https://bioconductor.org/packages/3.12/bioc/manuals/GenomicRanges/man/GenomicRanges.pdf).
+
+## Exercise: Create your own reference guide!
+
+_For R package documentation:_
+Follow the advice from Hadley Wickham from the [R Packages book](https://r-pkgs.org/man.html) which includes using [roxygen2 package](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) to automatically render those .Rd files!
+
+If your tool's destination is Bioconductor, see their specific guidance on [manual pages](https://bioconductor.org/developers/package-guidelines/#manpages).
+
+_For Python package documentation:_
+Follow the `docstrings` guidance and instructions [here](https://realpython.com/documenting-python-code/).
+
+For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
+
+
+---
+title: "Documentation maintenance"
+output: html_document
+---
+
+
+
+## How to keep your documentation up to date
+
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png" title="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." alt="Learning Objectives. This chapter will demonstrate how to:Identify good practices for documentation maintenance. Implement processes to help keep documentation up to date." width="1250" />
+
+### The goal of documentation maintenance
+
+Perhaps you’ve been making improvements or otherwise updating your software tool. That's excellent and you deserve a big kudos for continuing maintenance on your tool!
+
+But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than having a tool with no documentation at all is having a tool with documentation that is out of date or otherwise incorrect.
+
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png" title="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." alt="Uri the Tool User is trying to use Tina’s awesome tool, but the documentation is now an ugly brown and out of date. The out of date documentation tells Uri to Look for the red square button! Uri has a question mark above their head because there is no red square button to be seen; only two circle buttons and a heart shaped button." width="1250" />
+
+If documentation updates aren't prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.
+
+### Keep your documentation in one, version-controlled place
+
+Presumably you have some sort of process for version controlling your tool updates (we assume GitHub but could be other services). Ideally, your documentation should be version controlled similarly and, if appropriate, in the same place.
+The easier you make it on yourself to update your documentation, the more likely future you will be at updating it successfully! It's worth spending time thinking about your own development process and how you can make it easier on yourself and your team for longer-term better maintained documentation.
+
+### Do not consider a tool fix done before its relevant documentation update is also completed
+
+However you track your tasks, also track your documentation issues and always pair a software fix with a documentation fix -- or at least check if it affects anything user-facing. To help you remind you of this, you may want to use an [issue template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) (if you use GitHub) and make sure that issue template includes a reminder to update documentation.
+
+### Make sure links work
+
+A very simple but all too common problem with out of date documentation is broken links!
+
+<img src="resources/images/resources/images/08-creating-guides_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png" title="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." alt="The out of date documentation tells Uri the Tool User 404 page not found. Uri is not happy." width="1250" />
+
+You can catch these broken links by manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are GitHub actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!
+
+Here's some options for automated URL-checking:  
+
+- [GitHub action: urlchecker-action](https://github.com/marketplace/actions/urlchecker-action).  
+- [GitHub action: URL checker](https://github.com/marketplace/actions/url-checker).  
+- [6 Tools to Find Broken Links on Your Website](https://www.outlookstudios.com/tools-to-find-broken-links-on-your-website/) [@OutlookStudios2020].  
+
+### Set aside time to do maintenance
+
+TODO: Write this!
+
+
+## Exercise 1: Add a reminder for documentation updates to your task manager
+
+- If you use GitHub, add an [issue template](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) that has a reminder to update documentation.  
+- If you use something else for task management, look for some other way to remind yourself (and your fellow developers on the project) to keep documentation up-to-date for each change.
+
+
+## Exercise 2: Implement a URL checker
+
+- If you use GitHub for your documentation, add a url checking GitHub action to your repository.
+We used a url-checker GitHub action for developing this course!
+You can see [ours here for an example](https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).  
+- If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
