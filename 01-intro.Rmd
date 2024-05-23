@@ -5,11 +5,11 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+```{r, echo=FALSE, fig.alt='Data Management and Sharing, written by Carrie Wright and Candace Savonen', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gd422c5de97_0_0")
 ```
 
-```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
+```{r, echo=FALSE, fig.alt='This overall learning objectives of this course are to demonstrate how to: Understand what data sharing is and why is it important?, Effectively manage your data including the associated skills relating to data heavy projects, Maintain and write effective documentation, records, and metadata, Organize your project so that it is reproducible and well understood by others, Create a data management sharing plan consistent with NIH requirements, Identify and use computing resources that best fit your project needs, Store and submit your data to repositories', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gd422c5de97_0_10")
 ```
 
