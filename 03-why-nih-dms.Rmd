@@ -1,5 +1,3 @@
-# Why NIH DMS Policy?
-
 # Why this new DMS policy?
 
 First we will discuss the motivations behind the new data management and sharing policy that will go into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
