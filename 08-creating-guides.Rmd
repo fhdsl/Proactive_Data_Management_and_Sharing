@@ -161,7 +161,7 @@ Here's some options for automated URL-checking:
 
 In an academic setting it can be hard to find time for things that don't have urgent deadlines. But long term we know maintenance is best done little by little. In order to best maintain your work long term its best to set aside time on your calendar to actually do the maintenance. Otherwise it may never happen.
 
-We encourage funding institutions to recognize that maintenance is the most frugal strategy. Whether it be for software or course or other products, maintenance should be prioritized for the long term benefit of the research community. More funding opportunities should be set aside for maintenance of current products as opposed to always creating new products that will also decay if not maintained. 
+We encourage funding institutions to recognize that maintenance is the most frugal strategy. Whether it be for software or course or other products, maintenance should be prioritized for the long term benefit of the research community. More funding opportunities should be set aside for maintenance of current products as opposed to always creating new products that will also decay if not maintained.
 
 ## Exercise 1: Add a reminder for documentation updates to your task manager
 
@@ -173,7 +173,7 @@ We encourage funding institutions to recognize that maintenance is the most frug
 
 - If you use GitHub for your documentation, add a url checking GitHub action to your repository.
 We used a url-checker GitHub action for developing this course!
-You can see [ours here for an example](https://github.com/jhudsl/Documentation_and_Usability/blob/main/.github/workflows/url-checker.yml).  
+You can see [ours here for an example](https://github.com/jhudsl/ottr-reports/blob/main/scripts/url-check.R).  
 - If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
 
 
