@@ -173,7 +173,7 @@ We encourage funding institutions to recognize that maintenance is the most frug
 
 - If you use GitHub for your documentation, add a url checking GitHub action to your repository.
 We used a url-checker GitHub action for developing this course!
-You can see [ours here for an example](https://github.com/jhudsl/ottr-reports/blob/main/scripts/url-check.R).  
+You can see [ours here for an example](https://github.com/jhudsl/ottr-reports).  
 - If you use something else for version control, look into URL checkers that you can easily implement into your development process.  
 
 

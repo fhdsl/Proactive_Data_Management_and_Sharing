@@ -41,7 +41,7 @@ A plan describing an approach to data management, preservation, and sharing of s
 
 # How will this policy affect me?
 
-> You can refer to the [NIH overview](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policy/research-covered-under-the-data-management-sharing-policy#after){target="_blank"} of which research will be covered by this new policy.  
+> You can refer to the [NIH overview](https://sharing.nih.gov/node/112){target="_blank"} of which research will be covered by this new policy.  
 
 ```{r, echo=FALSE, fig.alt='We are on the second step of the pathway - personal considerations of the policy.', out.width = '80%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g16b04bd80e5_4_12")
