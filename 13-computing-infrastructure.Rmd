@@ -1,10 +1,10 @@
 # (PART\*) What is Data Sharing and Why is it Important? {-}
 
-TODO: Summarize this and fix headers
+Data sharing is the practice of making all appropriate data sources associated with a project available through systematic means. Data Sharing is a critical piece toward the research community better mitigating the reproducibility and replicability crises. Not only that, but data sharing is economical, equitable, and frugal. New exciting findings can result from shared and reused data. And institutions and individuals with less resource availability can benefit from access to shared data.
+
+The NIH Data Sharing policy is meant to encourage individuals to create specific and comprehensive plans for sharing their data. Meanwhile this course aims to help individuals create those plans as well as learn other associated skills to aid their research and its benefit to overall scientific efforts of their field.
 
 # Computing Infrastructure
-
-
 
 ## Computing Resources
 
@@ -332,11 +332,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHE
 ```
 
 
-[[source](https://www.xsede.org/ecosystem/resources)]
+[[source](https://software.xsede.org/xsede-software-services)]
 
 > Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin's flagship supercomputers.
-
-See [here](https://portal.xsede.org/tacc-stampede2) for more information about how you could possibly connect to and utilize Stampede2.
 
 Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.
 
@@ -386,7 +384,7 @@ Each cluster or other shared computing resource will have different rules and re
 
 One major aspect to consider is keeping the computers in the cluster safe from harm. You wouldn't want to lose your precious data stored on the cluster and neither would your colleagues!
 
- - Use a good [secure password](https://its.lafayette.edu/policies/strongpasswords/) that is not easy for someone else to guess.
+ - Use a good [secure password](https://privsec.harvard.edu/use-strong-passwords) that is not easy for someone else to guess.
 
  Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers [@passwords].
 
@@ -494,7 +492,7 @@ Typically a program is used to schedule jobs. Remember that jobs are the individ
 
 Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These programs have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well.
 
-In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf) for more information on how people use SGE for the JHPCE shared resource.
+In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See [here](https://jhpce.jhu.edu/orient/orientation-overview/) for more information on how people use SGE for the JHPCE shared resource.
 
 #### Specifying memory (RAM) needs
 
@@ -556,7 +554,7 @@ The [ISB-CRC](https://isb-cgc.appspot.com/) platform allows users to browse and 
 
 #### Galaxy
 
-This section was written by [Jeremy Goecks](https://goeckslab.org/people/jeremy.html):
+This section was written by [Jeremy Goecks](https://www.goeckslab.org/team/):
 
 Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API. Galaxy (https://galaxyproject.org/) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.
 
@@ -620,9 +618,9 @@ It relies on Terra for the cloud based compute environment, Dockstore for  stand
 
 ### CyVerse
 
-[CyVerse](https://cyverse.rocks/about) is a  similar computing platform that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called [Atmosphere](https://cyverse.org/refocusing-atmosphere-to-support-cloud-native-development), which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with [Jetstream](https://jetstream-cloud.org/). This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
+[CyVerse](https://cyverse.rocks/about) is a  similar computing platform that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called [Atmosphere](https://cyverse.org/news/refocusing-atmosphere-support-cloud-native-development), which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with [Jetstream](https://jetstream-cloud.org/). This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications) for a list of applications that are supported by CyVerse.  Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.
 
-See [here](https://learning.cyverse.org/en/latest/) to learn more.
+See [here](https://learning.cyverse.org/) to learn more.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "CyVerse graphical interface for performing analyses", out.width= "100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0/edit#slide=id.gfd56752f25_0_0
