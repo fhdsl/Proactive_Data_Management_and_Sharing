@@ -1,10 +1,10 @@
 # (PART\*) What is Data Sharing and Why is it Important? {-}
 
-TODO: Summarize this and fix headers
+Data sharing is the practice of making all appropriate data sources associated with a project available through systematic means. Data Sharing is a critical piece toward the research community better mitigating the reproducibility and replicability crises. Not only that, but data sharing is economical, equitable, and frugal. New exciting findings can result from shared and reused data. And institutions and individuals with less resource availability can benefit from access to shared data.
+
+The NIH Data Sharing policy is meant to encourage individuals to create specific and comprehensive plans for sharing their data. Meanwhile this course aims to help individuals create those plans as well as learn other associated skills to aid their research and its benefit to overall scientific efforts of their field. 
 
 # Computing Infrastructure
-
-
 
 ## Computing Resources
 
