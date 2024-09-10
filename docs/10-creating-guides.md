@@ -1,7 +1,3 @@
----
-title: "Creating handy reference guides  "
-output: html_document
----
 
 
 
@@ -97,16 +93,9 @@ Follow the `docstrings` guidance and instructions [here](https://realpython.com/
 For other general purposes, you can our [the reference guide template](https://raw.githubusercontent.com/jhudsl/template-documentation/master/docs/reference_guide_template.md) to start your own reference guide either by using the markdown template directly, or navigating to the MkDocs repository you set up in the previous chapter.
 
 
----
-title: "Documentation maintenance"
-output: html_document
----
-
-
-
 ## How to keep your documentation up to date
 
-![](resources/images/resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png)
+![](resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_0.png)
 
 ### The goal of documentation maintenance
 
@@ -114,7 +103,7 @@ Perhaps you’ve been making improvements or otherwise updating your software to
 
 But your work is not done yet. For each (user-facing) update you make to the tool, you should also make a documentation update. As a user, the only thing worse than having a tool with no documentation at all is having a tool with documentation that is out of date or otherwise incorrect.
 
-![](resources/images/resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png)
+![](resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_5.png)
 
 If documentation updates aren't prioritized, your tool can easily get several versions ahead leaving the documentation you carefully crafted rather useless and misleading.
 
@@ -131,7 +120,7 @@ However you track your tasks, also track your documentation issues and always pa
 
 A very simple but all too common problem with out of date documentation is broken links!
 
-![](resources/images/resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png)
+![](resources/images/10-creating-guides_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_gd5f2c75a67_0_37.png)
 
 You can catch these broken links by manually clicking on all your links, but sometimes broken links will still slip through the cracks anyway! There are GitHub actions and other automated tools that can check your URLs for you. Take advantage of automation to do this for you so you can save your time an effort for other improvements to your tool and documentation!
 
