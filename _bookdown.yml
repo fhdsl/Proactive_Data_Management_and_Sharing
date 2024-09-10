@@ -1,4 +1,4 @@
-book_filename: "Data Management and Sharing"
+book_filename: "Proactive Data Management and Sharing"
 chapter_name: "Chapter "
 repo: https://github.com/fhdsl/Data_Management_and_Sharing
 rmd_files: ["index.Rmd",
