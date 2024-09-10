@@ -3,9 +3,9 @@
 
 # Introduction
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_0.png" alt="Data Management and Sharing, written by Carrie Wright and Candace Savonen" width="100%" style="display: block; margin: auto;" />
+![](resources/images/01-intro_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_0.png){width=100%}
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png" alt="This overall learning objectives of this course are to demonstrate how to: Understand what data sharing is and why is it important?, Effectively manage your data including the associated skills relating to data heavy projects, Maintain and write effective documentation, records, and metadata, Organize your project so that it is reproducible and well understood by others, Create a data management sharing plan consistent with NIH requirements, Identify and use computing resources that best fit your project needs, Store and submit your data to repositories" width="100%" style="display: block; margin: auto;" />
+![](resources/images/01-intro_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png){width=100%}
 
 
 ## Target Audience  
@@ -20,14 +20,14 @@ _This course is written for individuals who:_
 - Have not had much training or background in data handling practices
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="For individuals who:Have or plan to have biomedical data they need to manage, Have or plan to have or apply for NIH funding, Either work directly with the data or help mentor those who work with data,Have not had much training or background in data handling practices" width="100%" style="display: block; margin: auto;" />
+![](resources/images/01-intro_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png){width=100%}
 
 ## Topics covered
 
 This course covers how to properly manage and share data including:
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+![](resources/images/01-intro_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png){width=100%}
 
 - Understand what data sharing is and why is it important?
 - Effectively manage your data including the associated skills relating to data heavy projects
@@ -40,7 +40,7 @@ This course covers how to properly manage and share data including:
 - Store and submit your data to repositories
 
 
-<img src="resources/images/01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="CAPTION HERE" width="100%" style="display: block; margin: auto;" />
+![](resources/images/01-intro_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png){width=100%}
 
 ## Motivation
 
@@ -50,12 +50,12 @@ Effective data management and sharing can mean the difference between more fundi
 
 ## Curriculum  
 
-**Goal of this course:**  
-This course will be a great reference of the best practices for data management and sharing practices and a lot of the associated skills that are needed in data based biomedical projects.
+**How to use this course:**
+This course contains high-level concepts for data management and sharing and can be used as a reference of suggested best practices and associated skills needed for data management and sharing in biomedical research.
 
-**What is not the goal**  
-Data projects come in all shapes and sizes. Not all the advice in this book might work for you right out the gate. We encourage you to continue to consult data experts especially when it comes to matters of data security and privacy. This course will prepare you with the basics and best practices for data but it will not make you an end all be all expert in every topic you'd need to do when managing and sharing data.
+**Keep in mind:**
+Scientific data and research projects come in many different forms, and some content in this course may not apply, especially as the research landscape evolves to adapt and support new technology, methods, and techniques. Therefore, the goal of this course is not to prescribe rigid rules for how to conduct research, but rather serve as a guide to approach data management and sharing in the spirit of the FAIR principles (Findable, Accessible, Interoperable, Reusable). We encourage you to continue to consult with data management experts to suit the needs of your particular project and/or research goals.
 
 <div class = disclaimer>
-**Disclaimer:** The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.
+**Disclaimer:** This course material is for instructional use only and is not a substitute for legal or ethical advice. The findings and conclusions in this course are those of the authors and do not represent official guidance from the National Institutes of Health.
 </div>
