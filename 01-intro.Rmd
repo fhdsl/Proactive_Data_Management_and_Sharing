@@ -16,13 +16,13 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 
 ## Target Audience  
 
-The course is intended for individuals in biomedical scientists and program managers who want to learn the best practices and techniques for data management and sharing.
+The course is intended for individuals in in the cancer research community who want to learn the best practices and techniques for data management and sharing.
 
 _This course is written for individuals who:_   
 
 - Have or plan to have biomedical data they need to manage
-- Have or plan to have or apply for NIH funding
-- Either work directly with the data or help mentor those who work with data
+- Have or plan to apply for NIH funding
+- Work directly with the cancer research data or mentor those who work with data
 - Have not had much training or background in data handling practices
 
 
@@ -41,6 +41,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 
 - Understand what data sharing is and why is it important?
 - Effectively manage your data including the associated skills relating to data heavy projects
+- Maintain data privacy and comply with data privacy laws
 - Maintain and write effective documentation
 - Keep effective records that will help you track your project properly but securely
 - Create good metadata that can enhance the use your data
@@ -50,23 +51,22 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 - Store and submit your data to repositories
 
 
-```{r, echo=FALSE, fig.alt='CAPTION HERE', out.width = '100%', fig.align = 'center'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.g1173f7473f7_0_0")
-```
-
 ## Motivation
 
-Biomedical projects are increasingly data based. Not only is proper data sharing and management a non negotiable necessity for data heavy projects but NIH and other grant funding institutions have mandates that require you to do so. But it can be difficult to be brought up to speed on these effective management especially as data requirements and best practices continue to change rapidly.
+The cancer research discipline has evolved into an increasingly complex mix of datasets - research projects are typically cross-disciplinary and contain many types of data in various formats. They often involve multiple collaborators generating data across different sites, with different data standards and infrastructure used to generate the data. Therefore, it is more important than ever to be well-versed in the best practices of data management and sharing.
 
-Effective data management and sharing can mean the difference between more funding or not. Well documented and properly shared data is not only the right thing to do as a part of a scientific community but it will help shed a spotlight on your work in the community. It also is not only helpful for yourself but for you and your future colleagues should you need to return to your work or build upon it (which is what science usually aims to do).
+Not only is proper data management and sharing a necessity for cancer research projects to succeed in positively impacting cancer care, but it is now also increasingly a necessity to obtain funding as the NIH and other cancer research funders have implemented mandates that require you to proactively plan to manage and share your data.
+
+As a member of the cancer research community, it is imperative that you maintain well-documented metadata and properly share your data. This will benefit you, your colleagues, and the larger community by broadening the reach of your data, enabling data reuse by others, and ultimately accelerating the pace of scientific discovery. This course aims to serve as a starting point to cover the basics of good data management and sharing practices.
+
 
 ## Curriculum  
 
-**Goal of this course:**  
-This course will be a great reference of the best practices for data management and sharing practices and a lot of the associated skills that are needed in data based biomedical projects.
+**How to use this course:**
+This course contains high-level concepts for data management and sharing and can be used as a reference of suggested best practices and associated skills needed for data management and sharing in biomedical research.
 
-**What is not the goal**  
-Data projects come in all shapes and sizes. Not all the advice in this book might work for you right out the gate. We encourage you to continue to consult data experts especially when it comes to matters of data security and privacy. This course will prepare you with the basics and best practices for data but it will not make you an end all be all expert in every topic you'd need to do when managing and sharing data.
+**Keep in mind:**
+Scientific data and research projects come in many different forms, and some content in this course may not apply, especially as the research landscape evolves to adapt and support new technology, methods, and techniques. Therefore, the goal of this course is not to prescribe rigid rules for how to conduct research, but rather serve as a guide to approach data management and sharing in the spirit of the FAIR principles (Findable, Accessible, Interoperable, Reusable). We encourage you to continue to consult with data management experts to suit the needs of your particular project and/or research goals.
 
 <div class = disclaimer>
 `r config::get("disclaimer")`
