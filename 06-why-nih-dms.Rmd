@@ -98,7 +98,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL
 
 According to the [table](https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf), a **DMS Plan is required** for this particular award.
 
-```{r, echo=FALSE, fig.alt='I can determine if a DMS plan is required using the table here: https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf', out.width = '80%', fig.align = 'center'}
+```{r, echo=FALSE, fig.alt='I can determine if a DMS plan is required using the table by loooking for the activity code and then the column about data sharing plan requirement. ', out.width = '80%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g1740f401082_0_64")
 ```
 
