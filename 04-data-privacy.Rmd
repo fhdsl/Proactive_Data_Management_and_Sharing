@@ -233,7 +233,7 @@ Common violations of HIPAA taken from @violations_2018 are:
 
 1) A lack of encryption
 
-If your email or data transfer is intercepted it is important to keep your data safe! We will talk more about how to do this in the next chapter.
+If your email or data transfer is intercepted it is important to keep your data safe! [This is talked about more in this course](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html)
 
 2) Computer hacking or phishing
 

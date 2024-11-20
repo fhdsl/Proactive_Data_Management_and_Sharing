@@ -17,7 +17,7 @@ rmd_files: ["index.Rmd",
             "13-guidines-for-metadata.Rmd",
             "14-computing-infrastructure.Rmd",
             "15-data-storage-and-repos.Rmd",
-            "16-data-submission-tips.Rmd,
+            "16-data-submission-tips.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
