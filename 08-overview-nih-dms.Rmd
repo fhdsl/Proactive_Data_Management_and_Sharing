@@ -1,9 +1,9 @@
 # (PART\*) Data sharing Expectations {-}
 
-# Overview of the DMS Plan
-The NIH has provided an outline for what components of the Data Sharing and Management Plan are required. We'll introduce these sections and then discuss in more detail some of the important considerations you'll need to include in your specific plan.
+# Elements of the DMS Plan
+The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
-The following are the major sections of the NIH DMS plan:
+The following are the major elements required to be included a NIH DMS plan:
 
 1. **Data type** - describe what data (amount and type) will be generated over the course of funding and what data will or will not be shared
 2. **Tools, software, and code** - describe what tools (and versions) you intend to use to manage and analyze the data (note code is not required to be shared)
@@ -12,8 +12,7 @@ The following are the major sections of the NIH DMS plan:
 5. **Access, distribution, reuse considerations** - describe how you have carefully considered any reasons that might limit sharing
 6. **Oversight** - describe who will manage compliance of the DMS plan
 
-We will cover specific requirements for each of these sections later. However, before starting to write your plan, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications prior.
-
+You can find more detailed requirements for each of these elements [here](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
 ## Overall Takeaways
 
 <div class = motivations>
