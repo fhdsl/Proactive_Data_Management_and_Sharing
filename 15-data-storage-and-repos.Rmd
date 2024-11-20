@@ -185,8 +185,3 @@ If you don't find an appropriate repository for your data type:
 - Consider adding your data as a supplementary file to a manuscript if it is small
 - Consider an institutional repository
 - Check out the [generalist repositories](https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html)
-
-
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>

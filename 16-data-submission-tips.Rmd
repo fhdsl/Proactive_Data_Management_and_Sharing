@@ -108,7 +108,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 <div class = "warning">
 Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.
 </div>
-
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>
