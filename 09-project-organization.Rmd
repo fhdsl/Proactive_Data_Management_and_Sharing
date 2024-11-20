@@ -11,7 +11,7 @@ ottrpal::set_knitr_image_path()
 ottrpal::include_slide("https://docs.google.com/presentation/d/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE/edit#slide=id.gf7bed24491_1_51")
 ```
 
-Keeping your files organized is a skill that has a high long-term payoff. As you are in the thick of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
+Keeping your files organized is a skill that has a high long-term payoff. During the initial development of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby is looking at her computer with a lot of folders with different variations on similar names. Ruby asks herself: Which plot was was the edition from the most recent version of the data?"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE/edit#slide=id.gf7bed24491_1_56")
@@ -150,8 +150,3 @@ After your files are organized, you are ready to move on to the next chapter and
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**
-
-
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>
