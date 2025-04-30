@@ -2,14 +2,14 @@
 
 # Data Sharing is Important
 
-Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by just using this existing data.
+Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by simply re-using/re-analyzing this existing data.
 
-This is so important, that starting in January, 2023 the NIH will require specific sharing practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
+The concept of data re-use is so important, that in January 2023, after years of development, the NIH released new guidance and began requiring new practices for data management and sharing. See the announcement [here](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 
 See this [course](https://hutchdatascience.org/NIH_Data_Sharing/) for more information about how to comply with this policy.
 
 <div class = "warning">
-Note that many institutes and funding agencies or mechanisms have requirements about how your data can be shared. Typically data sharing of protected data also requires Institutional Review Board (IRB) approval before the study is conducted. Ensure that you are following those requirements before you share your data.
+Note that many institutes and funding agencies or mechanisms have requirements about how your data can be shared. Typically, data sharing of protected data also requires Institutional Review Board (IRB) approval before the study is conducted. Ensure that you are following those requirements before you share your data. A later section in this course will cover [data privacy](05-data-privacy.html).
 </div>
 
 There's so many excellent reasons to put your data in a repository whether or not a journal requires it:  

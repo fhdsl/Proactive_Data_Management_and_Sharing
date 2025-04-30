@@ -20,7 +20,7 @@ This course will teach learners to:
 - Keep effective records that will help you track your project properly but securely
 - Create good metadata that can enhance the use your data
 - Organize your project so that it is reproducible and well understood by others
-- Create a data management sharing plan consistent with NIH requirements
+- Create a data management and sharing plan consistent with NIH requirements
 - Identify and use computing resources that best fit your project needs
 - Store and submit your data to repositories
 
