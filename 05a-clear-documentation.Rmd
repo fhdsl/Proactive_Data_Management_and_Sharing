@@ -81,7 +81,7 @@ You can take a look at this [template README](https://raw.githubusercontent.com/
 
 ### 12.2.3	Notebooks
 
-The generous use and keeping of notebooks is a useful tool for documentation of the development of an analysis.
+The generous use and keeping of notebooks is a useful tool for documentation of the development of an analysis or research project.
 
 
 ```{r, fig.alt="Ruby is looking at her computer that has a lovely notebook with a heatmap! Ruby says 'Working from this notebook allows me to interactively develop on my data analysis and write down my thoughts about the process all in one place!'", echo = FALSE}
@@ -99,7 +99,7 @@ What scientific question are you trying to answer? Describe the dataset (or samp
 
 ### The reasons behind your decisions
 
-Describe any unconventional method steps or anything that might be forgotten or confusing later or to someone not involved in the study.
+Describe any unconventional method steps or anything that might be forgotten or confusing later or to someone not involved in the study. Note this can be for experimental work or computational data anlysis.
 
 For example:
 
@@ -114,7 +114,7 @@ For example:
 What do you think about the results? The plots and tables and other visualizations and results that you show in the notebook – how do they inform your original questions?
 
 
-
+See this [course about reproducible workflows in R](https://hutchdatascience.org/Tools_for_Reproducible_Workflows_in_R/reproducible-reports.html) for more information about the use of Notebooks to better inform others about your work!
 
 
 
