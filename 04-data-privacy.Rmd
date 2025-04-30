@@ -99,7 +99,7 @@ This includes 18 categories:
 
 ## PHI is a subset of PII
 
-PHI is really a subset of PII. It is personal identifiable information that relates to or could relate to health.
+PHI is a subset of PII. It is personal identifiable information that relates to or could relate to an individual’s health.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "PHI is a subset of PII that pertains to health", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
@@ -109,9 +109,7 @@ Some PII is always PHI, like health insurance numbers or clinical data such as r
 
 ## PHI Risk
 
-PHI poses an additional risk rather than just typical PII.
-
-That is because the health information related to PHI, can be used to determine if an individual has a particular condition or health risk and this information could be used against the individual when it comes to employment or insurance.
+PHI poses an additional risk rather than just typical PII because it includes sensitive health information. This can be used to determine if an individual has a particular condition or health risk and could be misused in employment or insurance decisions.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "PHI poses additional risks for employment and insurance. Future or current employers could discrimanate against people with certain health conditions, Insurance companies could enforce higher rates based on a preexisting condition.",out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_676")
@@ -119,7 +117,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## Cancer research data and PHI
 
-Certain genomics data can be used to identify individuals, as well as certain radiology images with particular distinguishing features. With advances in machine learning more of these data types may become identifiable in the future as well. However in general, clinical data and certain genomics data (particularly whole genome sequencing - which is essential a genomic signature) are more likely to be identifiable and therefore pose a higher risk to research participants.
+Certain genomics data, such as whole genome sequencing (essentially a genomic signature), and some radiology images with distinguishing features can be used to identify individuals. Advances in machine learning may further increase the identifiability of these data types in the future.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data",out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509")
@@ -169,11 +167,11 @@ So what does this mean for the data you handle?
 
 - Summarized cohort data
 
- Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions.
+Data in which individuals have been aggregated together is generally safe. For example, a file that includes an average age calculated across all individuals or a large subset would generally be considered safe. However, this may not always be the case with individuals with very rare conditions or individuals belonging to a small group (such as indigenous or pediatric populations).
 
 - De-identified data
 
- Data in which information about the individuals is removed from the genomic data can be safe to share, but it depends on the genomic data. If the genomic data contains rare variants in which the individuals could be identified or the type of genomic data more readily allows the individuals to be re-identified then the data must be protected (see below on ways in which such data can be shared but with restricted access).
+Data where all personal identifiers that could link the data to a specific individual are removed, making the data anonymous and safe for sharing under certain conditions. However, in the context of genomic data, de-identification may not always guarantee complete anonymity. This is because genomic data, especially when it contains rare or unique variants, can sometimes be linked back to individuals. The presence of such variants may allow re-identification, particularly if the data is combined with external datasets. As a result, additional protections may be necessary, such as restricted access or data sharing with safeguards in place, to prevent re-identification risks.
 
 It has been shown that certain types of de-identified genomic data can be re-identified due to the availability of genomic data in datasets like 23andMe, where relatives with unique genomic features can be used to identify relatives of individuals in studies.
 
@@ -190,41 +188,44 @@ https://www.nature.com/articles/d41586-021-00331-5
 
 ## How to ensure the privacy of this information
 
-Your institution will have guidance regarding how to keep this information private and protected but in general there are 4 main strategies we will summarize here:
+Your institution will have guidance on how to protect sensitive data but in general there are 4 main strategies we will summarize here:
 
-1. As few eyes as possible
+1. Limit access to the data
 
 The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle the data.
 Make sure the data is stored in a place that only these few people who are allowed have access to it. If you aren't sure who has access to a place -- don't put the data there!
 
 2. Aggressively de-identify the shared data
 
-Before results or data are shared or published, it is aggressively de-identified. We will talk more about what this is in the next chapter.
-If data has been summarized over the cohort and there are no identifiers then it is probably safe to share.
+Before results or data are shared or published, it must be de-identified. We will discuss more about what this is in the next chapter. If data has been summarized at the cohort-level with no personal identifiers then it is probably safe to share.
 
 3. Consider a data use agreement
 
-Data use agreements (DUA) are not typically required for HIPAA compliance when sharing de-identified data. However, if you are unsure if your data still meets compliance requirements, you have other ethical concerns about sharing your data (which we will discuss in later chapters), consider a using an agreement. **Finally if you need to share data that is not fully de-identified, than a data use agreement is required.** Data use agreements essential restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner (more on this to come) before it is in use.
+A Data Use Agreement (DUA) is required even for de-identified data, particularly when human subjects data is shared for research purposes or across institutions. While HIPAA does not mandate a DUA for fully de-identified data under certain conditions, other factors—such as institutional policies, ethical concerns, or specific data sharing agreements—may require one.
+
+Data use agreements restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner before it is in use.
 
 See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
 See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.  
 
-4. Err on the side of caution!
+4. When in doubt, prioritize caution
 
-If in doubt if something counts as PHI or PII, consider reaching out to an office at your institute that can help, such as possibly an Internal Review Board (IRB), a research administration office, or a HIPAA compliance office.
+If you are uncertain whether data contains PHI or PII, consult with relevant offices at your institute, such as an IRB, , a research administration office, or a HIPAA compliance office.
 
-If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository!
+If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository to confirm!
+
 
 ## How is HIPAA enforced?
 
 The [Office for Civil Right (OCR)](https://www.hhs.gov/ocr/index.html) of the United States Department of Health and Human Services is in charge of enforcing HIPAA compliance.
 
-If you feel that someone is using or sharing data that is in violation of HIPAA compliance, you can file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Typically you should see if you can get the violation to be resolved through local means by contacting research administrators or management. However, you could submit to the OCR. Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
+If you feel that someone is using or sharing data that is in violation of HIPAA compliance, in most cases, you should start by attempting to resolve the violation first  through local means by contacting research administrators or management. However, you can also choose to file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity is in violation (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
+
 
 If compliance is not resolved, then the covered entity may have to pay fines.
 
-Currently if an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of `$`50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines, up to `$`250,000 and may face jail time of up to 10 years [@violations_2018].
+If an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of $50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines up to $250,000, and may face jail time of up to 10 years [@violations_2018].
 
 ### Common Violations
 
@@ -232,7 +233,7 @@ Common violations of HIPAA taken from @violations_2018 are:
 
 1) A lack of encryption
 
-If your email or data transfer is intercepted it is important to keep your data safe! We will talk more about how to do this in the next chapter.
+If your email or data transfer is intercepted it is important to keep your data safe! [This is talked about more in this course](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html)
 
 2) Computer hacking or phishing
 
@@ -240,11 +241,11 @@ If your computer gets hacked by hackers through a phishing email or otherwise, t
 
 3) Unauthorized Access
 
-Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA. Generally this does not result in harm, but occasionally this can result in other neglectful or malicious practice that result in larger disclosures of PHI. Furthermore leaving your laptop open to PHI data in public or even at home can pose a risk from people who walk by.
+Allowing or accidentally allowing fellow lab mates who are not authorized to access the data is a violation of HIPAA.  This can lead to other neglectful or malicious practices that result in larger disclosures of PHI. Furthermore, leaving your laptop open to PHI data in public or even at home can pose a risk from people who may walk by.
 
 4) Loss or Theft of Devices
 
-If your laptop are external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next. Again the measures in the next chapter will help to avoid this potential issue.
+If your laptop are external storage device is stolen, data files with PHI can easily be obtained by whoever finds them next.
 
 5) Improper Disposal of data or devices
 
@@ -252,11 +253,6 @@ Sometimes there are remnants of your data still on your device!
 
 6) Unsecured access to data
 
-Accessing your data form an unsecured WIFI network can also make the data vulnerable.
+Accessing your data from an unsecured WIFI network can also make the data vulnerable.
 
 See [here](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
-
-
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>
