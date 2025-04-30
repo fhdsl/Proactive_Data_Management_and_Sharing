@@ -17,16 +17,16 @@ There's so many excellent reasons to put your data in a repository, whether or n
 
 **Sharing your data...**  
 
-1. Makes your project more transparent and thus more likely to be trusted and cited. In fact one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing [@colavizza_citation_2020].
+1. Makes your project more transparent and thus more likely to be trusted and cited. In fact, one study found that articles with links to the data used (in a repository) were cited more than articles without such information or other forms of data sharing [@colavizza_citation_2020].
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Another researcher is downloading the data from a repository and says ‘These insights are so exciting! I can’t wait to look into this data even more!’", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_636")
 ```
 
-2. Helps your reduce your own workload so your email inbox isn't overloaded by requests you probably don't have time to respond to.
+2. Helps reduce your own workload so your email inbox isn't overloaded by requests you probably don't have time to respond to.
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby is reading a journal article with data and code she is interested in. The journal article says ‘Code and data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’.", out.width="100%"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_0_616")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Ruby is reading a journal article with data she is interested in. The journal article says ‘Data are available upon request by email’. Ruby sends an email that says ‘ The email is going to an inbox with 999,999,565473 emails in it and it is labeled ‘the corresponding author’s inbox’.", out.width="100%"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g35294cebb05_0_0#slide=id.g35294cebb05_0_0")
 ```
 
 3. Allows others to gain even more insights from your data which shows funders that your data will be used to its maximum potential.
@@ -35,6 +35,4 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g117c57cc481_1_37")
 ```
 
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>
+In summary, data sharing is the practice of making all appropriate data sources associated with a project available through systematic means. Broad data sharing is a critical step toward mitigating the reproducibility and replicability crisis. Not only that, but data sharing is economical, equitable, and frugal. New exciting findings can result from shared and reused data. Additionally, institutions and individuals with less resource availability can benefit from access to shared data.
