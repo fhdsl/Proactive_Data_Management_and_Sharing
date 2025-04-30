@@ -256,4 +256,4 @@ Sometimes there are remnants of your data still on your device!
 
 Accessing your data from an unsecured WIFI network can also make the data vulnerable.
 
-See [the privacy rule and research FAQs](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
+See [the Privacy Rule and research FAQs](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
