@@ -18,7 +18,7 @@ Note that these are general definitions and whether something counts as PII or P
 
 ## PII (personal identifiable information)
 
-PII (personal identifiable information) are aspects of a person that could allow you to identify a person.
+PII (personal identifiable information) are aspects of a person that could allow you to identify that person.
 
 PII is defined by the [US Department of Labor](https://www.dol.gov/general/ppii) as:
 
@@ -44,9 +44,9 @@ Why is this term defined by the Department of Labor and the US general Services 
   - IP addresses
 
 
-Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, such as social security numbers. Other PII such as age does not necessarily pose as much risk unless combined with other information.
+Some PII as in the examples above can pose significant risk to individuals if other people were to gain access, like social security numbers. Other PII, like age, does not necessarily pose as much risk unless combined with other information.
 
-Thus this information is categorized in two ways as being nonsensitive  which is easy to find and poses little risk and sensitive information which is harder to find, poses higher risk and requires more protection.
+Thus, this information is categorized in two ways: nonsensitive, which is easy to find and poses little risk, and sensitive information, which is harder to find, poses higher risk, and requires more protection.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "There are two kinds of PII: Nonsensitve and Sensitive. Nonsensitive poses less risk and is easier to find while sensitive data hoses a higher risk and is harder to find", out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_477")
@@ -54,7 +54,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ### PII Risk
 
-What is the risk of PII getting into the hands of people it shouldn't? Why was the Protection Act necessary?
+What is the risk of PII getting into the hands of people it shouldn't? Why was the Privacy Act necessary?
 
 PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
@@ -105,7 +105,7 @@ PHI is a subset of PII. It is personal identifiable information that relates to 
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_497")
 ```
 
-Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless the are  in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
+Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless they are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
 
 ## PHI Risk
 
@@ -117,7 +117,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 
 ## Cancer research data and PHI
 
-Certain genomics data, such as whole genome sequencing (essentially a genomic signature), and some radiology images with distinguishing features can be used to identify individuals. Advances in machine learning may further increase the identifiability of these data types in the future.
+Certain omics or genomics data, such as whole genome sequencing (essentially a genomic signature), and some radiology images with distinguishing features can be used to identify individuals. Advances in machine learning may further increase the identifiability of these data types in the future.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data",out.width="100%"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs/edit#slide=id.g20f61f033e7_18_509")
@@ -161,7 +161,7 @@ So what does this mean for the data you handle?
   - Exome sequencing
   - Whole transcriptome sequencing
 - Single nucleotide polymorphisms
-- Geneology information
+- Genealogy information
 
 **What is not protected and generally is safe:**   
 
@@ -177,13 +177,13 @@ It has been shown that certain types of de-identified genomic data can be re-ide
 
 The following articles have more extensive information about the current re-identification risk of different genomic data types:
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/
-https://pubmed.ncbi.nlm.nih.gov/23329047/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/
-https://www.eff.org/issues/genetic-information-privacy
-https://www.eff.org/issues/law-and-medical-privacy
-https://www.nature.com/articles/d41586-021-00331-5
+- [Privacy considerations for sharing genomics data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8326502/)
+- [Identifying personal genomes by surname inference](https://pubmed.ncbi.nlm.nih.gov/23329047/)
+- [Preserving genomic privacy via selective Sharing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8411901/)
+- [Impact of HIPAA’s minimum necessary standard on genomic data sharing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5851792/)
+- [Genetic information privacy](https://www.eff.org/issues/genetic-information-privacy)
+- [The law and medical privacy](https://www.eff.org/issues/law-and-medical-privacy)
+- [The broken promise that undermines human genome research](https://www.nature.com/articles/d41586-021-00331-5)
 
 
 ## How to ensure the privacy of this information
@@ -192,26 +192,26 @@ Your institution will have guidance on how to protect sensitive data but in gene
 
 1. Limit access to the data
 
-The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle the data.
-Make sure the data is stored in a place that only these few people who are allowed have access to it. If you aren't sure who has access to a place -- don't put the data there!
+The protected data is seen by the smallest number of individuals possible, all of whom have been properly trained and certified to handle data.
+Make sure the data are stored in a place that only these few people who are allowed have access to it. If you aren't sure who has access to a place -- don't put the data there!
 
 2. Aggressively de-identify the shared data
 
-Before results or data are shared or published, it must be de-identified. We will discuss more about what this is in the next chapter. If data has been summarized at the cohort-level with no personal identifiers then it is probably safe to share.
+Before results or data are shared or published, they must be de-identified. We will discuss more about what this is in the next chapter. If data have been summarized at the cohort-level with no personal identifiers then it is probably safe to share.
 
 3. Consider a data use agreement
 
-A Data Use Agreement (DUA) is required even for de-identified data, particularly when human subjects data is shared for research purposes or across institutions. While HIPAA does not mandate a DUA for fully de-identified data under certain conditions, other factors—such as institutional policies, ethical concerns, or specific data sharing agreements—may require one.
+A Data Use Agreement (DUA) is required even for de-identified data, particularly when human subjects data are shared for research purposes or across institutions. While HIPAA does not mandate a DUA for fully de-identified data under certain conditions, other factors—such as institutional policies, ethical concerns, or specific data sharing agreements—may require one.
 
 Data use agreements restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner before it is in use.
 
-See [here](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [here](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
+See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this practives guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
 See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.  
 
 4. When in doubt, prioritize caution
 
-If you are uncertain whether data contains PHI or PII, consult with relevant offices at your institute, such as an IRB, , a research administration office, or a HIPAA compliance office.
+If you are uncertain whether data contain PHI or PII, consult with relevant offices at your institute, such as an IRB, a research administration office, or a HIPAA compliance office.
 
 If you plan to share your data somewhere and you are unsure whether a database or repository is secure and HIPAA compliant, ask those who manage that database or repository to confirm!
 
@@ -220,12 +220,13 @@ If you plan to share your data somewhere and you are unsure whether a database o
 
 The [Office for Civil Right (OCR)](https://www.hhs.gov/ocr/index.html) of the United States Department of Health and Human Services is in charge of enforcing HIPAA compliance.
 
-If you feel that someone is using or sharing data that is in violation of HIPAA compliance, in most cases, you should start by attempting to resolve the violation first  through local means by contacting research administrators or management. However, you can also choose to file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity is in violation (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
+If you feel that someone is using or sharing data and are in violation of HIPAA compliance, in most cases, you should start by attempting to resolve the violation first through local means by contacting research administrators or management. However, you can also choose to file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity is in violation (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
 
 
 If compliance is not resolved, then the covered entity may have to pay fines.
 
-If an individual is not aware of a violation the fine can be quite small, but if it is a repeated issue of willful neglect, they can be fined on the order of $50,000! If the entity committed the violation for malicious reasons for personal gain, they can face much higher fines up to $250,000, and may face jail time of up to 10 years [@violations_2018].
+
+The civil fines for HIPAA violations by a covered entity range from `$`100 to `$`50,000 PER VIOLATION for willful neglect and untimely correction, with a `$`1.5M yearly cap on fines. In addition to civil penalties, an individual who knowingly committed the violation may face a criminal penalty of up to `$`50,000 and 1 year in prison. If the case involves misrepresentation/misleading conduct, penalties increase to `$`100,000 and 5 years prison, and to `$`250,000 and 10 years prison if the violation involves personal gain or malicious [@violations_2018].
 
 ### Common Violations
 
