@@ -87,8 +87,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7
 ```
 
 If you are not the person who has the information needed to create metadata, or you believe that another individual already has this information, make sure you get ahold of the metadata that correspond to your data. It will be critical for you to have to do any sort of meaningful analysis!
-
-
-<div class = disclaimer>
-`r config::get("disclaimer")`
-</div>
