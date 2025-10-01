@@ -1,4 +1,4 @@
-# Creatign Clear Documentation
+# Creating Clear Documentation
 
 Our goal for documentation is to be as comprehensive, navigable, and as always, as clear as possible.
 
