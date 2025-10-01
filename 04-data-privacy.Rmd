@@ -155,7 +155,7 @@ So what does this mean for the data you handle?
 
 **A non-comprehensive list of identifiable and protected information:**   
 
-- Clinical information in metadata
+- Some clinical information in metadata (should be carefully reviewed and de-identified where possible)
 - Genomic sequences
   - Whole genome sequences
   - Exome sequencing
@@ -207,7 +207,13 @@ Data use agreements restrict who can access and use the data that you might shar
 
 See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this practives guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
-See [here](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf) for an example DUA template from the Harvard Catalyst. Be sure to follow the attribution guidelines outlined in the link if you adapt the template for your use.  
+Check out these DUA templates to get started:
+
+- [DUA template from the Harvard Catalyst](https://catalyst.harvard.edu/wp-content/uploads/regulatory/Harvard_Catalyst_Template_LDS_DUA.pdf)  
+- The NIH uses [this certification agreement](https://grants.nih.gov/sites/default/files/flmngr/Universal_DUC.pdf).
+
+Be sure to follow the attribution guidelines outlined in the links if you adapt them for your use. 
+  
 
 4. When in doubt, prioritize caution
 
@@ -230,11 +236,14 @@ The civil fines for HIPAA violations by a covered entity range from `$`100 to `$
 
 ### Common Violations
 
+Data security and HIPPA violations are talked about more in [this course about ethical data handling ](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html). It offers more information to mitigate the following challenges.
+
+
 Common violations of HIPAA taken from @violations_2018 are:
 
 1) A lack of encryption
 
-If your email or data transfer is intercepted it is important to keep your data safe! [This is talked about more in this course](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html)
+If your email or data transfer is intercepted it is important to keep your data safe! 
 
 2) Computer hacking or phishing
 
