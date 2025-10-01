@@ -1,4 +1,4 @@
-# Why is there a NIH DMS policy?
+# Why is there an NIH DMS policy?
 
 First we will discuss the motivations behind the new data management and sharing policy that will go into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
 
@@ -87,7 +87,7 @@ The DMS Policy does not apply to research and other activities that do not gener
 - Conference Grants (R13)
 - Resource (G)
 
-You can look up the NIH Activity Code [here](https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf){target="_blank"} to see if a DMS Plan is required for your particular grant type.
+You can look up the [NIH Activity Code in this table] to see if a DMS Plan is required](https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf){target="_blank"} for your particular grant type.
 
 For example, I am interested in applying to a **R03** award.
 
@@ -116,7 +116,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL
 
 #### Scientific data
 
-[Scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/research-covered-under-the-data-management-sharing-policy#after) are the “recorded factual material of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications”. This can include any of the following if they are applicable to your study:
+[Scientific data](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/research-covered-under-the-data-management-sharing-policy#after) are the "recorded factual material of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications". This can include any of the following if they are applicable to your study:
 
 - Unpublished results
 - Null results
@@ -195,9 +195,7 @@ Under the NIH DMS Policy, is it possible to not share data?
 
 There are legitimate reasons you might not share your data. Data might not be shareable due to ethical, legal, or technical concerns. **You will still need to submit a DMS Plan even if you plan to withhold data sharing**. You must explain your reasoning in your DMS Plan.
 
-```{r, echo=FALSE, fig.alt='Researchers with scientific data must justify why they will not share data with an appropriate exception.', out.width = '70%', fig.align = 'center'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g1740f401082_0_36")
-```
+
 
 Justifiable ethical, legal, and technical factors for limiting sharing of data include:
 
@@ -210,10 +208,12 @@ Justifiable ethical, legal, and technical factors for limiting sharing of data i
 - Explicit federal, state, local, or Tribal law, regulation, or policy prohibits disclosure
 
 - Restrictions are imposed by existing or anticipated agreements with other parties
+
 - Datasets cannot practically be digitized with reasonable efforts
 
 <div class = "ethics">
 For additional information about potential ethical considerations, including if data is of sufficient quality to be shared. See the [ethics section](https://hutchdatascience.org/NIH_Data_Sharing/ethics.html) of our other course for more information.
+
 </div>
 
 <div class = "click_to_expand_block">
@@ -231,11 +231,6 @@ For questions or concerns about data sharing expectations for proprietary data, 
 </details>
 
 </div>
-
-Some additional reasons to limit sharing:
-
-- NIH respects Tribal sovereignty and supports responsible management/sharing of American Indian / Alaska Native participant data, which can include limiting sharing
-- SBIR/STTR Program Policy Directive permits withholding data for 20 years, as stipulated in agreements and consistent with program goals
 
 The following are **NOT** good reasons to limit the sharing of your data:
 
