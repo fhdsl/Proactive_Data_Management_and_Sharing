@@ -1,22 +1,24 @@
 # (PART\*) Data sharing Expectations {-}
 
 # Elements of the DMS Plan
+
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
-The following are the major elements required to be included a NIH DMS plan:
+The following are the major elements required to be included in an NIH DMS plan:
 
 1. **Data type** - describe what data (amount and type) will be generated over the course of funding and what data will or will not be shared
 2. **Tools, software, and code** - describe what tools (and versions) you intend to use to manage and analyze the data (note code is not required to be shared)
-3. **Standards** - describe any standards that you might need to use for your data and metadata to make them usable by others or be contributed to a repository
+3. **Standards** - describe any standards that you are indeed to use for your data and metadata to be usable by others or to be contributed to a repository
 4. **Data preservation, access, timelines** - describe where the data will be made available and when
 5. **Access, distribution, reuse considerations** - describe how you have carefully considered any reasons that might limit sharing
 6. **Oversight** - describe who will manage compliance of the DMS plan
 
-You can find more detailed requirements for each of these elements [here](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
+You can find more detailed requirements for each of these elements [on the NIH website](https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#elements-to-include-in-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
+
 ## Overall Takeaways
 
 <div class = motivations>
-**Why this change?** As of January 23, 2023, the NIH is requiring all grant proposals include a Data Management and Sharing Plan to aid in the transparency and reproducibility of NIH-funded research.
+**Why this change?** As of January 25, 2023, the NIH is requiring all grant proposals include a Data Management and Sharing Plan to aid in the transparency and reproducibility of NIH-funded research.
 </div>
 
 <div class = question_box>
@@ -24,7 +26,7 @@ You can find more detailed requirements for each of these elements [here](https:
 </div>
 
 <div class = data>
-**Where should I share my data?** The NIH has lists of suggested repositories, to help you find appropriate repositories for your data. If there is not an appropriate repository, you can share your data at an institutional (if available) or generalist repository.
+**Where should I share my data?** The NIH has [lists of suggested repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data), to help you find appropriate repositories for your data. If there is not an appropriate repository, you can share your data at an institutional (if available) or generalist repository.
 </div>
 
 <div class = money>
