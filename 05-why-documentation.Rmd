@@ -2,10 +2,6 @@
 # Why Documentation is Worth the Time
 
 
-```{r, fig.alt="Learning objectives This chapter will demonstrate how to:Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_0")
-```
-
 ## The context of documentation in research
 
 Biomedical research comes in all shapes and sizes, varying from mostly experimental wet bench work to a combination of experimental and computational, to largely computational. 
