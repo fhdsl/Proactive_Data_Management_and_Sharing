@@ -2,6 +2,12 @@
 
 Our goal for documentation is to be as comprehensive, navigable, and as always, as clear as possible.
 
+In this section, we will cover the following learning objectives:
+
+```{r, fig.alt="Learning Objectives: Describe best practices for project documentation, Explain what a README file is and why it can be very useful for  organizing scientific research projects, Identify what aspects might be included in a research notebook", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_24#slide=id.g3896feb580f_16_24")
+```
+
 ## Characteristics of clear documentation
 
 The following are tips to make your documentation as useful as possible. 
