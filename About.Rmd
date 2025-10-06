@@ -21,7 +21,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
 |Publishing Maintenance Engineer|[Candace Savonen]|
 |Technical Publishing Stylists|[Carrie Wright], [Ava Hoffman], [Candace Savonen]|
-|Package Developers ([ottrpal]) [Candace Savonen], [John Muschelli], [Carrie Wright]|
+|Package Developers ([ottrpal]) [Candace Savonen], [John Muschelli], [Carrie Wright], [Ava Hoffman], [Kate Isaac], [Adam Coffman]|
 |**Art and Design**||
 |Illustrator(s)| [Carrie Wright] [Candace Savonen]|
 |Figure Artist(s)| [Carrie Wright] [Candace Savonen]|
@@ -42,7 +42,9 @@ devtools::session_info()
 [Candace Savonen]: https://www.cansavvy.com/
 [Carrie Wright]: https://carriewright11.github.io/
 [Ava Hoffman]: https://www.avahoffman.com/
+[Kate Isaac]: https://kweav.github.io/
 [Maleah O'Connor]: https://www.linkedin.com/in/maleah-o-connor/
+[Adam Coffman]: https://github.com/acoffman
 [Sandy Ormbrek]: https://www.linkedin.com/in/sandy-ormbrek-1410b113/
 <!-- Links -->
 
