@@ -69,7 +69,7 @@ You can take a look at this [template README](https://raw.githubusercontent.com/
 #### More about writing READMEs:
 
 - [How to write a good README file](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-- [How to write an awesome README](https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b)
+- [How to write an awesome README](https://medium.com/data-science/how-to-write-an-awesome-readme-68bf4be91f8b)
 
 ### Exercise: Write a README for your project!
 
