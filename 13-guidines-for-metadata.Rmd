@@ -65,7 +65,7 @@ Toward these two goals, [this excellent article](https://www.tandfonline.com/doi
 
 9. _Do Not Use Font Color or Highlighting as Data_ - This only adds to confusion of others if they don't understand your color coding scheme. Instead create a new variable for anything you might be tempted to color code.
 
-10. _Make Backups_ - Metadata are critical, you never want to lose them because of spilled coffee on a computer. Keep the original backed up in a multiple places - if your institution has a high performance server or cloud back up, we recommend using these solutions. 
+10. _Make Backups_ - Metadata are critical, you never want to lose them because of spilled coffee on a computer. Keep the original backed up in a multiple places - if your institution has a high performance server or cloud back up, we recommend using these solutions. See [this course about computing](https://jhudatascience.org/Computing_for_Cancer_Informatics/) for more information on these and other solutions.
 
 11. _Use Data Validation to Avoid Errors_ - use spreadsheet software to check that the data in the columns is the type of data expected for a given variable.
 
