@@ -2,7 +2,6 @@
 
 To enable a more productive research experience and to ease your future compliance with any data sharing requirements, active data management during the research process can be very helpful.  
 
-![](15-data-storage-and-repos_files/figure-docx//1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak_g16b04bd80e5_4_37.png){width=80%}
 
 ## Data Storage Concerns
 
@@ -48,7 +47,7 @@ If you don't find a repository there, additional repositories can also be found 
 - [Nature data sharing resources](https://www.nature.com/sdata/policies/repositories)
 - [Registry of research data repositories](https://www.re3data.org/)
 
-Researchers should aim to find repository with the following characteristics according to the NIH:
+Researchers should aim to find a repository with the following characteristics according to the NIH:
 
 
 
@@ -155,14 +154,14 @@ The journal you submit to may have a recommendation of one over another. If not,
 
 - [CyVerse Data Commons Repository](https://cyverse.org/data-commons)
 - [Data Dryad](https://datadryad.org/stash)
-- [FigShare](https://help.figshare.com/article/how-to-upload-and-publish-your-data)
+- [FigShare](https://info.figshare.com/user-guide-category/uploading-and-managing-files/)
 - [ZENODO](https://help.zenodo.org/)
 
 ### Small datasets
 
-Data sets that are small and atypical format can be published as supplementary files as a part of a manuscript.
+Data sets that are small and atypical in format can be published as supplementary files as a part of a manuscript.
 
-## Finding a repository
+## Summary of resources: Finding a repository
 
 The following links can help you find a data repository for your data:
 

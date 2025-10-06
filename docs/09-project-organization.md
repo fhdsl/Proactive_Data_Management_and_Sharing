@@ -17,7 +17,7 @@ Keeping your files organized is a skill that has a high long-term payoff. During
 > 1. Organization increases productivity. If a project is well organized, with everything placed in one directory, it makes it easier to avoid wasting time searching for project files such as datasets, codes, output files, and so on.
 > 2. A well-organized project helps you to keep and maintain a record of your ongoing and completed data science projects.
 > 3. Completed data science projects could be used for building future models. If you have to solve a similar problem in the future, you can use the same code with slight modifications.
-> 4. A well-organized project can easily be understood by other data science professionals when shared on platforms such as Github.
+> 4. A well-organized project can easily be understood by other [researchers] when shared on platforms such as Github.
 
 Organization is yet another aspect of reproducibility that saves you and your colleagues time!
 
@@ -27,7 +27,7 @@ Organization is yet another aspect of reproducibility that saves you and your co
 
 There's a lot of ways to keep your files organized, and there's not a "one size fits all" organizational solution [@Shapiro2021]. In this chapter, we will discuss some generalities but as far as specifics we will point you to others who have written about works for them and advise that you use them as inspiration to figure out a strategy that works for you and your team.
 
-The most important aspects of your project organization scheme is that it:  
+The most important aspects of your project organization scheme are that it:  
 
 - Is [project-oriented](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/) [@Bryan2017].  
 - Follows consistent patterns [@Shapiro2021].  
@@ -39,13 +39,12 @@ The most important aspects of your project organization scheme is that it:
 
 Getting more specific, here's some ideas of how to organize your project:  
 
-- **Make file names informative** to those who don't have knowledge of the project but avoid using spaces, quotes, or unusual characters in your filenames and folders -- these only serve to make reading in files a nightmare in some programs.
-- **Number scripts** in the order that they are run.
+- **Make file names informative** to those who don't have knowledge of the project. Avoid using spaces, quotes, or unusual characters in your filenames and folders -- these only serve to make reading in files a nightmare in some programs.
+- **Number scripts/experiments** in the order that they are run.
 - **Keep like-files together** in their own directory: results tables with other results tables, etc. _Including most importantly keeping raw data separate from processed data or other results!_
-- **Put source scripts and functions in their own directory**. Things that should never need to be called directly by yourself or anyone else.
+- **Put raw data, processed data, scripts and functions in their own directories**. Be sure to leave raw data and other source information alone, as they should never need to be changed directly by yourself or anyone else.
 - **Put output in its own directories** like `results` and `plots`.
 - **Have a central document (like a README)** that describes the basic information about the analysis and how to re-run it.
-- Make it easy on yourself, **dates aren't necessary**. The computer keeps track of those.
 - **Make a central script that re-runs everything** -- including the creation of the folders! (more on this in a later chapter)
 
 Let's see what these principles might look like put into practice.
@@ -80,9 +79,9 @@ project-name/
 - `01-make-heatmap.Rmd` - The script that needs to be run second and is also called by run_analysis.sh
 - `README.md` - The document that has the information that will orient someone to this project, we'll discuss more about how to create a helpful README in [an upcoming chapter](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/documenting-analyses.html#readmes).
 - `plots` - A folder of plots and resulting images
-- `results` - A folder results
+- `results` - A folder of results
 - `raw-data` - Data files as they first arrive and **nothing** has been done to them yet.
-- `processed-data` - Data that has been modified from the raw in some way.
+- `processed-data` - Data that have been modified from the raw in some way.
 - `util` - A folder of utilities that never needs to be called or touched directly unless troubleshooting something
 
 ## Readings about organizational strategies for data science projects:
@@ -127,8 +126,6 @@ Using your computer's GUI (drag, drop, and clicking), organize the files that ar
 1. Organized these files using an organizational scheme similar to [what is described above](#example organizational-scheme).
 1. Create folders like `plots`, `results`, and `data` folder. Note that `aggregated_metadata.json` and `LICENSE.TXT` also belong in the `data` folder.
 1. You will want to delete any files that say "OLD". Keeping multiple versions of your scripts around is a recipe for mistakes and confusion. In the advanced course we will discuss how to use version control to help you track this more elegantly.  
-
-After your files are organized, you are ready to move on to the next chapter and create a notebook!
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**
