@@ -1,4 +1,4 @@
-# (PART\*) Fundamental Tips for Effective Data Management {-}
+# (PART\*) Effective Data Management {-}
 
 # Defining reproducibility
 
