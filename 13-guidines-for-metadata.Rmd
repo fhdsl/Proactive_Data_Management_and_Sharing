@@ -37,6 +37,7 @@ Some examples of how to make your data crystal clear:
 - Don't add extraneous information -- perhaps items that are relevant to your lab internally but not meaningful to people outside of your lab. Either explain the significance of such information or leave it out.
 
 - Make your [data tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#:~:text=Tidy%20data%20is%20a%20standard,Every%20row%20is%20an%20observation.).
+
 > Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types. In tidy data:
 > - Every column is a variable.
 > - Every row is an observation.
@@ -62,15 +63,16 @@ Toward these two goals, [this excellent article](https://www.tandfonline.com/doi
 
 8. _No Calculations in the Raw Data Files_ - To avoid mishaps, you should always keep a clean, original, raw version of your metadata that you do not add extra calculations or notes to.
 
-9. _Do Not Use Font Color or Highlighting as Data_ - This only adds to confusion to others if they don't understand your color coding scheme. Instead create a new variable for anything you might be tempted to color code.
+9. _Do Not Use Font Color or Highlighting as Data_ - This only adds to confusion of others if they don't understand your color coding scheme. Instead create a new variable for anything you might be tempted to color code.
 
-10. _Make Backups_ - Metadata are critical, you never want to lose them because of spilled coffee on a computer. Keep the original backed up in a multiple places. We recommend keeping writing your metadata in something like GoogleSheets because it is both free and also saved online so that it is safe from computer crashes.
+10. _Make Backups_ - Metadata are critical, you never want to lose them because of spilled coffee on a computer. Keep the original backed up in a multiple places - if your institution has a high performance server or cloud back up, we recommend using these solutions. 
 
-11. _Use Data Validation to Avoid Errors_ - set data types to have googlesheets or excel check that the data in the columns is the type of data it expects for a given variable.
+11. _Use Data Validation to Avoid Errors_ - use spreadsheet software to check that the data in the columns is the type of data expected for a given variable.
 
 
 <div class = "warning">
 Note that it is very dangerous to open gene data with Excel. According to @Ziemann2016, approximately one-fifth of papers with Excel gene lists have errors. This happens because Excel wants to interpret everything as a date. We strongly caution against opening (and saving afterward) gene data in Excel.
+
 ```{r, fig.alt = "‘Approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions’ Ziemann, Eren, El-Osta, 2016. On the left, a meme that shows Excel asking ‘is this a date?’ in response to seeing ‘any data at all’. ", out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY/edit#slide=id.g13a7f78e577_0_0")
 ```
@@ -86,4 +88,4 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7
 ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY/edit#slide=id.g12890ae15d7_0_1")
 ```
 
-If you are not the person who has the information needed to create metadata, or you believe that another individual already has this information, make sure you get ahold of the metadata that correspond to your data. It will be critical for you to have to do any sort of meaningful analysis!
+If you are not the person who has the information needed to create metadata, or you believe that another individual already has this information, make sure you get acquire the metadata that corresponding to your data. It will be critical for you to have in order to do any meaningful analysis!
