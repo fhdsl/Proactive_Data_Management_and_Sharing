@@ -40,9 +40,6 @@ A plan describing an approach to data management, preservation, and sharing of s
 
 Whether you are an investigator applying for a NIH grant, or a researcher or trainee supported by a NIH grant, it is important to know how this policy applies to you and your work. You can refer to the [NIH overview](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/research-covered-under-the-data-management-sharing-policy#research-covered-by-the-2023-data-management-&-sharing-policy){target="_blank"} of which research will be covered by this new policy.  
 
-```{r, echo=FALSE, fig.alt='We are on the second step of the pathway - personal considerations of the policy.', out.width = '80%', fig.align = 'center'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g16b04bd80e5_4_12")
-```
 
 The major requirement of the policy is that all grant proposals (submitted after January 25th, 2023) for mechanisms that require compliance, must include a plan for how they will proactively manage and share their data.
 
