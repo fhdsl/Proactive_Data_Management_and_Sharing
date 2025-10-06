@@ -1,4 +1,4 @@
-# (PART\*) What is Data Sharing and Why is it Important? {-}
+# (PART\*) What is Data Sharing? {-}
 
 # Data Sharing is Important
 
