@@ -1,5 +1,7 @@
 # Proactive Data Management and Sharing
 
+[![Render Bookdown, Leanpub, and Coursera](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml)
+
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
 You can see the rendered course material here: http://hutchdatascience.org/Data_Management_and_Sharing/
