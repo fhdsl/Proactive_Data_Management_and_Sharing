@@ -2,9 +2,6 @@
 
 To enable a more productive research experience and to ease your future compliance with any data sharing requirements, active data management during the research process can be very helpful.  
 
-```{r, echo=FALSE, fig.alt='We are on the third step of the pathway - Data Storage Options.', out.width = '80%', fig.align = 'center'}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g16b04bd80e5_4_37")
-```
 
 ## Data Storage Concerns
 
