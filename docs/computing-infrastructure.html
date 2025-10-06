@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 15 Computing Infrastructure | Documentation maintenance</title>
+  <title>Chapter 15 Computing Infrastructure | Proactive Data Management and Sharing</title>
   <meta name="description" content="Description about Course/Book." />
-  <meta name="generator" content="bookdown 0.39.1 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 15 Computing Infrastructure | Documentation maintenance" />
+  <meta property="og:title" content="Chapter 15 Computing Infrastructure | Proactive Data Management and Sharing" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Description about Course/Book." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 15 Computing Infrastructure | Documentation maintenance" />
+  <meta name="twitter:title" content="Chapter 15 Computing Infrastructure | Proactive Data Management and Sharing" />
   
   <meta name="twitter:description" content="Description about Course/Book." />
   
@@ -28,7 +28,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="overview-of-the-dms-plan.html"/>
+<link rel="prev" href="guidelines-for-good-metadata.html"/>
 <link rel="next" href="data-storage-and-data-repositories.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -57,6 +57,28 @@
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
 </head>
@@ -84,126 +106,128 @@
 </ul></li>
 <li class="part"><span><b>What is Data Sharing and Why is it Important?</b></span></li>
 <li class="chapter" data-level="2" data-path="data-sharing-is-important.html"><a href="data-sharing-is-important.html"><i class="fa fa-check"></i><b>2</b> Data Sharing is Important</a></li>
-<li class="chapter" data-level="3" data-path="why-nih-dms-policy.html"><a href="why-nih-dms-policy.html"><i class="fa fa-check"></i><b>3</b> Why NIH DMS Policy?</a></li>
-<li class="chapter" data-level="4" data-path="why-this-new-dms-policy.html"><a href="why-this-new-dms-policy.html"><i class="fa fa-check"></i><b>4</b> Why this new DMS policy?</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="why-this-new-dms-policy.html"><a href="why-this-new-dms-policy.html#key-terms"><i class="fa fa-check"></i><b>4.1</b> Key terms</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html"><i class="fa fa-check"></i><b>5</b> How will this policy affect me?</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-sharing"><i class="fa fa-check"></i><b>5.1</b> Grant Mechanisms</a>
-<ul>
-<li class="chapter" data-level="5.1.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#scientific-data"><i class="fa fa-check"></i><b>5.1.1</b> Data-generating Research</a></li>
-</ul></li>
-<li class="chapter" data-level="5.2" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#grant-renewals"><i class="fa fa-check"></i><b>5.2</b> Grant Renewals</a></li>
-<li class="chapter" data-level="5.3" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#review-process"><i class="fa fa-check"></i><b>5.3</b> Impact on Reviews</a></li>
-<li class="chapter" data-level="5.4" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#sharing-timeline"><i class="fa fa-check"></i><b>5.4</b> Sharing Timeline</a>
-<ul>
-<li class="chapter" data-level="5.4.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-cost-extensions"><i class="fa fa-check"></i><b>5.4.1</b> No-cost Extensions</a></li>
-</ul></li>
-<li class="chapter" data-level="5.5" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#when-to-not-share"><i class="fa fa-check"></i><b>5.5</b> When to Not Share Data</a></li>
-</ul></li>
 <li class="part"><span><b>Fundamental Tips for Effective Data Management</b></span></li>
-<li class="chapter" data-level="6" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html"><i class="fa fa-check"></i><b>6</b> Defining reproducibility</a>
+<li class="chapter" data-level="3" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html"><i class="fa fa-check"></i><b>3</b> Defining reproducibility</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#learning-objectives"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="6.2" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#what-is-reproducibility"><i class="fa fa-check"></i><b>6.2</b> What is reproducibility</a></li>
-<li class="chapter" data-level="6.3" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-in-daily-life"><i class="fa fa-check"></i><b>6.3</b> Reproducibility in daily life</a></li>
-<li class="chapter" data-level="6.4" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-is-worth-the-effort"><i class="fa fa-check"></i><b>6.4</b> Reproducibility is worth the effort!</a></li>
-<li class="chapter" data-level="6.5" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-exists-on-a-continuum"><i class="fa fa-check"></i><b>6.5</b> Reproducibility exists on a continuum!</a></li>
+<li class="chapter" data-level="3.1" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#learning-objectives"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#what-is-reproducibility"><i class="fa fa-check"></i><b>3.2</b> What is reproducibility</a></li>
+<li class="chapter" data-level="3.3" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-in-daily-life"><i class="fa fa-check"></i><b>3.3</b> Reproducibility in daily life</a></li>
+<li class="chapter" data-level="3.4" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-is-worth-the-effort"><i class="fa fa-check"></i><b>3.4</b> Reproducibility is worth the effort!</a></li>
+<li class="chapter" data-level="3.5" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-exists-on-a-continuum"><i class="fa fa-check"></i><b>3.5</b> Reproducibility exists on a continuum!</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>7</b> Data Privacy</a>
+<li class="chapter" data-level="4" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>4</b> Data Privacy</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>7.1</b> PII (personal identifiable information)</a>
+<li class="chapter" data-level="4.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>4.1</b> PII (personal identifiable information)</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>7.1.1</b> PII Risk</a></li>
+<li class="chapter" data-level="4.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>4.1.1</b> PII Risk</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>7.2</b> PHI (protected health information)</a></li>
-<li class="chapter" data-level="7.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>7.3</b> PHI is a subset of PII</a></li>
-<li class="chapter" data-level="7.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>7.4</b> PHI Risk</a></li>
-<li class="chapter" data-level="7.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>7.5</b> Cancer research data and PHI</a>
+<li class="chapter" data-level="4.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>4.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="4.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>4.3</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="4.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>4.4</b> PHI Risk</a></li>
+<li class="chapter" data-level="4.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>4.5</b> Cancer research data and PHI</a>
 <ul>
-<li class="chapter" data-level="7.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>7.5.1</b> What genomic data is protected?</a></li>
+<li class="chapter" data-level="4.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>4.5.1</b> What genomic data is protected?</a></li>
 </ul></li>
-<li class="chapter" data-level="7.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>7.6</b> How to ensure the privacy of this information</a></li>
-<li class="chapter" data-level="7.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>7.7</b> How is HIPAA enforced?</a>
+<li class="chapter" data-level="4.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>4.6</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="4.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>4.7</b> How is HIPAA enforced?</a>
 <ul>
-<li class="chapter" data-level="7.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>7.7.1</b> Common Violations</a></li>
+<li class="chapter" data-level="4.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>4.7.1</b> Common Violations</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="organizing-your-project.html"><a href="organizing-your-project.html"><i class="fa fa-check"></i><b>8</b> Organizing your project</a>
+<li class="chapter" data-level="5" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html"><i class="fa fa-check"></i><b>5</b> Why Documentation is Worth the Time</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#learning-objectives-1"><i class="fa fa-check"></i><b>8.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="8.2" data-path="organizing-your-project.html"><a href="organizing-your-project.html#organizational-strategies"><i class="fa fa-check"></i><b>8.2</b> Organizational strategies</a>
-<ul>
-<li class="chapter" data-level="8.2.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#tips-for-organizing-your-project"><i class="fa fa-check"></i><b>8.2.1</b> Tips for organizing your project:</a></li>
+<li class="chapter" data-level="5.1" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>5.1</b> The context of bioinformatics tool development</a></li>
+<li class="chapter" data-level="5.2" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#bioinformatics-and-usability"><i class="fa fa-check"></i><b>5.2</b> Bioinformatics and usability</a></li>
+<li class="chapter" data-level="5.3" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#why-documentation-is-worth-the-time-1"><i class="fa fa-check"></i><b>5.3</b> Why documentation is worth the time</a></li>
 </ul></li>
-<li class="chapter" data-level="8.3" data-path="organizing-your-project.html"><a href="organizing-your-project.html#readings-about-organizational-strategies-for-data-science-projects"><i class="fa fa-check"></i><b>8.3</b> Readings about organizational strategies for data science projects:</a></li>
-<li class="chapter" data-level="8.4" data-path="organizing-your-project.html"><a href="organizing-your-project.html#get-the-exercise-project-files-or-continue-with-the-files-you-used-in-the-previous-chapter"><i class="fa fa-check"></i><b>8.4</b> Get the exercise project files (or continue with the files you used in the previous chapter)</a></li>
-<li class="chapter" data-level="8.5" data-path="organizing-your-project.html"><a href="organizing-your-project.html#exercise-organize-your-project"><i class="fa fa-check"></i><b>8.5</b> Exercise: Organize your project!</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html"><i class="fa fa-check"></i><b>9</b> Record keeping practices</a>
+<li class="chapter" data-level="6" data-path="discussion-on-benefits-of-data-sharing.html"><a href="discussion-on-benefits-of-data-sharing.html"><i class="fa fa-check"></i><b>6</b> Discussion on Benefits of Data Sharing</a>
 <ul>
-<li class="chapter" data-level="9.0.1" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-work"><i class="fa fa-check"></i><b>9.0.1</b> <strong>Keep organized records of work</strong></a></li>
-<li class="chapter" data-level="9.0.2" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-communication"><i class="fa fa-check"></i><b>9.0.2</b> <strong>Keep organized records of communication</strong></a></li>
-<li class="chapter" data-level="9.0.3" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#use-reports"><i class="fa fa-check"></i><b>9.0.3</b> <strong>Use reports</strong></a></li>
+<li class="chapter" data-level="6.1" data-path="discussion-on-benefits-of-data-sharing.html"><a href="discussion-on-benefits-of-data-sharing.html#discussion"><i class="fa fa-check"></i><b>6.1</b> Discussion</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html"><i class="fa fa-check"></i><b>10</b> Creating handy reference guides</a>
+<li class="chapter" data-level="7" data-path="why-is-there-a-nih-dms-policy.html"><a href="why-is-there-a-nih-dms-policy.html"><i class="fa fa-check"></i><b>7</b> Why is there a NIH DMS policy?</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#the-goal-of-a-reference-guide"><i class="fa fa-check"></i><b>10.1</b> The goal of a reference guide</a></li>
-<li class="chapter" data-level="10.2" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#characteristics-of-handy-reference-guides"><i class="fa fa-check"></i><b>10.2</b> Characteristics of handy reference guides</a>
-<ul>
-<li class="chapter" data-level="10.2.1" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-easy-to-find"><i class="fa fa-check"></i><b>10.2.1</b> Is easy to find</a></li>
-<li class="chapter" data-level="10.2.2" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-searchable"><i class="fa fa-check"></i><b>10.2.2</b> Is searchable</a></li>
-<li class="chapter" data-level="10.2.3" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#is-comprehensive"><i class="fa fa-check"></i><b>10.2.3</b> Is comprehensive</a></li>
-<li class="chapter" data-level="10.2.4" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#data-formats-are-described"><i class="fa fa-check"></i><b>10.2.4</b> Data formats are described</a></li>
-<li class="chapter" data-level="10.2.5" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#entries-should-have-a-consistent-format"><i class="fa fa-check"></i><b>10.2.5</b> Entries should have a consistent format</a></li>
+<li class="chapter" data-level="7.1" data-path="why-is-there-a-nih-dms-policy.html"><a href="why-is-there-a-nih-dms-policy.html#key-terms"><i class="fa fa-check"></i><b>7.1</b> Key terms</a></li>
 </ul></li>
-<li class="chapter" data-level="10.3" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#good-examples-of-reference-guides"><i class="fa fa-check"></i><b>10.3</b> Good examples of reference guides</a></li>
-<li class="chapter" data-level="10.4" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#exercise-create-your-own-reference-guide"><i class="fa fa-check"></i><b>10.4</b> Exercise: Create your own reference guide!</a></li>
-<li class="chapter" data-level="10.5" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#how-to-keep-your-documentation-up-to-date"><i class="fa fa-check"></i><b>10.5</b> How to keep your documentation up to date</a>
+<li class="chapter" data-level="8" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html"><i class="fa fa-check"></i><b>8</b> How will this policy affect me?</a>
 <ul>
-<li class="chapter" data-level="10.5.1" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>10.5.1</b> The goal of documentation maintenance</a></li>
-<li class="chapter" data-level="10.5.2" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>10.5.2</b> Keep your documentation in one, version-controlled place</a></li>
-<li class="chapter" data-level="10.5.3" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>10.5.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
-<li class="chapter" data-level="10.5.4" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#make-sure-links-work"><i class="fa fa-check"></i><b>10.5.4</b> Make sure links work</a></li>
-<li class="chapter" data-level="10.5.5" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#set-aside-time-to-do-maintenance"><i class="fa fa-check"></i><b>10.5.5</b> Set aside time to do maintenance</a></li>
-</ul></li>
-<li class="chapter" data-level="10.6" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>10.6</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
-<li class="chapter" data-level="10.7" data-path="creating-handy-reference-guides.html"><a href="creating-handy-reference-guides.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>10.7</b> Exercise 2: Implement a URL checker</a></li>
-</ul></li>
-<li class="chapter" data-level="11" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html"><i class="fa fa-check"></i><b>11</b> Why Documentation is Worth the Time</a>
+<li class="chapter" data-level="8.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-sharing"><i class="fa fa-check"></i><b>8.1</b> Grant Mechanisms</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>11.1</b> The context of bioinformatics tool development</a></li>
-<li class="chapter" data-level="11.2" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#bioinformatics-and-usability"><i class="fa fa-check"></i><b>11.2</b> Bioinformatics and usability</a></li>
-<li class="chapter" data-level="11.3" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#why-documentation-is-worth-the-time-1"><i class="fa fa-check"></i><b>11.3</b> Why documentation is worth the time</a></li>
+<li class="chapter" data-level="8.1.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#scientific-data"><i class="fa fa-check"></i><b>8.1.1</b> Data-generating Research</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html"><i class="fa fa-check"></i><b>12</b> Collaborating with informatics experts</a>
+<li class="chapter" data-level="8.2" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#grant-renewals"><i class="fa fa-check"></i><b>8.2</b> Grant Renewals</a></li>
+<li class="chapter" data-level="8.3" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#review-process"><i class="fa fa-check"></i><b>8.3</b> Impact on Reviews</a></li>
+<li class="chapter" data-level="8.4" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#sharing-timeline"><i class="fa fa-check"></i><b>8.4</b> Sharing Timeline</a>
 <ul>
-<li class="chapter" data-level="12.0.1" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#the-benefits-of-collaboration"><i class="fa fa-check"></i><b>12.0.1</b> The benefits of collaboration</a></li>
-<li class="chapter" data-level="12.0.2" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#potential-challenges"><i class="fa fa-check"></i><b>12.0.2</b> Potential challenges</a></li>
+<li class="chapter" data-level="8.4.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-cost-extensions"><i class="fa fa-check"></i><b>8.4.1</b> No-cost Extensions</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html"><i class="fa fa-check"></i><b>13</b> Guidelines for Good Metadata</a>
-<ul>
-<li class="chapter" data-level="13.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#what-are-metadata"><i class="fa fa-check"></i><b>13.1</b> What are metadata?</a></li>
-<li class="chapter" data-level="13.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#how-to-create-metadata"><i class="fa fa-check"></i><b>13.2</b> How to create metadata?</a>
-<ul>
-<li class="chapter" data-level="13.2.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#the-goals-in-creating-your-metadata"><i class="fa fa-check"></i><b>13.2.1</b> The goals in creating your metadata:</a></li>
-<li class="chapter" data-level="13.2.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#to-recap"><i class="fa fa-check"></i><b>13.2.2</b> To recap:</a></li>
-</ul></li>
+<li class="chapter" data-level="8.5" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#when-to-not-share"><i class="fa fa-check"></i><b>8.5</b> When to Not Share Data</a></li>
 </ul></li>
 <li class="part"><span><b>Data sharing Expectations</b></span></li>
-<li class="chapter" data-level="14" data-path="overview-of-the-dms-plan.html"><a href="overview-of-the-dms-plan.html"><i class="fa fa-check"></i><b>14</b> Overview of the DMS Plan</a></li>
+<li class="chapter" data-level="9" data-path="elements-of-the-dms-plan.html"><a href="elements-of-the-dms-plan.html"><i class="fa fa-check"></i><b>9</b> Elements of the DMS Plan</a></li>
+<li class="chapter" data-level="10" data-path="organizing-your-project.html"><a href="organizing-your-project.html"><i class="fa fa-check"></i><b>10</b> Organizing your project</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#learning-objectives-1"><i class="fa fa-check"></i><b>10.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="10.2" data-path="organizing-your-project.html"><a href="organizing-your-project.html#organizational-strategies"><i class="fa fa-check"></i><b>10.2</b> Organizational strategies</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#tips-for-organizing-your-project"><i class="fa fa-check"></i><b>10.2.1</b> Tips for organizing your project:</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="organizing-your-project.html"><a href="organizing-your-project.html#readings-about-organizational-strategies-for-data-science-projects"><i class="fa fa-check"></i><b>10.3</b> Readings about organizational strategies for data science projects:</a></li>
+<li class="chapter" data-level="10.4" data-path="organizing-your-project.html"><a href="organizing-your-project.html#get-the-exercise-project-files-or-continue-with-the-files-you-used-in-the-previous-chapter"><i class="fa fa-check"></i><b>10.4</b> Get the exercise project files (or continue with the files you used in the previous chapter)</a></li>
+<li class="chapter" data-level="10.5" data-path="organizing-your-project.html"><a href="organizing-your-project.html#exercise-organize-your-project"><i class="fa fa-check"></i><b>10.5</b> Exercise: Organize your project!</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html"><i class="fa fa-check"></i><b>11</b> Record keeping practices</a>
+<ul>
+<li class="chapter" data-level="11.0.1" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-work"><i class="fa fa-check"></i><b>11.0.1</b> <strong>Keep organized records of work</strong></a></li>
+<li class="chapter" data-level="11.0.2" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-communication"><i class="fa fa-check"></i><b>11.0.2</b> <strong>Keep organized records of communication</strong></a></li>
+<li class="chapter" data-level="11.0.3" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#use-reports"><i class="fa fa-check"></i><b>11.0.3</b> <strong>Use reports</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html"><i class="fa fa-check"></i><b>12</b> Creating clear documentation</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#characteristics-of-clear-documentation"><i class="fa fa-check"></i><b>12.1</b> Characteristics of clear documentation</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#is-easy-to-find"><i class="fa fa-check"></i><b>12.1.1</b> Is easy to find</a></li>
+<li class="chapter" data-level="12.1.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#is-comprehensive"><i class="fa fa-check"></i><b>12.1.2</b> Is comprehensive</a></li>
+<li class="chapter" data-level="12.1.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#data-formats-are-described"><i class="fa fa-check"></i><b>12.1.3</b> Data formats are described</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#types-of-documentation-you-should-have"><i class="fa fa-check"></i><b>12.2</b> Types of documentation you should have</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#readmes"><i class="fa fa-check"></i><b>12.2.1</b> READMEs!</a></li>
+<li class="chapter" data-level="12.2.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-write-a-readme-for-your-project"><i class="fa fa-check"></i><b>12.2.2</b> Exercise: Write a README for your project!</a></li>
+<li class="chapter" data-level="12.2.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#notebook-descriptions"><i class="fa fa-check"></i><b>12.2.3</b> Notebook descriptions</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#how-to-keep-your-documentation-up-to-date"><i class="fa fa-check"></i><b>12.3</b> How to keep your documentation up to date</a>
+<ul>
+<li class="chapter" data-level="12.3.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>12.3.1</b> The goal of documentation maintenance</a></li>
+<li class="chapter" data-level="12.3.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>12.3.2</b> Keep your documentation in one, version-controlled place</a></li>
+<li class="chapter" data-level="12.3.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>12.3.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
+<li class="chapter" data-level="12.3.4" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#make-sure-links-work"><i class="fa fa-check"></i><b>12.3.4</b> Make sure links work</a></li>
+<li class="chapter" data-level="12.3.5" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#set-aside-time-to-do-maintenance"><i class="fa fa-check"></i><b>12.3.5</b> Set aside time to do maintenance</a></li>
+</ul></li>
+<li class="chapter" data-level="12.4" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>12.4</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
+<li class="chapter" data-level="12.5" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>12.5</b> Exercise 2: Implement a URL checker</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html"><i class="fa fa-check"></i><b>13</b> Collaborating with informatics experts</a>
+<ul>
+<li class="chapter" data-level="13.0.1" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#the-benefits-of-collaboration"><i class="fa fa-check"></i><b>13.0.1</b> The benefits of collaboration</a></li>
+<li class="chapter" data-level="13.0.2" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#potential-challenges"><i class="fa fa-check"></i><b>13.0.2</b> Potential challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html"><i class="fa fa-check"></i><b>14</b> Guidelines for Good Metadata</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#what-are-metadata"><i class="fa fa-check"></i><b>14.1</b> What are metadata?</a></li>
+<li class="chapter" data-level="14.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#how-to-create-metadata"><i class="fa fa-check"></i><b>14.2</b> How to create metadata?</a>
+<ul>
+<li class="chapter" data-level="14.2.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#the-goals-in-creating-your-metadata"><i class="fa fa-check"></i><b>14.2.1</b> The goals in creating your metadata:</a></li>
+<li class="chapter" data-level="14.2.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#to-recap"><i class="fa fa-check"></i><b>14.2.2</b> To recap:</a></li>
+</ul></li>
+</ul></li>
 <li class="part"><span><b>What is Data Sharing and Why is it Important?</b></span></li>
 <li class="chapter" data-level="15" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html"><i class="fa fa-check"></i><b>15</b> Computing Infrastructure</a>
 <ul>
 <li class="chapter" data-level="15.1" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-resources"><i class="fa fa-check"></i><b>15.1</b> Computing Resources</a>
 <ul>
 <li class="chapter" data-level="15.1.1" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#data-sizes"><i class="fa fa-check"></i><b>15.1.1</b> Data Sizes</a></li>
-<li class="chapter" data-level="15.1.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-capacity"><i class="fa fa-check"></i><b>15.1.2</b> Computing Capacity</a></li>
-<li class="chapter" data-level="15.1.3" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#file-sizes"><i class="fa fa-check"></i><b>15.1.3</b> File Sizes</a></li>
-<li class="chapter" data-level="15.1.4" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-options"><i class="fa fa-check"></i><b>15.1.4</b> Computing Options</a></li>
-<li class="chapter" data-level="15.1.5" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#conclusion"><i class="fa fa-check"></i><b>15.1.5</b> Conclusion</a></li>
+<li class="chapter" data-level="15.1.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#file-sizes"><i class="fa fa-check"></i><b>15.1.2</b> File Sizes</a></li>
+<li class="chapter" data-level="15.1.3" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-options"><i class="fa fa-check"></i><b>15.1.3</b> Computing Options</a></li>
 </ul></li>
 <li class="chapter" data-level="15.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#shared-computing-etiquette"><i class="fa fa-check"></i><b>15.2</b> Shared Computing Etiquette</a>
 <ul>
@@ -226,39 +250,39 @@
 <li class="chapter" data-level="15.2.17" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#prism"><i class="fa fa-check"></i><b>15.2.17</b> PRISM</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html"><i class="fa fa-check"></i><b>16</b> Data Storage and Data Repositories</a></li>
-<li class="chapter" data-level="17" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html"><i class="fa fa-check"></i><b>17</b> Data Management and Storage</a>
+<li class="chapter" data-level="16" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html"><i class="fa fa-check"></i><b>16</b> Data Storage and Data Repositories</a>
 <ul>
-<li class="chapter" data-level="17.1" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#data-storage-concerns"><i class="fa fa-check"></i><b>17.1</b> Data Storage Concerns</a></li>
-<li class="chapter" data-level="17.2" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#data-repositories"><i class="fa fa-check"></i><b>17.2</b> Data Repositories</a></li>
-<li class="chapter" data-level="17.3" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#considerations-for-human-data"><i class="fa fa-check"></i><b>17.3</b> Considerations for Human Data</a></li>
-<li class="chapter" data-level="17.4" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#no-existing-repository"><i class="fa fa-check"></i><b>17.4</b> No Existing Repository?</a></li>
-<li class="chapter" data-level="17.5" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#data-repositories-1"><i class="fa fa-check"></i><b>17.5</b> Data repositories</a>
+<li class="chapter" data-level="16.1" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-storage-concerns"><i class="fa fa-check"></i><b>16.1</b> Data Storage Concerns</a></li>
+<li class="chapter" data-level="16.2" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-repositories"><i class="fa fa-check"></i><b>16.2</b> Data Repositories</a></li>
+<li class="chapter" data-level="16.3" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#considerations-for-human-data"><i class="fa fa-check"></i><b>16.3</b> Considerations for Human Data</a></li>
+<li class="chapter" data-level="16.4" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#no-existing-repository"><i class="fa fa-check"></i><b>16.4</b> No Existing Repository?</a></li>
+<li class="chapter" data-level="16.5" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-repositories-1"><i class="fa fa-check"></i><b>16.5</b> Data repositories</a>
 <ul>
-<li class="chapter" data-level="17.5.1" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#genomic-data-repositories"><i class="fa fa-check"></i><b>17.5.1</b> Genomic Data Repositories</a></li>
-<li class="chapter" data-level="17.5.2" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#imaging-data-repositories"><i class="fa fa-check"></i><b>17.5.2</b> Imaging data repositories</a></li>
-<li class="chapter" data-level="17.5.3" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>17.5.3</b> Repositories for journal articles</a></li>
-<li class="chapter" data-level="17.5.4" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#small-datasets"><i class="fa fa-check"></i><b>17.5.4</b> Small datasets</a></li>
+<li class="chapter" data-level="16.5.1" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#genomic-data-repositories"><i class="fa fa-check"></i><b>16.5.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="16.5.2" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#imaging-data-repositories"><i class="fa fa-check"></i><b>16.5.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="16.5.3" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>16.5.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="16.5.4" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#small-datasets"><i class="fa fa-check"></i><b>16.5.4</b> Small datasets</a></li>
 </ul></li>
-<li class="chapter" data-level="17.6" data-path="data-management-and-storage.html"><a href="data-management-and-storage.html#finding-a-repository"><i class="fa fa-check"></i><b>17.6</b> Finding a repository</a></li>
+<li class="chapter" data-level="16.6" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#finding-a-repository"><i class="fa fa-check"></i><b>16.6</b> Finding a repository</a></li>
 </ul></li>
-<li class="chapter" data-level="18" data-path="data-submission-tips.html"><a href="data-submission-tips.html"><i class="fa fa-check"></i><b>18</b> Data Submission Tips</a>
+<li class="chapter" data-level="17" data-path="data-submission-tips.html"><a href="data-submission-tips.html"><i class="fa fa-check"></i><b>17</b> Data Submission Tips</a>
 <ul>
-<li class="chapter" data-level="18.0.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>18.0.1</b> Use consistent and clear names</a></li>
-<li class="chapter" data-level="18.0.2" data-path="data-submission-tips.html"><a href="data-submission-tips.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>18.0.2</b> Make your project reproducible</a></li>
-<li class="chapter" data-level="18.0.3" data-path="data-submission-tips.html"><a href="data-submission-tips.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>18.0.3</b> Have someone else review your code and data!</a></li>
-<li class="chapter" data-level="18.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>18.1</b> Health care data sharing tools</a>
+<li class="chapter" data-level="17.0.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>17.0.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="17.0.2" data-path="data-submission-tips.html"><a href="data-submission-tips.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>17.0.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="17.0.3" data-path="data-submission-tips.html"><a href="data-submission-tips.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>17.0.3</b> Have someone else review your code and data!</a></li>
+<li class="chapter" data-level="17.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>17.1</b> Health care data sharing tools</a>
 <ul>
-<li class="chapter" data-level="18.1.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>18.1.1</b> REDCap (Research Electronic Data Capture)</a></li>
+<li class="chapter" data-level="17.1.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>17.1.1</b> REDCap (Research Electronic Data Capture)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
-<li class="chapter" data-level="19" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>19</b> References</a></li>
+<li class="chapter" data-level="18" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>18</b> References</a></li>
 <li class="divider"></li>
 <p style="text-align:center;"> <a href="https://github.com/fhdsl/Data_Management_and_Sharing" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
 <p style="text-align:center;"> <a href="https://hutchdatascience.org/"> The Fred Hutch Data Science Lab </a></p>
 <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
 <p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/W6Mg4rzuMK6Yk3Am8"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+
 </ul>
 
       </nav>
@@ -268,7 +292,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Documentation maintenance</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Proactive Data Management and Sharing</a>
           </h1>
         </div>
 
@@ -293,118 +317,52 @@
 <div id="computing-resources" class="section level2 hasAnchor" number="15.1">
 <h2><span class="header-section-number">15.1</span> Computing Resources<a href="computing-infrastructure.html#computing-resources" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this chapter we will describe the basics about data size and computing capacity. We will discuss the computing and storage requirements for many types of cancer related data, as well as options to perform informatics work that might require more intensive computing capacity than your personal computer.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_9.png" alt="Learning Objectives: 1. Name units of size for binary data, 2. State the computing and storage capacity of typical computers today, 3. Determine the range of storage and computing capacity required for various bioinformatics studies, 4. Recognize different methods for performing intensive computations or storing large data, 5. Explain how server and cloud computing works" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf96b1d997a_0_9.png" alt="Learning Objectives: 1. Name units of size for binary data, 2. State the computing and storage capacity of typical computers today, 3. Determine the range of storage and computing capacity required for various bioinformatics studies, 4. Recognize different methods for performing intensive computations or storing large data, 5. Explain how server and cloud computing works" width="100%" style="display: block; margin: auto;" /></p>
 <div id="data-sizes" class="section level3 hasAnchor" number="15.1.1">
 <h3><span class="header-section-number">15.1.1</span> Data Sizes<a href="computing-infrastructure.html#data-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Recall that the smallest unit of data is a bit which is either a zero or a one. A group of 8 bits is called a byte, and most computers and phones, and software programs are constructed or designed in a way to accommodate groups of bytes at a time. For example a 32-bit machine can work with 4 bytes at a time and a 64-bit can work with 8 bytes at a time. But how big is a file that is 2 GB? When we sequence a genome, how large is that in terms of binary data? Can our local computer work with the size of data that we would like to work with?</p>
 <p>First let’s take a look at how the size of binary data is typically described and what this actually means in terms of bits and bytes:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb6624a387_0_1.png" alt="Cartoon - One character says:Hey I'm so stoked. I have a super cool computer now, it has yodabytes. The other character says: Do you mean yottabytes. The original character says: Nope, I have lots of files about Yoda! The other character says: Oh dear..." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb6624a387_0_1.png" alt="Cartoon - One character says:Hey I'm so stoked. I have a super cool computer now, it has yodabytes. The other character says: Do you mean yottabytes. The original character says: Nope, I have lots of files about Yoda! The other character says: Oh dear..." width="100%" style="display: block; margin: auto;" /></p>
 <p>Now that we know how to describe binary data sizes, let’s next think about how much computing capacity typical computers have today.</p>
 </div>
-<div id="computing-capacity" class="section level3 hasAnchor" number="15.1.2">
-<h3><span class="header-section-number">15.1.2</span> Computing Capacity<a href="computing-infrastructure.html#computing-capacity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We have discussed a bit about CPUs and how they can help us perform more than one task at a time, but how many tasks can the CPU of an average computer do simultaneously these days? How much memory and storage do they typically have? What size of files can a typical computer handle? This information is sometimes called the <strong>specs</strong> of a computer.</p>
-<p>These values will probably change very soon, and different computers vary widely, but currently:</p>
-<ul>
-<li><strong>Laptops</strong> can often perform 4-8 CPU tasks at once, and typically range from 4-16 GB in memory and 250 GB-1 TB of storage.</li>
-</ul>
-<p>This means that typical laptops can multitask quite well, have in some cases 16 gigabytes for random access memory to allow the CPU to work on relatively large tasks (as we can see from the previous table that GB are actually pretty large when you think about it), and possibly 1TB for the hard drive (and or SSD), meaning that you can store thousands of photos and files like PDFs, word documents etc. It turns out that you can store around 30,000 average size photos with 250GB, so a 1TB laptop can store quite a bit of data. Therefore overall, typical laptops today are pretty powerful compared to previous computers. Note that some programs require 16 or even 32 GB of memory to run.</p>
-<ul>
-<li><p><strong>Desktops</strong> can perform and store similarly and sometimes to a degree better than a laptop for a similar price. Since less work needs to be done to make the desktop small and portable, sometimes you can get better storage and performance for the same price as a laptop. However, desktops often have better graphics processing capacity and displays and that might make up for the price difference <span class="citation">(<a href="#ref-antonio_villas-boas_laptops_2019"><strong>antonio_villas-boas_laptops_2019?</strong></a>)</span>. This might be important to consider if you are going to need to visually inspect many images. Another benefit is that you can also sometimes find desktops with larger memory and storage options right off the shelf than typical laptops. It is also generally easier to add more memory to a desktop than it is to add to a laptop <span class="citation">(<a href="#ref-antonio_villas-boas_laptops_2019"><strong>antonio_villas-boas_laptops_2019?</strong></a>)</span>. However of course, desktops certainly aren’t super portable!</p></li>
-<li><p>Some <strong>phones</strong> can compete with laptops by performing 6 CPU tasks at once and storing 6 GB in memory and 250 GB of storage.</p></li>
-</ul>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g1084414e81e_0_0.png" alt="Cartoon - One character says: Hey, are you moving?. The other character says: Na, I’m just bringing my computer to work, I do it everyday. It shows the character with a wheel barrel with a desktop computer in it." width="100%" style="display: block; margin: auto;" /></p>
-<p>Check out this <a href="https://www.apple.com/mac/compare/?modelList=iMac,MacBook-Pro-14,MacBook-Pro-16-2021">link</a> to compare the prices of different macs and this <a href="https://www.hp.com/us-en/shop/slp/weekly-deals">link</a> to compare specs for PC computers from HP.</p>
-<p>If you want to get really in-depth comparisons for PC or windows machines, check out this <a href="https://www.userbenchmark.com/PCBuilder/Custom/S0-M1487712vsS0-M?tab=RAM">link</a> <span class="citation">(<a href="#ref-userbenchmark"><strong>userbenchmark?</strong></a>)</span>.</p>
-<div id="checking-your-computer-capacity---mac" class="section level4 hasAnchor" number="15.1.2.1">
-<h4><span class="header-section-number">15.1.2.1</span> Checking your computer capacity - Mac<a href="computing-infrastructure.html#checking-your-computer-capacity---mac" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>So what about your computer? How do you know how many cores it has or how much memory and storage it has?</p>
-<p>If you have a Mac, you can click on the apple symbol on the far left of your screen. Then click on the “About This Mac” button.</p>
-<p>You might see something like this:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_69.png" alt="Result of pressing `About this Mac` button of a typical Mac today" width="100%" style="display: block; margin: auto;" /></p>
-<p>First we see the operating system is called Mojave.
-Next we see that the processor (which we now know is the CPU) is a 2.6 GigaHertz (GHz) Intel Core i7 chip. This means that the processor or CPU can process 2,600,000,000 operations in a second (this is called a <a href="http://www.techopedia.com/definition/5498/clock-cycle">clock cycle</a>) <span class="citation">(<a href="#ref-clock_cycle"><strong>clock_cycle?</strong></a>)</span>. That’s a lot compared to older computers which had clock cycle rate or <a href="https://en.wikipedia.org/wiki/Clock_rate">clock rate</a> in the MegaHertz range in the 1980s <span class="citation">(<a href="#ref-clock_rate"><strong>clock_rate?</strong></a>)</span>!
-If we look up more about this chip we would learn that it has 4 cores and has hyper-threading, which allows it to effectively perform 8 tasks at once <span class="citation">(<a href="#ref-hyperthreading"><strong>hyperthreading?</strong></a>)</span>.
-Next we see that there is 16 Gigabytes of memory - this is how much RAM it has and also 2133 MegaHertz (aka 2.133 GHz) of low power double data rate random access memory (LPDDR3), this means that the RAM can process 2,133,000,000 commands every second <span class="citation">(<a href="#ref-RAM_speed"><strong>RAM_speed?</strong></a>; <a href="#ref-mukherjee_ram_2019"><strong>mukherjee_ram_2019?</strong></a>)</span>. If you are interested you can checkout more about what this means at this blog post <span class="citation">(<a href="#ref-scott_thornton_RAM"><strong>scott_thornton_RAM?</strong></a>)</span>. However, generally the amount of RAM is more important for assessing performance <span class="citation">(<a href="#ref-RAM_speed"><strong>RAM_speed?</strong></a>; <a href="#ref-mukherjee_ram_2019"><strong>mukherjee_ram_2019?</strong></a>)</span>.</p>
-<p>If we click on the storage button at the top, we can learn about how much storage is available on the computer. If you hover over a section, it tells you what file are accounting for that section of storage that is already being used.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_80.png" alt="Mac storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="checking-your-computer-capacity---windowspc" class="section level4 hasAnchor" number="15.1.2.2">
-<h4><span class="header-section-number">15.1.2.2</span> Checking your computer capacity - Windows/PC<a href="computing-infrastructure.html#checking-your-computer-capacity---windowspc" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>If you have a PC or Windows computer, the steps may vary depending on your operating system, but try the following:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_96.png" alt="Windows/PC Start button" width="100%" style="display: block; margin: auto;" /></p>
-<ol style="list-style-type: decimal">
-<li>click the “Start” button - which looks like 4 squares together</li>
-<li>click “Settings” button (gear-shaped)</li>
-<li>click “System”</li>
-<li>click “About”</li>
-</ol>
-<p>See this <a href="https://www.businessinsider.com/how-to-find-computer-specs-windows-10">link</a> for more information.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_90.png" alt="Windows/PC about section" width="100%" style="display: block; margin: auto;" /></p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_107.png" alt=" Example of a Windows/PC computer processor and memory information" width="100%" style="display: block; margin: auto;" /></p>
-<p>Here we can see that this computer has an Intel(R) Core(TM) i7-4790K CPU @ 4.00 GHz 4.00 GHz chip and 16 Gigabytes of RAM.
-If we look up this chip we can see that it has 4 cores and 8 threads (due to hyper-threading) allowing for 8 tasks at a time.</p>
-<p>To find out more information about your storage click the “Storage” button within the “System” tab.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_114.png" alt="Windows/PC storage information showing 1 TB capactity" width="100%" style="display: block; margin: auto;" /></p>
-<p>Here we can see that this computer has 466 GB + 465 GB = 932 GB across the two drives. The C drive is typically for the operating system, and the D drive is typically where you would install application programs and save files. There are 1000 GB in a TB, thus, this computer has about the same storage as the Mac that we just looked at.</p>
-</div>
-</div>
-<div id="file-sizes" class="section level3 hasAnchor" number="15.1.3">
-<h3><span class="header-section-number">15.1.3</span> File Sizes<a href="computing-infrastructure.html#file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="file-sizes" class="section level3 hasAnchor" number="15.1.2">
+<h3><span class="header-section-number">15.1.2</span> File Sizes<a href="computing-infrastructure.html#file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Now let’s think about the files that we might need for our research, how big are files typically for genomic, imaging, and clinical research?</p>
-<p>Recall this table from earlier about digital data size units:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
-<div id="genomic-data-file-sizes" class="section level4 hasAnchor" number="15.1.3.1">
-<h4><span class="header-section-number">15.1.3.1</span> Genomic data file sizes<a href="computing-infrastructure.html#genomic-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_8.png" alt="Table of different binary data units showing the name, abbreviation, and size in bits or bytes, for example a Byte is abbreviated as B and this represents 8 bits, while Gigabyte is abbreviated GB and represents roughly 1 billion bytes" width="100%" style="display: block; margin: auto;" /></p>
+<div id="genomic-data-file-sizes" class="section level4 hasAnchor" number="15.1.2.1">
+<h4><span class="header-section-number">15.1.2.1</span> Genomic data file sizes<a href="computing-infrastructure.html#genomic-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Genomic data files can be quite large and can require quite a bit of storage and processing power.</p>
 <p>Here is an image of sizes of some common file types:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_0.png" alt="Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_0.png" alt="Table of file types for genomics data, whole genome sequencing can become larger than the capacity of your computer with less than 20 samples! Even whole exome sequenceing can already require more than 44% of a 1TB hard drive for just 20 samples. Note that these are approximate values." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="imaging-data-file-sizes" class="section level4 hasAnchor" number="15.1.3.2">
-<h4><span class="header-section-number">15.1.3.2</span> Imaging Data File Sizes<a href="computing-infrastructure.html#imaging-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="imaging-data-file-sizes" class="section level4 hasAnchor" number="15.1.2.2">
+<h4><span class="header-section-number">15.1.2.2</span> Imaging Data File Sizes<a href="computing-infrastructure.html#imaging-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Imaging data, although often smaller than genomic data, can start to add up quickly with more images and samples.</p>
-<p>Here is an table of average file sizes for various medical imaging modalities from <span class="citation">(<a href="#ref-liu_imaging_2017"><strong>liu_imaging_2017?</strong></a>)</span>:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_35.png" alt="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." width="100%" style="display: block; margin: auto;" />
+<p>Here is an table of average file sizes for various medical imaging modalities from <span class="citation">Liu et al. (<a href="#ref-liu_imaging_2017">2017</a>)</span>:</p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_35.png" alt="Table of file types for imaging data, most modalities have files in the range of MB to GB. Note that these are approximate values." width="100%" style="display: block; margin: auto;" />
 [<a href="https://www.mdpi.com/2078-2489/8/4/131">source</a>]</p>
 <p>Note that depending on the study requirements, several images may be needed for each sample. Thus data storage needs can add up quickly.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_25.png" alt="Example table of overall file storage needs for samples in imaging studies." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_25.png" alt="Example table of overall file storage needs for samples in imaging studies." width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="clinical-data-file-sizes" class="section level4 hasAnchor" number="15.1.3.3">
-<h4><span class="header-section-number">15.1.3.3</span> Clinical Data File Sizes<a href="computing-infrastructure.html#clinical-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="clinical-data-file-sizes" class="section level4 hasAnchor" number="15.1.2.3">
+<h4><span class="header-section-number">15.1.2.3</span> Clinical Data File Sizes<a href="computing-infrastructure.html#clinical-data-file-sizes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Really large clinical datasets can also produce sizable file sizes. For example the <a href="https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp">Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS)</a> contains data on more than seven million hospital stays in the United States with regional information.</p>
-<p>According to the NIS website it “enables analyses of rare conditions, uncommon treatments, and special populations” <span class="citation">(<a href="#ref-NIS"><strong>NIS?</strong></a>)</span>.</p>
-<p>Looking at the <a href="https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp">file sizes</a> for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB <span class="citation">(<a href="#ref-NIS"><strong>NIS?</strong></a>)</span>. You can see how this could add up across years and states quite quickly.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_42.png" alt="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="checking-file-sizes-on-mac" class="section level4 hasAnchor" number="15.1.3.4">
-<h4><span class="header-section-number">15.1.3.4</span> Checking file sizes on Mac<a href="computing-infrastructure.html#checking-file-sizes-on-mac" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>If you own a Mac and want to check the size of a particular file, look at your file within a finder window. You can open a new finder window by clicking on the button that looks like a square with two colors and a face, typically in the bottom left corner if your dock or the strip of icons on your screen to help you navigate to different application programs.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_120.png" alt="Mac finder button" width="100%" style="display: block; margin: auto;" />
-Once you open a finder window, you can navigate to one of your files.</p>
-<p>If you have the view setting that looks like 4 lines, you will get information about the size of each file.
-<img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_133.png" alt="Finder windows show file sizes on a Mac" width="100%" style="display: block; margin: auto;" /></p>
-<p>You can right click on a file and click the “Get Info” button. This will give your more specific information.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_128.png" alt="Right clicking on a file in the finder window can give you more info about a file." width="100%" style="display: block; margin: auto;" /></p>
-</div>
-<div id="checking-file-sizes-on-pcwindows" class="section level4 hasAnchor" number="15.1.3.5">
-<h4><span class="header-section-number">15.1.3.5</span> Checking file sizes on PC/Windows<a href="computing-infrastructure.html#checking-file-sizes-on-pcwindows" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>In a similar manner to checking file sizes on a Mac, with a Windows or PC computer, you can navigate to files by first opening the File Explorer application by typing this in the search bar next to the “start” button.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_139.png" alt="Finding the File Explorer on a Windows/PC computer" width="100%" style="display: block; margin: auto;" /></p>
-<p>Then navigate to a file of interest which will show information about the size in one of the columns to the right, if you hover over the file name, you will get more specific information.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_145.png" alt="File sizes are listed for each file within File Explorer windows on Windows/PC computers" width="100%" style="display: block; margin: auto;" /></p>
+<p>According to the NIS website it “enables analyses of rare conditions, uncommon treatments, and special populations” <span class="citation">(<a href="#ref-NIS"><span>“<span>NIS</span> <span>Database</span> <span>Documentation</span>”</span> n.d.</a>)</span>.</p>
+<p>Looking at the <a href="https://www.hcup-us.ahrq.gov/db/state/sedddist/sedddist_filesize.jsp">file sizes</a> for the NIS data for different states across years, you can see that there are files for some states, such as California as large as 24,000 MB or 2.4 GB <span class="citation">(<a href="#ref-NIS"><span>“<span>NIS</span> <span>Database</span> <span>Documentation</span>”</span> n.d.</a>)</span>. You can see how this could add up across years and states quite quickly.</p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_42.png" alt="Table of file sizes for the Healthcare Cost and Utilization Project (HCUP) National (Nationwide) Inpatient Sample (NIS) of data from different years and states." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 </div>
-<div id="computing-options" class="section level3 hasAnchor" number="15.1.4">
-<h3><span class="header-section-number">15.1.4</span> Computing Options<a href="computing-infrastructure.html#computing-options" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="personal-computers" class="section level4 hasAnchor" number="15.1.4.1">
-<h4><span class="header-section-number">15.1.4.1</span> <strong>Personal computers</strong><a href="computing-infrastructure.html#personal-computers" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="computing-options" class="section level3 hasAnchor" number="15.1.3">
+<h3><span class="header-section-number">15.1.3</span> Computing Options<a href="computing-infrastructure.html#computing-options" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="personal-computers" class="section level4 hasAnchor" number="15.1.3.1">
+<h4><span class="header-section-number">15.1.3.1</span> <strong>Personal computers</strong><a href="computing-infrastructure.html#personal-computers" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>These are computers that your lab might own, such as a laptop, a desktop, used by one individual or maybe just a few individuals in your lab.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_3.png" alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_3.png" alt="A computer chip is also called the CPU. Inside this CPU or chip  are often multiple cores, which are actually individual CPUs." width="100%" style="display: block; margin: auto;" /></p>
 <p>If you are not performing intensive computational tasks, it is possible that you will only need personal computers for your lab. However, you may find that this changes, and you might require connecting your personal computers to shared computers for more computational power and or storage.</p>
 </div>
-<div id="shared-computing-resources" class="section level4 hasAnchor" number="15.1.4.2">
-<h4><span class="header-section-number">15.1.4.2</span> <strong>Shared Computing Resources</strong><a href="computing-infrastructure.html#shared-computing-resources" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="shared-computing-resources" class="section level4 hasAnchor" number="15.1.3.2">
+<h4><span class="header-section-number">15.1.3.2</span> <strong>Shared Computing Resources</strong><a href="computing-infrastructure.html#shared-computing-resources" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>What if you decide that you do need more computational power than your personal computer? You may encounter times where certain informatics tasks take way too long or are not even possible. Evaluating the potential file sizes of the data that you might be working with is a good place to start. However, keep in mind that sometimes certain computations may require more memory than you expect. This is particularly true when working with genomic or image files which are often compressed. So what can you do when you face this issue?</p>
 <p>One great option, which can be quite affordable is using a server.</p>
 <p>In terms of hardware, the term <a href="https://techterms.com/definition/server">server</a> means a computer (often a computer that has much more storage and computing capacity than a typical computer) or groups of computers that can be accessed by other computers using a local network or the internet to perform computations or store data <span class="citation">(<a href="#ref-server_def"><strong>server_def?</strong></a>)</span>. They are often shared by people, and allow users to perform more intensive computational tasks or store large amounts of data. Read <a href="https://en.wikipedia.org/wiki/Server_(computing)">here</a> to learn more <span class="citation">(<a href="#ref-server_2021"><strong>server_2021?</strong></a>)</span>.</p>
@@ -412,7 +370,7 @@ Once you open a finder window, you can navigate to one of your files.</p>
 <p>As an example use of a server, your lab members could connect to a server from their own computers to allow each of them more computational power. Typically computers that act as servers are set up a bit differently than our personal computers, as they do not need the same functionality and are designed to optimize data storage and computational power. For instance they often don’t have capabilities to support a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical user interface</a> (meaning the visual display output that you see on your personal computer) <span class="citation">(<a href="#ref-GUI"><strong>GUI?</strong></a>)</span>.</p>
 <p>Instead they are typically only accessed by using a <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a>, meaning that users write code instead of using buttons like they might for a program like Microsoft Word that uses a graphical user interface <span class="citation">(<a href="#ref-command-line_2022"><strong>command-line_2022?</strong></a>)</span>. In order to support this they have memory, processors or CPUs, and storage like your laptop.</p>
 <p>Here is what a server might look like:</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_58.png" alt="A physical server is a group of computers somewhere that connects to other computers. Such a server looks something like this." width="100%" style="display: block; margin: auto;" /></p>
 <p>In this case we have a group of computers making up this server. Here we see the nodes (the individual computers that make up the server) stacked in columns.</p>
 <p>Among shared computing resources/servers there are three major options:</p>
 <ul>
@@ -421,62 +379,50 @@ Once you open a finder window, you can navigate to one of your files.</p>
 <li><strong>Cloud</strong> - commercial or national resources</li>
 </ul>
 </div>
-<div id="computer-cluster" class="section level4 hasAnchor" number="15.1.4.3">
-<h4><span class="header-section-number">15.1.4.3</span> Computer Cluster<a href="computing-infrastructure.html#computer-cluster" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="computer-cluster" class="section level4 hasAnchor" number="15.1.3.3">
+<h4><span class="header-section-number">15.1.3.3</span> Computer Cluster<a href="computing-infrastructure.html#computer-cluster" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>In a <a href="https://en.wikipedia.org/wiki/Computer_cluster">computing cluster</a> several of the <strong>same</strong> type of computer (often in close proximity and connected by a local area network with actual cables or an <a href="https://www.igloosoftware.com/blog/internet-vs-intranet-vs-extranet-whats-the-difference/">intranet</a> rather than the internet) work together to perform pieces of the same single task simultaneously <span class="citation">(<a href="#ref-computer_cluster_2022"><strong>computer_cluster_2022?</strong></a>)</span>. The idea of performing multiple computations simultaneously is called <a href="https://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a> <span class="citation">(<a href="#ref-parallel_2021"><strong>parallel_2021?</strong></a>)</span>.</p>
 <p>There are different designs or architectures for clusters. One common one is the <a href="https://en.wikipedia.org/wiki/Beowulf_cluster">Beowulf cluster</a> in which a master computer (called front node or server node) breaks a task up into small pieces that the other computers (called <strong>client nodes</strong> or simply <strong>nodes</strong>) perform <span class="citation">(<a href="#ref-beowulf_2022"><strong>beowulf_2022?</strong></a>)</span>.</p>
 <p>For example, if a large file needs to be converted to a different format, <strong>pieces</strong> of the file will be converted simultaneously by the different nodes. Thus each node is performing the <strong>same task</strong> just with different pieces of the file. The user has to write code in a special way to specify that they want parallel processing to be used and how. See <a href="https://www.freecodecamp.org/news/how-to-supercharge-your-bash-workflows-with-gnu-parallel-53aab0aea141/">here</a> for an introduction about how this is done <span class="citation">(<a href="#ref-Zach_Caceres_GNU_Parallel_2019"><strong>Zach_Caceres_GNU_Parallel_2019?</strong></a>)</span>.</p>
 <p>It is important to realize that the CPUs in each of the node computers connected within a cluster are all performing a similar task simultaneously.</p>
 <p>See <a href="https://cs.wmich.edu/~elise/courses/cs626/s09/hussein/Parallel_and_Cluster_Computing.pdf">here</a> for more information <span class="citation">(<a href="#ref-de_doncker"><strong>de_doncker?</strong></a>)</span>.</p>
 </div>
-<div id="computer-grid" class="section level4 hasAnchor" number="15.1.4.4">
-<h4><span class="header-section-number">15.1.4.4</span> Computer Grid<a href="computing-infrastructure.html#computer-grid" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="computer-grid" class="section level4 hasAnchor" number="15.1.3.4">
+<h4><span class="header-section-number">15.1.3.4</span> Computer Grid<a href="computing-infrastructure.html#computer-grid" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>In a <a href="https://hazelcast.com/glossary/grid-computing/">computing grid</a> are often <strong>different</strong> types of computers in <strong>different</strong> locations work towards an overall common goal by performing <strong>different</strong> tasks <span class="citation">(<a href="#ref-grid"><strong>grid?</strong></a>)</span>.</p>
 <p>Again, just like computer clusters, there are many types of architectures that can be rather simple to very complex. For example you can think of different universities collaborating to perform different computations for the same project. One university might perform computations using gene expression data about a particular population, while another performs computations using data from another population. Importantly each of these universities might use clusters to perform their specific task.</p>
 <p>Both grids and clusters use a special type of software called middleware to coordinate the various computers involved.
 Users need to write their scripts in a way that can be performed by multiple computers simultaneously. Users also need to be conscious of how to schedule their tasks and to follow the rules and etiquette of the specific cluster or grid that they are sharing (more on that soon!).</p>
 <p>See <a href="https://pediaa.com/difference-between-cluster-and-grid-computing/">here</a> and <a href="https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/">here</a>for more information about the difference between clusters and grids <span class="citation">(<a href="#ref-lithmee_difference_2018"><strong>lithmee_difference_2018?</strong></a>; <a href="#ref-grid_cluster_difference_2019"><strong>grid_cluster_difference_2019?</strong></a>)</span>.</p>
 </div>
-<div id="cloud-computing" class="section level4 hasAnchor" number="15.1.4.5">
-<h4><span class="header-section-number">15.1.4.5</span> “Cloud” computing<a href="computing-infrastructure.html#cloud-computing" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="cloud-computing" class="section level4 hasAnchor" number="15.1.3.5">
+<h4><span class="header-section-number">15.1.3.5</span> “Cloud” computing<a href="computing-infrastructure.html#cloud-computing" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>More recently, the <a href="https://en.wikipedia.org/wiki/Cloud_computing">“Cloud”</a> has become a common computing option. The term “cloud” has become a widely used buzzword <span class="citation">(<a href="#ref-cha_cloud_2015"><strong>cha_cloud_2015?</strong></a>)</span> that actually has a few slightly different definitions that have changed overtime, making it a bit tricky to keep track of. However, the “cloud” is typically meant to describe large computing resources that involve the connection of <strong>multiple servers</strong> in multiple locations to one another <span class="citation">(<a href="#ref-cloud_2022"><strong>cloud_2022?</strong></a>)</span> using the internet. See <a href="https://www.redhat.com/en/topics/cloud-computing/cloud-vs-virtualization">here</a> for a deeper description of what the term cloud means today and how it compares to other more traditional shared computing options <span class="citation">(<a href="#ref-cloud_deeper"><strong>cloud_deeper?</strong></a>)</span>.</p>
 <p>Many of us use cloud storage regularly for Google Docs and backing up photos using iPhoto and Google. Cloud computing for research works in a similar way to these systems, in that you can perform computations or store data using an available server that is part of a larger network of servers. This allows for even more computational dependability beyond a more simple cluster or grid. Even if one or multiple servers is down, you can often still use the other servers for the computations that you might need.</p>
 <p>Furthermore, this also allows for more opportunity to scale your work to a larger extent, as there is generally more computing capacity possible with most cloud resources <span class="citation">(<a href="#ref-cloudvstrad"><strong>cloudvstrad?</strong></a>)</span>.</p>
 <p>Companies like Amazon, Google, Microsoft Azure, and others provide cloud computing resources. <strong>Somewhere these companies have clusters of computers that paying customers use through the internet.</strong> In addition to these commercial options, there are newer national government funded resource options like <a href="https://portal.xsede.org/jetstream">Jetstream</a> (described in the next section). We will compare computing options in another chapter coming up.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" alt="Cloud computing options" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_28.png" alt="Cloud computing options" width="100%" style="display: block; margin: auto;" /></p>
 </div>
-<div id="accessing-shared-computer-resources" class="section level4 hasAnchor" number="15.1.4.6">
-<h4><span class="header-section-number">15.1.4.6</span> Accessing Shared Computer Resources<a href="computing-infrastructure.html#accessing-shared-computer-resources" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="accessing-shared-computer-resources" class="section level4 hasAnchor" number="15.1.3.6">
+<h4><span class="header-section-number">15.1.3.6</span> Accessing Shared Computer Resources<a href="computing-infrastructure.html#accessing-shared-computer-resources" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>It’s important to remember that all of the shared computing options that we previously described involve a <a href="https://en.wikipedia.org/wiki/Data_center">data center</a> where are large number of computers are physically housed.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_23.png" alt="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_23.png" alt="Examples of servers or shared computers include clusters  that may exist at your institution or national computing resources like Xsede." width="100%" style="display: block; margin: auto;" /></p>
 <p>You may have access to a <a href="https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster">HPC (which stands for High Performance Computing) cluster</a> at your institute. This can be a great cost-effective and typically secure option.</p>
 <p>If your university or institution has a HPC <a href="https://en.wikipedia.org/wiki/Computer_cluster">cluster</a>, this means that they have a group of computers acting like a server that people can use to store data or assist with intensive computations. Often institutions can support the cost of many computers within an HPC cluster. This means that multiple computers will simultaneously perform different parts of the computing required for a given task, thus significantly speeding up the process compared to you trying to perform the task on just your computer!</p>
 <p>If your institute doesn’t have a shared computing resource like the HPCs we just described, you could also consider a national resource option like <a href="https://www.xsede.org/">Xsede</a>.
 <a href="https://www.xsede.org/">Xsede</a> is led by the University of Illinois National Center for Supercomputing Applications (NCSA) and includes 18 other partnering institutions (which are mostly other universities). Through this partnership, they currently support 16 supercomputers. Universities and non-profit researchers in the United States can request access to their computational and data storage resources. See <a href="https://portal.xsede.org/allocations/resource-info">here</a> for descriptions of the available resources.</p>
-<p>Here you can see a photo of Stampede2, one of the supercomputers that members of Xsede can utilize.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf9c252d058_0_63.png" alt="An image of Stampede2 one of the supercomputers that members of Xsede can use." width="100%" style="display: block; margin: auto;" /></p>
-<p>[<a href="https://www.xsede.org/ecosystem/resources">source</a>]</p>
+<p>[<a href="https://software.xsede.org/xsede-software-services">source</a>]</p>
 <blockquote>
 <p>Stampede2, generously funded by the National Science Foundation (NSF) through award ACI-1134872, is one of the Texas Advanced Computing Center (TACC), University of Texas at Austin’s flagship supercomputers.</p>
 </blockquote>
-<p>See <a href="https://portal.xsede.org/tacc-stampede2">here</a> for more information about how you could possibly connect to and utilize Stampede2.</p>
-<p>Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources. We will discuss this more in a coming chapter.</p>
-<p>However, there is also now an option to access the different XSEDE computing resources through a cloud environment option called <a href="https://jetstream-cloud.org/">Jetstream2</a>.</p>
-<p>Here is a video about Jetstream2:</p>
-<iframe src="https://www.youtube.com/embed/NQ3flxJANTw" width="100%" height="400px" data-external="1">
-</iframe>
-<p>We will also discuss how the use of these various computing options differ in the next chapters. Importantly there are also some computing platforms that have been especially designed for scientists and specific types of researchers, so it is also useful to know about these options.</p>
+<p>Importantly when you use shared computers like national resources like Stampede2 available through Xsede, as well as institutional HPCs, you will share these resources with many other people and so you need to learn the proper etiquette for using and sharing these resources.</p>
 </div>
-</div>
-<div id="conclusion" class="section level3 hasAnchor" number="15.1.5">
-<h3><span class="header-section-number">15.1.5</span> Conclusion<a href="computing-infrastructure.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We hope that this chapter has given you some more perspective on how large medical research data files can be, as well as given you more familiarity with how well your computer might be able to accommodate the files that you might work with. We also hope that this chapter has provided you with some more awareness about computing options that might be available to you, should you need more capacity than your current computer.</p>
 </div>
 </div>
 <div id="shared-computing-etiquette" class="section level2 hasAnchor" number="15.2">
 <h2><span class="header-section-number">15.2</span> Shared Computing Etiquette<a href="computing-infrastructure.html#shared-computing-etiquette" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this chapter we will discuss the proper etiquette for using more traditional shared computing resources, such as an institutional high performance computing cluster server. This will help you to understand what would be required for you to use such resources. Different resources will have slightly different use rules, however, many resources will share common usage requirements. The following is written based on personal experience, the <span class="citation">(<a href="#ref-doi_rules"><strong>doi_rules?</strong></a>)</span> and the <span class="citation">(<a href="#ref-JHPCE"><strong>JHPCE?</strong></a>)</span>.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_12.png" alt="Learning Objectives: 1. Describe why traditional shared computing resources need usage rules, 2. Define common best practices for proper etiquette on traditional shared computing resources" width="100%" style="display: block; margin: auto;" /></p>
 <p>We will use the Johns Hopkins Joint High Performance Computing Exchange (JHPCE) cluster resource as an example to motivate the need for usage rules and proper sharing etiquette for such resources.</p>
 <p>First let’s learn a bit about this JHPCE. For this particular resource there are about 400 active users.It is optimized for genomic and biomedical research and has 4,000 cores! That’s right, as you can imagine, this is much more powerful than the individual laptops and desktops that researchers at the university have for personal use, which would typically currently only have around 8 cores. There is also 28TB of RAM and 14 PB of storage!</p>
 <p>Now that you know more about digital sizes, you can appreciate that this server can allow for much faster processing and really large amounts of storage, as again a researchers’ computer might have something like 16 GB of RAM and 1TB of storage.</p>
@@ -489,15 +435,15 @@ Users need to write their scripts in a way that can be performed by multiple com
 <h4><span class="header-section-number">15.2.1.1</span> Security guidelines<a href="computing-infrastructure.html#security-guidelines" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>One major aspect to consider is keeping the computers in the cluster safe from harm. You wouldn’t want to lose your precious data stored on the cluster and neither would your colleagues!</p>
 <ul>
-<li>Use a good <a href="https://its.lafayette.edu/policies/strongpasswords/">secure password</a> that is not easy for someone else to guess.</li>
+<li>Use a good <a href="https://privsec.harvard.edu/use-strong-passwords">secure password</a> that is not easy for someone else to guess.</li>
 </ul>
 <p>Some people suggest using sentences that are easy for you to remember, you could consider a line of lyrics from song or poem that you like, or maybe a movie. Modify part of it to include symbols and numbers <span class="citation">(<a href="#ref-passwords"><strong>passwords?</strong></a>)</span>.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g11383d0152c_0_22.png" alt="Cartoon - One character says:I came up with the best password! It’s from Elton John’s Rocket Man song. And all this science I don’t understand It’s just my job five days a week A rocket man A rocket man. All the Os are zeros. The other character says: That is super good! But remember you aren’t supposed to share your passwords. Plus now all the readers of this chapter know too.The original character says: Oh shoot… you’re right. The other character says: It’s OK, sounds like you can come up with another." width="100%" style="display: block; margin: auto;" /></p>
 <ul>
 <li>Don’t share your password and keep it safe!</li>
 </ul>
 <p>If you have a Mac, you could consider storing it in your <a href="https://support.apple.com/en-ie/guide/mac-help/mchlf375f392/mac">Keychain</a>, alternatively if you have a different type of computer or don’t like the Mac Keychain, consider <a href="https://www.dashlane.com/">Dashlane</a> or other password manger services. Luckily both of these options do not come at any extra cost and can be helpful for storing all the passwords we use regularly safely. These are especially good options if your password is difficult for you to remember. Make sure that you abide by any rules regarding storing passwords that might be required by the resource you intend to use.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_g10e2895be5b_58_54.png" alt="Cartoon - One character says: Hey, what do you have there?. The other character says: Oh just bringing my passwords with me in case I forget. I’ve secured them carefully on paper with invisible ink, in a cypher with its own code, inside a fireproof box with a lock. The original character says: That’s very impressive. You could also just use a password manager. The other character says: Oh that might be good… because this fireproof box is quite heavy!" width="100%" style="display: block; margin: auto;" /></p>
 <ul>
 <li>Don’t access a server on a computer that is not authorized to do so.</li>
 </ul>
@@ -577,7 +523,7 @@ Users need to write their scripts in a way that can be performed by multiple com
 <h3><span class="header-section-number">15.2.3</span> Running Jobs<a href="computing-infrastructure.html#running-jobs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Typically a program is used to schedule jobs. Remember that jobs are the individual computational tasks that you ask the server to run. For example, this could be something as simple as moving large files from one directory to another or as complex as running a complicated script on a file.</p>
 <p>Such job scheduling programs assign jobs to available node resources as they become available and if they have the required resources to meet the job. These programs have their own commands for running jobs, checking resources, and checking jobs. Remember to use the management system to run your jobs using the compute nodes not the login nodes (nodes for users to log in). There are often nodes set up for transferring files as well.</p>
-<p>In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See <a href="https://jhpce.jhu.edu/wp-content/uploads/2021/06/JHPCE-Overview-2021-10.pdf">here</a> for more information on how people use SGE for the JHPCE shared resource.</p>
+<p>In the case of the JHPCE, a program called Sun Grid Engine (SGE) is used, but there are others job management programs. See <a href="https://jhpce.jhu.edu/orient/orientation-overview/">here</a> for more information on how people use SGE for the JHPCE shared resource.</p>
 <div id="specifying-memory-ram-needs" class="section level4 hasAnchor" number="15.2.3.1">
 <h4><span class="header-section-number">15.2.3.1</span> Specifying memory (RAM) needs<a href="computing-infrastructure.html#specifying-memory-ram-needs" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Often there is a default file size limit for jobs. For example the JHPCE has a 10GB file size limit for jobs. You may need to specify when you have a job using a file that exceeds the file size limit and set the file size for that job. As you may recall if you are using whole genome files you are likely to exceed the default file limit size. Often you are also given a default amount of RAM for your job as well. Again, you can typically run a job with more RAM if you specify. Similar to the file size limit, you will likely need to set the RAM that you will need for your job if it is above the default limit. Often this involves setting a lower and upper limit to the RAM that your job can use. If your job exceeds that amount of RAM it will be stopped. Typically people call stopping a job “killing” it. The lower and upper limit can be the same number.</p>
@@ -599,7 +545,7 @@ Users need to write their scripts in a way that can be performed by multiple com
 <div class="warning">
 <p>We highly suggest you also <strong>read the next chapter</strong>, which will point out important considerations to think about when deciding to work on a shared computing resource platform like those discussed in this chapter.</p>
 </div>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gf5f8818810_1_171.png" alt="Learning Objectives: 1.Recognize general informatics computing and data management platforms. 2.Be aware of differnt benefits of the various platforms" width="100%" style="display: block; margin: auto;" /></p>
 <p>The major advantage of these platforms is that users can analyze data where it lives, as many platforms host public data. However, some also allow you to upload your own data. There is less need for data transfers back and forth to your personal computer, as you can analyze your data, store your data and share it in one place, saving time. Users can sometimes also share how they did their analysis as well, improving reproducibility practices. Additionally, another advantage is that some of these platforms also provide educational material on how to work with data.</p>
 <p>Many offer a <a href="https://www.omnisci.com/technical-glossary/graphical-user-interface">graphical user interface</a> also simply called just graphical interface or GUI, allows for users to choose functions to perform by interacting with visual representations, which can be useful for individuals how are less comfortable writing code. They have a “user-centered” design that creates a visual environment where users can for example <strong>click on</strong> tabs, boxes, or icons for to perform functions. This also often allows users to more directly see plots and other types of visualizations.</p>
 <p>Some platforms also offer a <a href="https://searchwindowsserver.techtarget.com/definition/command-line-interface-CLI">command line interface</a> (also known as a character interface) which allows for software functions to be performed by specifying through commands written in text. This typically offers more control than a GUI, however command line interfaces are often less user friendly as they require that the user know the correct commands to use.</p>
@@ -622,15 +568,15 @@ Users need to write their scripts in a way that can be performed by multiple com
 </div>
 <div id="galaxy" class="section level4 hasAnchor" number="15.2.5.5">
 <h4><span class="header-section-number">15.2.5.5</span> Galaxy<a href="computing-infrastructure.html#galaxy" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>This section was written by <a href="https://goeckslab.org/people/jeremy.html">Jeremy Goecks</a>:</p>
+<p>This section was written by <a href="https://www.goeckslab.org/team/">Jeremy Goecks</a>:</p>
 <p>Galaxy is a web-based computational workbench that connects analysis tools, biomedical datasets, computing resources, a graphical user interface, and a programmatic API. Galaxy (<a href="https://galaxyproject.org/" class="uri">https://galaxyproject.org/</a>) enables accessible, reproducible, and collaborative biomedical data science by anyone regardless of their informatics expertise. There are more than 8,000 analysis tools and 200 visualizations integrated into Galaxy that can be used to process a wide variety of biomedical datasets. This includes tools for analyzing genomic, transcriptomic (RNA-seq), proteomic, metabolomic, microbiome, and imaging datasets, tool suites for single-cell omics and machine learning, and thousands of more tools. Galaxy’s graphical user interface can be used with only a web browser, and there is a programmatic API for performing scripted and automated analyses with Galaxy.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_131.png" alt="Galaxy can be accessed through a web browser and provides users with access to tools, datasets, computing resources, a graphical user interface (GUI) for users who would like to interact with Galaxy by clicking buttons and using drop-down menus and a programmtic API for users that would like to write code to interact with Galaxy" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_131.png" alt="Galaxy can be accessed through a web browser and provides users with access to tools, datasets, computing resources, a graphical user interface (GUI) for users who would like to interact with Galaxy by clicking buttons and using drop-down menus and a programmtic API for users that would like to write code to interact with Galaxy" width="100%" style="display: block; margin: auto;" /></p>
 <p>Galaxy is used daily by thousands of scientists across the world. A vibrant Galaxy community has deployed hundreds of Galaxy servers across the world, including more than 150 public and three large national/international servers in the United States, Europe, and Australia (<a href="https://usegalaxy.org" class="uri">https://usegalaxy.org</a>, <a href="https://usegalaxy.eu" class="uri">https://usegalaxy.eu</a>, <a href="https://usegalaxy.org.au" class="uri">https://usegalaxy.org.au</a>). The three national/international servers have more than 250,000 registered users who execute &gt;500,000 analysis jobs each month. Galaxy has been cited more than 10,000 times with &gt;20% from papers related to cancer. The Galaxy Tool Shed (<a href="https://usegalaxy.org/toolshed" class="uri">https://usegalaxy.org/toolshed</a>) provides a central location where developers can upload tools and visualizations and users can search and install tools and visualizations into any Galaxy server. Galaxy has a large presence in the cancer research community. Galaxy serves as an integration and/or analysis platform for 7 projects in the NCI ITCR program. There is also increasing use of Galaxy in key NIH initiatives such as the NCI Cancer Moonshot Human Tumor Atlas Network (HTAN) and the NHGRI Data Commons, called the AnVIL (<a href="https://anvilproject.org/" class="uri">https://anvilproject.org/</a>).</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_135.png" alt="Map of the 3 Galaxy servers" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_135.png" alt="Map of the 3 Galaxy servers" width="100%" style="display: block; margin: auto;" /></p>
 <p>Galaxy’s user interface, accessible via a web browser, provides access to all Galaxy functionality. The main Galaxy interface has three panels: available tools (left), running analyses and viewing data (middle), and a full history of tools run and datasets generated (right).</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_111.png" alt="Galaxy user interface showing the 3 panels: left = tools, middle = analysis and data, and right = history and generated datasets" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_111.png" alt="Galaxy user interface showing the 3 panels: left = tools, middle = analysis and data, and right = history and generated datasets" width="100%" style="display: block; margin: auto;" /></p>
 <p>Datasets for analysis in Galaxy can be <strong>uploaded</strong> from a laptop or desktop computer or obtained from public data repositories connected to Galaxy. With Galaxy, complex workflows composed of tens or even hundreds of analysis tools can be created and run. In Galaxy’s workflow interface, tools can be added and connected via a simple drag-and-drop approach.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_141.png" alt="Galaxy workflow example showing the beginning steps of a workflow" width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfb2e21ecdc_0_141.png" alt="Galaxy workflow example showing the beginning steps of a workflow" width="100%" style="display: block; margin: auto;" /></p>
 <p>Galaxy users can share all their work—analysis histories, workflows, and visualizations—via simple URLs that are available to specific colleagues or a link that anyone can access. Galaxy’s user interface is highly scalable. Tens, hundreds, or even thousands of datasets can be grouped into collections and run in parallel using individual tools or multi-tool workflows. In summary, Galaxy is a popular computational workbench with tools and features for a wide variety of data analyses, and it has broad usage in cancer data analysis.</p>
 <p>See <a href="https://toolshed.g2.bx.psu.edu/">here</a> for the list of applications supported by Galaxy and <a href="https://training.galaxyproject.org/">here</a> for more information on how to use Galaxy resources.</p>
 </div>
@@ -655,9 +601,9 @@ Users need to write their scripts in a way that can be performed by multiple com
 </div>
 <div id="cyverse" class="section level3 hasAnchor" number="15.2.7">
 <h3><span class="header-section-number">15.2.7</span> CyVerse<a href="computing-infrastructure.html#cyverse" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><a href="https://cyverse.rocks/about">CyVerse</a> is a similar computing platform that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called <a href="https://cyverse.org/refocusing-atmosphere-to-support-cloud-native-development">Atmosphere</a>, which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with <a href="https://jetstream-cloud.org/">Jetstream</a>. This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See <a href="https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications">here</a> for a list of applications that are supported by CyVerse. Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.</p>
-<p>See <a href="https://learning.cyverse.org/en/latest/">here</a> to learn more.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_0.png" alt="CyVerse graphical interface for performing analyses" width="100%" style="display: block; margin: auto;" /></p>
+<p><a href="https://cyverse.rocks/about">CyVerse</a> is a similar computing platform that also offers computing resources for storing, sharing, and working with data with a graphical interface, as well as an API. Computing was previously offered using the cloud computing platform from CyVerse called <a href="https://cyverse.org/news/refocusing-atmosphere-support-cloud-native-development">Atmosphere</a>, which relied on users using virtual machines. Users will now use a new version of Atmosphere with partnership with <a href="https://jetstream-cloud.org/">Jetstream</a>. This allows users to use containers for easier collaboration and also offers US users more computing power and storage. Originally called iPlant Collaborative, it was started by a funding from the National Science Foundation (NSF) to support life sciences research, particularly to support ecology, biodiversity, sustainability, and agriculture research. It is led by the University of Arizona, the Texas Advanced Computing Center, and Cold Spring Harbor Laboratory. It offers access to an environment for performing analyses with Jupyter (for Python mostly) and RStudio (for R mostly) and a variety of tools for Genomic data analysis. See <a href="https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications">here</a> for a list of applications that are supported by CyVerse. Note that you can also install tools on both platforms. Both CyVerse and Galaxy offer lots of helpful documentation, to help users get started with informatics analyses.</p>
+<p>See <a href="https://learning.cyverse.org/">here</a> to learn more.</p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_0.png" alt="CyVerse graphical interface for performing analyses" width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="sciserver" class="section level3 hasAnchor" number="15.2.8">
 <h3><span class="header-section-number">15.2.8</span> SciServer<a href="computing-infrastructure.html#sciserver" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -665,12 +611,12 @@ Users need to write their scripts in a way that can be performed by multiple com
 <p>The main idea of SciServer, is based on this premise: “bring the analysis to the data”. It is free to use after users register. However, users can buy extra resources. Users can keep data private or share their data.</p>
 <p>As compared to Galaxy, this resources may be better for users with a bit more familiarity with informatics but who require more flexibility, particularly for working with collaborators such as physicists or material scientists as there are more tools supported across disciplines. In addition it also gives users access to very large data sets on Petabyte-scale (note that some of these require special permission to use) and supports developers to create their own web interfaces called SciUIs for particular use cases.</p>
 <p>For <span class="citation">(<a href="#ref-sciserver_2020"><strong>sciserver_2020?</strong></a>)</span> for more information.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_13.png" alt="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_13.png" alt="The SciServer dashboard allows users to interact with the various resources and tools available through SciServer. Most are available through the command line but some have user interface options. Jupyter Notebooks, RStudio and SciUIs (interfaces created by other SciServer users) can be used to interactively explore and analyze data by users." width="100%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="materials-cloud" class="section level3 hasAnchor" number="15.2.9">
 <h3><span class="header-section-number">15.2.9</span> Materials Cloud<a href="computing-infrastructure.html#materials-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Another resource that might be of interest to Python users, particular those who collaborate with material scientists, is Materials Cloud. It is designed to promote reproducible work, collaboration, and sharing of resources among scientists, particularly for simulations for the materials science field. Users can share data in a citable way, download data, upload data, share workflows, and perform analyzes.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_6.png" alt="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd56752f25_0_6.png" alt="Materials Cloud resources are based on allowing users to Learn about resources, Work using the resources, Discover aspects about data that is available, Explore data with interactive graphs, and archive to store and share data." width="100%" style="display: block; margin: auto;" /></p>
 <p>This resource uses <a href="https://www.materialscloud.org/work/aiidalab">AiiDAlab</a> as the computing environment for researchers, which is based on <a href="https://www.nature.com/articles/s41597-020-00638-4">AiiDA</a>. According to their website:</p>
 <blockquote>
 <p>AiiDAlab builds on <a href="https://www.nature.com/articles/s41597-020-00638-4">AiiDA</a> as the computational workflow engine, and the Jupyter environment (notebooks, widgets, …) for writing and sharing apps</p>
@@ -714,7 +660,7 @@ Users need to write their scripts in a way that can be performed by multiple com
 <div id="ohif" class="section level3 hasAnchor" number="15.2.16">
 <h3><span class="header-section-number">15.2.16</span> OHIF<a href="computing-infrastructure.html#ohif" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <a href="https://ohif.org">open health imaging foundation (OHIF)</a> is a web-based imaging analysis platform that is widely used, particularly for radiology analysis, but it also supports whole-slide microscopy image analysis. It was developed by <a href="https://ohif.org/team/">Gordon Harris</a> et al. and can be used for a variety of applications from cardiology to veterinary medicine. Check out these <a href="https://ohif.org/examples">example use cases</a> of OHIF. OHIF also provides thorough documentation with images and videos about how to use the image viewer and tools available.</p>
-<p><img src="13-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" alt="The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" /></p>
+<p><img src="14-computing-infrastructure_files/figure-html/1B4LwuvgA6aUopOHEAbES1Agjy7Ex2IpVAoUIoBFbsq0_gfd8d3f477a_159_2.png" alt="The OHIF image viewer (center) includes a tool bar for to modify the viewing and annotation of images (above center), a menu on the left to access images related to the current patient in other studies, and a menu on the right for making measurements and exporting measurement reports." width="100%" style="display: block; margin: auto;" /></p>
 <p>For those interested, Gordon Harris and others are also working on a project called <a href="https://docs.cornerstonejs.org/">Cornerstone</a>, with the goal of providing software for others to display medical images in web browsers.</p>
 </div>
 <div id="prism" class="section level3 hasAnchor" number="15.2.17">
@@ -725,11 +671,17 @@ Users need to write their scripts in a way that can be performed by multiple com
 <p>It is designed to collect, curate and manage Radiology and Pathology images, clinical information associated with those images, annotations and image derived feature sets. PRISM is designed to run on a Kubernettes cluster, but all of the components are containerized so they can run stand-alone or in an alternate orchestration framework.</p>
 </blockquote>
 <p>See this <a href="https://ascopubs.org/doi/full/10.1200/CCI.20.00001">article</a> for more information.</p>
-<div class="disclaimer">
-<p><strong>Disclaimer:</strong> The thoughts and ideas presented in this course are not official NIH guidance and are not a substituted for legal or ethical advice and are only meant to give you a starting point for gathering information data management.</p>
-</div>
 
 </div>
+</div>
+</div>
+<h3> References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-liu_imaging_2017" class="csl-entry">
+Liu, Feng, Miguel Hernandez-Cabronero, Victor Sanchez, Michael W. Marcellin, and Ali Bilgin. 2017. <span>“The <span>Current</span> <span>Role</span> of <span>Image</span> <span>Compression</span> <span>Standards</span> in <span>Medical</span> <span>Imaging</span>.”</span> <em>Information</em> 8 (4): 131. <a href="https://doi.org/10.3390/info8040131">https://doi.org/10.3390/info8040131</a>.
+</div>
+<div id="ref-NIS" class="csl-entry">
+<span>“<span>NIS</span> <span>Database</span> <span>Documentation</span>.”</span> n.d. Accessed December 17, 2021. <a href="https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp">https://www.hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp</a>.
 </div>
 </div>
 <hr>
@@ -745,7 +697,7 @@ Users need to write their scripts in a way that can be performed by multiple com
           </div>
         </div>
       </div>
-<a href="overview-of-the-dms-plan.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="guidelines-for-good-metadata.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="data-storage-and-data-repositories.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
@@ -760,42 +712,42 @@ Users need to write their scripts in a way that can be performed by multiple com
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "section"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
 });
 });
 </script>
