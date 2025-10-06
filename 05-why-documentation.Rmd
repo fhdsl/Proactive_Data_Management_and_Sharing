@@ -24,7 +24,7 @@ Often projects may start with one person developing and using the computational 
 
 But many researchers don’t have a computer science background and many are self-taught and may not realize what is needed to document their process.
 
-Research, whether code is involved or not, is an exciting but long process -- filled with side investigations, tedious troubleshooting, but also 'Aha' moments that ultimately can result in an amazing results that you should be proud of!
+Research, whether code is involved or not, is an exciting but long process -- filled with side investigations, tedious troubleshooting, but also 'Aha' moments that ultimately can result in amazing results that you should be proud of!
 
 The code and the methods you use are likely valuable to more than just the singular project you made it for. Indeed, others may have needs for the methods you use and will be excited to come across your code and tools!
 
@@ -41,7 +41,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0
 
 There is a great need for reproducible work and a large part of reproducibility is clear and findable documentation! Open source code is a valuable practice for contributing to the scientific community but if the code lacks clear documentation it is incomplete. Undocumented code can lead to a lot of frustration and time inefficiently spent.
 
-If a code base's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.
+If a code base's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances are high that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.
 
 Lack of usability often leads researchers to ditch even the most well-programmed of tools and code.
 
@@ -49,7 +49,7 @@ Lack of usability often leads researchers to ditch even the most well-programmed
 ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_20")
 ```
 
-This is the unfortunate and all-too-common result of many bioinformatics code.
+This is the unfortunate and all-too-common result of many bioinformatics tools.
 
 
 
@@ -63,11 +63,8 @@ We'd like to assure you that the effort for creating documentation has a high re
 ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_24")
 ```
 
-```{r, fig.alt="In this next scenario, Tina the Tool Developer has skillfully created documentation that goes along with her awesome tool. The documentation is a personified document icon.", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_28")
-```
 
-Other researchers are still likely encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!
+Other researchers are still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!
 
 ```{r, fig.alt="Uri the Tool User is enamored with Tina’s awesome tool that has awesome documentation because it has helped them wrap up their research project that is represented by a wrapped gift. Uri the Tool User says, Tina’s awesome tool saved me so much time and let me complete this awesome work!.", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_40")
@@ -77,7 +74,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0
 ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_44")
 ```
 
-This is not only helpful for other researchers but make it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
+This is not only helpful for other researchers but makes it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
 
 Well-documented code helps developers better maintain their code in the future because they may forget the mechanics of their code over time.
 

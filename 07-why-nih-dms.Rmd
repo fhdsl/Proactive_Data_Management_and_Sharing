@@ -1,6 +1,6 @@
 # Why is there an NIH DMS policy?
 
-First we will discuss the motivations behind the new data management and sharing policy that will go into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
+First we will discuss the motivations behind the new data management and sharing policy that went into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
 
 ```{r, echo=FALSE, fig.alt='We are on the first step of the pathway- understanding the motivations of the policy.', out.width = '80%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1luFoDzF6aDJEebbL6iWoJ_s8s9nQnaWLL5jghbmWdak/edit#slide=id.g16b04bd80e5_1_103")
@@ -11,11 +11,11 @@ Why is the NIH doing this? There are several reasons why sharing data can be ben
 - **Supports transparency** - Sharing data provides more clarity about how studies are performed. Many scientists also believe in an ethical responsibility to study participants [@bauchner_citation_2016].
 - **Encourages reproducibility and rigor** - Having the data accessible, allows others to try to reproduce study findings. This can further enable studies that may replicate or validate the initial findings with different data.
 - **Supports multi-modal work** - When more data of various types are easily available it makes it easier for scientist to perform studies with multiple types of data [@thessen_citation_2021].
-- **More efficient and cost effective** - Some data are especially difficult or expensive to produce.
+- **More efficient and cost effective** - Some data are especially difficult or expensive to produce.By sharing this data more broadly it can save on cost and efficiency of designing new and similar studies by learning from the data already generated.
 - **Supports Researcher Inclusion** - Data generation can be especially difficult for those at institutes with less resources. Publicly available data can therefore be used by these researchers to better enable their participation.
 - **Increased impact** - Papers that share their data in repositories appear to be cited more based on the study by @colavizza_citation_2020 .
 - **Increased collaboration opportunity** - Having data available can encourage other researchers to expand the research in a new direction or extend it further and they may reach out to collaborate.
-- **Data Citations** - Due to the importance of data generation and sharing to the NIH, data will now be seen as research product that demonstrates a contribution to the scientific community.
+- **Data Citations** - Due to the importance of data generation and sharing to the NIH, the culture will shift to see data as a research product that demonstrates a contribution to the scientific community.
 
 ## Key terms
 
@@ -23,7 +23,7 @@ Why is the NIH doing this? There are several reasons why sharing data can be ben
 
 **Data Management**
 
-The work involved with validating, organizing, protecting, maintaining, and processing scientific data to ensure the accessibility, reliability, and quality of the scientific data for use in research. All research data should be actively managed.
+The work involved with validating, organizing, protecting, maintaining, and processing scientific data to ensure the accessibility, reliability, and quality of data for use in research. All research data should be actively managed.
 
 **Data Sharing**
 
@@ -39,7 +39,7 @@ A plan describing an approach to data management, preservation, and sharing of s
 
 </div>
 
-# How will this policy affect me?
+#How will this policy affect me?
 
 Whether you are an investigator applying for a NIH grant, or a researcher or trainee supported by a NIH grant, it is important to know how this policy applies to you and your work. You can refer to the [NIH overview](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/research-covered-under-the-data-management-sharing-policy#research-covered-by-the-2023-data-management-&-sharing-policy){target="_blank"} of which research will be covered by this new policy.  
 
@@ -177,7 +177,7 @@ For proposals where data sharing is specified as part of the Notice of Funding O
 ## Sharing Timeline {#sharing-timeline}
 
 <div class = "question">
-When does the data need to be shared by?
+When do the data need to be shared by?
 </div>
 
 Data should be made available **no later than publication or end of the award**. This means that data underlying findings that are not published in peer-reviewed journals should be made available by the end of the award.
@@ -226,7 +226,7 @@ NIH understands that some scientific data generated with NIH funds may be propri
 
 Issues related to proprietary data also can arise when co-funding is provided by the private sector (for example, the pharmaceutical or biotechnology industries). NIH recognizes that the extent of data sharing may be limited by restrictions imposed by licensing limitations attached to materials needed to conduct the research. Applicants should discuss projects with proposed collaborators early to avoid agreements that prohibit or unnecessarily restrict data sharing. NIH staff will evaluate the justifications of investigators who believe that they are unable to share data.
 
-For questions or concerns about data sharing expectations for proprietary data, please contact the [Office of Science Policy](mailto:SciencePolicy@od.nih.gov). Small businesses may wish to contact the [NIH SEED Office](https://public.era.nih.gov/commons/public/servicedesk/initseed.era).
+For questions or concerns about data sharing expectations for proprietary data, please contact the [NCI Office of Data Sharing](mailto:NCIOfficeofDataSharing@mail.nih.gov) or the (NCI Technology Transfer Center](https://techtransfer.cancer.gov/about/contact). Small businesses may wish to contact the [NIH SBIR Development Center](https://sbir.cancer.gov/about/contact-staff).
 
 </details>
 
