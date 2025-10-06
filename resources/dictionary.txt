@@ -31,6 +31,8 @@ Generis
 GH
 Github
 GitHub
+HIPAA
+HIPAA's
 https
 ies
 iframe
@@ -52,6 +54,7 @@ NHGRI
 OTTR
 ottrpal
 ottrproject
+OpenPBTA
 Pandoc
 png
 pre

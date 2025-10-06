@@ -99,7 +99,7 @@ What scientific question are you trying to answer? Describe the dataset (or samp
 
 ### The reasons behind your decisions
 
-Describe any unconventional method steps or anything that might be forgotten or confusing later or to someone not involved in the study. Note this can be for experimental work or computational data anlysis.
+Describe any unconventional method steps or anything that might be forgotten or confusing later or to someone not involved in the study. Note this can be for experimental work or computational data analysis.
 
 For example:
 

@@ -205,7 +205,7 @@ A Data Use Agreement (DUA) is required even for de-identified data, particularly
 
 Data use agreements restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner before it is in use.
 
-See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this practives guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
+See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this practices guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
 Check out these DUA templates to get started:
 
@@ -228,7 +228,7 @@ The [Office for Civil Right (OCR)](https://www.hhs.gov/ocr/index.html) of the Un
 
 If you feel that someone is using or sharing data that are in violation of HIPAA compliance, in most cases, you should start by attempting to resolve the violation first through local means by contacting research administrators or management. However, you can also choose to file a complaint online using the [OCR compliant portal](https://ocrportal.hhs.gov/ocr/smartscreen/main.jsf). Note that complaints should be filed within 180 days of the violation. If the OCR determines that a covered entity is in violation (the individuals or institutes who are required to follow HIPAA compliance regulations), then the OCR will follow up to ensure that the entity complies, takes corrective action, or agrees to a settlement.
 
-What is a covered entity? These are health care providers (doctors, dentists etc.), health plan/insurance companies and programs (Medicare, Medicaid, etc.) and those who work at health care clearinghouses (places that process nonstandard health information). See this link about [covered entities](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html) for more information and see this link [website for more indepth information ](https://privacyruleandresearch.nih.gov/pr_06.asp). 
+What is a covered entity? These are health care providers (doctors, dentists etc.), health plan/insurance companies and programs (Medicare, Medicaid, etc.) and those who work at health care clearinghouses (places that process nonstandard health information). See this link about [covered entities](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html) for more information and see this link [website for more in-depth information ](https://privacyruleandresearch.nih.gov/pr_06.asp). 
 
 
 
@@ -239,7 +239,7 @@ The civil fines for HIPAA violations by a covered entity range from `$`100 to `$
 
 ### Common Violations
 
-Data security and HIPPA violations are talked about more in [this course about ethical data handling ](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html). It offers more information to mitigate the following challenges.
+Data security and HIPAA violations are talked about more in [this course about ethical data handling ](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html). It offers more information to mitigate the following challenges.
 
 
 Common violations of HIPAA taken from @violations_2018 are:
