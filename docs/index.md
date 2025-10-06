@@ -1,6 +1,6 @@
 ---
-title: "Data Management and Sharing "
-date: "May, 2024"
+title: "Proactive Data Management and Sharing"
+date: "October, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

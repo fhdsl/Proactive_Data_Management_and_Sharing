@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Why Documentation is Worth the Time | Proactive Data Management and Sharing</title>
+  <meta name="description" content="Description about Course/Book." />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Why Documentation is Worth the Time | Proactive Data Management and Sharing" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Description about Course/Book." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Why Documentation is Worth the Time | Proactive Data Management and Sharing" />
+  
+  <meta name="twitter:description" content="Description about Course/Book." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/ITN_favicon.ico" type="image/x-icon" />
+<link rel="prev" href="data-privacy.html"/>
+<link rel="next" href="discussion-on-benefits-of-data-sharing.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="assets/style_ITN.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<a href="https://www.itcrtraining.org/"><img src="assets/ITN_logo.png" style="padding-left: 15px; padding-top: 8px;"</a>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this Course</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.1</b> Target Audience</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#topics-covered"><i class="fa fa-check"></i><b>1.2</b> Topics covered</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.3</b> Motivation</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+</ul></li>
+<li class="part"><span><b>What is Data Sharing and Why is it Important?</b></span></li>
+<li class="chapter" data-level="2" data-path="data-sharing-is-important.html"><a href="data-sharing-is-important.html"><i class="fa fa-check"></i><b>2</b> Data Sharing is Important</a></li>
+<li class="part"><span><b>Fundamental Tips for Effective Data Management</b></span></li>
+<li class="chapter" data-level="3" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html"><i class="fa fa-check"></i><b>3</b> Defining reproducibility</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#learning-objectives"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#what-is-reproducibility"><i class="fa fa-check"></i><b>3.2</b> What is reproducibility</a></li>
+<li class="chapter" data-level="3.3" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-in-daily-life"><i class="fa fa-check"></i><b>3.3</b> Reproducibility in daily life</a></li>
+<li class="chapter" data-level="3.4" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-is-worth-the-effort"><i class="fa fa-check"></i><b>3.4</b> Reproducibility is worth the effort!</a></li>
+<li class="chapter" data-level="3.5" data-path="defining-reproducibility.html"><a href="defining-reproducibility.html#reproducibility-exists-on-a-continuum"><i class="fa fa-check"></i><b>3.5</b> Reproducibility exists on a continuum!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-privacy.html"><a href="data-privacy.html"><i class="fa fa-check"></i><b>4</b> Data Privacy</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-personal-identifiable-information"><i class="fa fa-check"></i><b>4.1</b> PII (personal identifiable information)</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data-privacy.html"><a href="data-privacy.html#pii-risk"><i class="fa fa-check"></i><b>4.1.1</b> PII Risk</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="data-privacy.html"><a href="data-privacy.html#phi-protected-health-information"><i class="fa fa-check"></i><b>4.2</b> PHI (protected health information)</a></li>
+<li class="chapter" data-level="4.3" data-path="data-privacy.html"><a href="data-privacy.html#phi-is-a-subset-of-pii"><i class="fa fa-check"></i><b>4.3</b> PHI is a subset of PII</a></li>
+<li class="chapter" data-level="4.4" data-path="data-privacy.html"><a href="data-privacy.html#phi-risk"><i class="fa fa-check"></i><b>4.4</b> PHI Risk</a></li>
+<li class="chapter" data-level="4.5" data-path="data-privacy.html"><a href="data-privacy.html#cancer-research-data-and-phi"><i class="fa fa-check"></i><b>4.5</b> Cancer research data and PHI</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="data-privacy.html"><a href="data-privacy.html#what-genomic-data-is-protected"><i class="fa fa-check"></i><b>4.5.1</b> What genomic data is protected?</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="data-privacy.html"><a href="data-privacy.html#how-to-ensure-the-privacy-of-this-information"><i class="fa fa-check"></i><b>4.6</b> How to ensure the privacy of this information</a></li>
+<li class="chapter" data-level="4.7" data-path="data-privacy.html"><a href="data-privacy.html#how-is-hipaa-enforced"><i class="fa fa-check"></i><b>4.7</b> How is HIPAA enforced?</a>
+<ul>
+<li class="chapter" data-level="4.7.1" data-path="data-privacy.html"><a href="data-privacy.html#common-violations"><i class="fa fa-check"></i><b>4.7.1</b> Common Violations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html"><i class="fa fa-check"></i><b>5</b> Why Documentation is Worth the Time</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#the-context-of-bioinformatics-tool-development"><i class="fa fa-check"></i><b>5.1</b> The context of bioinformatics tool development</a></li>
+<li class="chapter" data-level="5.2" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#bioinformatics-and-usability"><i class="fa fa-check"></i><b>5.2</b> Bioinformatics and usability</a></li>
+<li class="chapter" data-level="5.3" data-path="why-documentation-is-worth-the-time.html"><a href="why-documentation-is-worth-the-time.html#why-documentation-is-worth-the-time-1"><i class="fa fa-check"></i><b>5.3</b> Why documentation is worth the time</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="discussion-on-benefits-of-data-sharing.html"><a href="discussion-on-benefits-of-data-sharing.html"><i class="fa fa-check"></i><b>6</b> Discussion on Benefits of Data Sharing</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="discussion-on-benefits-of-data-sharing.html"><a href="discussion-on-benefits-of-data-sharing.html#discussion"><i class="fa fa-check"></i><b>6.1</b> Discussion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="why-is-there-a-nih-dms-policy.html"><a href="why-is-there-a-nih-dms-policy.html"><i class="fa fa-check"></i><b>7</b> Why is there a NIH DMS policy?</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="why-is-there-a-nih-dms-policy.html"><a href="why-is-there-a-nih-dms-policy.html#key-terms"><i class="fa fa-check"></i><b>7.1</b> Key terms</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html"><i class="fa fa-check"></i><b>8</b> How will this policy affect me?</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-sharing"><i class="fa fa-check"></i><b>8.1</b> Grant Mechanisms</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#scientific-data"><i class="fa fa-check"></i><b>8.1.1</b> Data-generating Research</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#grant-renewals"><i class="fa fa-check"></i><b>8.2</b> Grant Renewals</a></li>
+<li class="chapter" data-level="8.3" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#review-process"><i class="fa fa-check"></i><b>8.3</b> Impact on Reviews</a></li>
+<li class="chapter" data-level="8.4" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#sharing-timeline"><i class="fa fa-check"></i><b>8.4</b> Sharing Timeline</a>
+<ul>
+<li class="chapter" data-level="8.4.1" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#no-cost-extensions"><i class="fa fa-check"></i><b>8.4.1</b> No-cost Extensions</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="how-will-this-policy-affect-me.html"><a href="how-will-this-policy-affect-me.html#when-to-not-share"><i class="fa fa-check"></i><b>8.5</b> When to Not Share Data</a></li>
+</ul></li>
+<li class="part"><span><b>Data sharing Expectations</b></span></li>
+<li class="chapter" data-level="9" data-path="elements-of-the-dms-plan.html"><a href="elements-of-the-dms-plan.html"><i class="fa fa-check"></i><b>9</b> Elements of the DMS Plan</a></li>
+<li class="chapter" data-level="10" data-path="organizing-your-project.html"><a href="organizing-your-project.html"><i class="fa fa-check"></i><b>10</b> Organizing your project</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#learning-objectives-1"><i class="fa fa-check"></i><b>10.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="10.2" data-path="organizing-your-project.html"><a href="organizing-your-project.html#organizational-strategies"><i class="fa fa-check"></i><b>10.2</b> Organizational strategies</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="organizing-your-project.html"><a href="organizing-your-project.html#tips-for-organizing-your-project"><i class="fa fa-check"></i><b>10.2.1</b> Tips for organizing your project:</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="organizing-your-project.html"><a href="organizing-your-project.html#readings-about-organizational-strategies-for-data-science-projects"><i class="fa fa-check"></i><b>10.3</b> Readings about organizational strategies for data science projects:</a></li>
+<li class="chapter" data-level="10.4" data-path="organizing-your-project.html"><a href="organizing-your-project.html#get-the-exercise-project-files-or-continue-with-the-files-you-used-in-the-previous-chapter"><i class="fa fa-check"></i><b>10.4</b> Get the exercise project files (or continue with the files you used in the previous chapter)</a></li>
+<li class="chapter" data-level="10.5" data-path="organizing-your-project.html"><a href="organizing-your-project.html#exercise-organize-your-project"><i class="fa fa-check"></i><b>10.5</b> Exercise: Organize your project!</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html"><i class="fa fa-check"></i><b>11</b> Record keeping practices</a>
+<ul>
+<li class="chapter" data-level="11.0.1" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-work"><i class="fa fa-check"></i><b>11.0.1</b> <strong>Keep organized records of work</strong></a></li>
+<li class="chapter" data-level="11.0.2" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#keep-organized-records-of-communication"><i class="fa fa-check"></i><b>11.0.2</b> <strong>Keep organized records of communication</strong></a></li>
+<li class="chapter" data-level="11.0.3" data-path="record-keeping-practices.html"><a href="record-keeping-practices.html#use-reports"><i class="fa fa-check"></i><b>11.0.3</b> <strong>Use reports</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html"><i class="fa fa-check"></i><b>12</b> Creating clear documentation</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#characteristics-of-clear-documentation"><i class="fa fa-check"></i><b>12.1</b> Characteristics of clear documentation</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#is-easy-to-find"><i class="fa fa-check"></i><b>12.1.1</b> Is easy to find</a></li>
+<li class="chapter" data-level="12.1.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#is-comprehensive"><i class="fa fa-check"></i><b>12.1.2</b> Is comprehensive</a></li>
+<li class="chapter" data-level="12.1.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#data-formats-are-described"><i class="fa fa-check"></i><b>12.1.3</b> Data formats are described</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#types-of-documentation-you-should-have"><i class="fa fa-check"></i><b>12.2</b> Types of documentation you should have</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#readmes"><i class="fa fa-check"></i><b>12.2.1</b> READMEs!</a></li>
+<li class="chapter" data-level="12.2.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-write-a-readme-for-your-project"><i class="fa fa-check"></i><b>12.2.2</b> Exercise: Write a README for your project!</a></li>
+<li class="chapter" data-level="12.2.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#notebook-descriptions"><i class="fa fa-check"></i><b>12.2.3</b> Notebook descriptions</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#how-to-keep-your-documentation-up-to-date"><i class="fa fa-check"></i><b>12.3</b> How to keep your documentation up to date</a>
+<ul>
+<li class="chapter" data-level="12.3.1" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#the-goal-of-documentation-maintenance"><i class="fa fa-check"></i><b>12.3.1</b> The goal of documentation maintenance</a></li>
+<li class="chapter" data-level="12.3.2" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#keep-your-documentation-in-one-version-controlled-place"><i class="fa fa-check"></i><b>12.3.2</b> Keep your documentation in one, version-controlled place</a></li>
+<li class="chapter" data-level="12.3.3" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#do-not-consider-a-tool-fix-done-before-its-relevant-documentation-update-is-also-completed"><i class="fa fa-check"></i><b>12.3.3</b> Do not consider a tool fix done before its relevant documentation update is also completed</a></li>
+<li class="chapter" data-level="12.3.4" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#make-sure-links-work"><i class="fa fa-check"></i><b>12.3.4</b> Make sure links work</a></li>
+<li class="chapter" data-level="12.3.5" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#set-aside-time-to-do-maintenance"><i class="fa fa-check"></i><b>12.3.5</b> Set aside time to do maintenance</a></li>
+</ul></li>
+<li class="chapter" data-level="12.4" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-1-add-a-reminder-for-documentation-updates-to-your-task-manager"><i class="fa fa-check"></i><b>12.4</b> Exercise 1: Add a reminder for documentation updates to your task manager</a></li>
+<li class="chapter" data-level="12.5" data-path="creating-clear-documentation.html"><a href="creating-clear-documentation.html#exercise-2-implement-a-url-checker"><i class="fa fa-check"></i><b>12.5</b> Exercise 2: Implement a URL checker</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html"><i class="fa fa-check"></i><b>13</b> Collaborating with informatics experts</a>
+<ul>
+<li class="chapter" data-level="13.0.1" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#the-benefits-of-collaboration"><i class="fa fa-check"></i><b>13.0.1</b> The benefits of collaboration</a></li>
+<li class="chapter" data-level="13.0.2" data-path="collaborating-with-informatics-experts.html"><a href="collaborating-with-informatics-experts.html#potential-challenges"><i class="fa fa-check"></i><b>13.0.2</b> Potential challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html"><i class="fa fa-check"></i><b>14</b> Guidelines for Good Metadata</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#what-are-metadata"><i class="fa fa-check"></i><b>14.1</b> What are metadata?</a></li>
+<li class="chapter" data-level="14.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#how-to-create-metadata"><i class="fa fa-check"></i><b>14.2</b> How to create metadata?</a>
+<ul>
+<li class="chapter" data-level="14.2.1" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#the-goals-in-creating-your-metadata"><i class="fa fa-check"></i><b>14.2.1</b> The goals in creating your metadata:</a></li>
+<li class="chapter" data-level="14.2.2" data-path="guidelines-for-good-metadata.html"><a href="guidelines-for-good-metadata.html#to-recap"><i class="fa fa-check"></i><b>14.2.2</b> To recap:</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>What is Data Sharing and Why is it Important?</b></span></li>
+<li class="chapter" data-level="15" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html"><i class="fa fa-check"></i><b>15</b> Computing Infrastructure</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-resources"><i class="fa fa-check"></i><b>15.1</b> Computing Resources</a>
+<ul>
+<li class="chapter" data-level="15.1.1" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#data-sizes"><i class="fa fa-check"></i><b>15.1.1</b> Data Sizes</a></li>
+<li class="chapter" data-level="15.1.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#file-sizes"><i class="fa fa-check"></i><b>15.1.2</b> File Sizes</a></li>
+<li class="chapter" data-level="15.1.3" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#computing-options"><i class="fa fa-check"></i><b>15.1.3</b> Computing Options</a></li>
+</ul></li>
+<li class="chapter" data-level="15.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#shared-computing-etiquette"><i class="fa fa-check"></i><b>15.2</b> Shared Computing Etiquette</a>
+<ul>
+<li class="chapter" data-level="15.2.1" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#general-guidelines-for-shared-computing-resources"><i class="fa fa-check"></i><b>15.2.1</b> General Guidelines for shared computing resources</a></li>
+<li class="chapter" data-level="15.2.2" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#interacting-with-shared-resources"><i class="fa fa-check"></i><b>15.2.2</b> Interacting with shared resources</a></li>
+<li class="chapter" data-level="15.2.3" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#running-jobs"><i class="fa fa-check"></i><b>15.2.3</b> Running Jobs</a></li>
+<li class="chapter" data-level="15.2.4" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#storage"><i class="fa fa-check"></i><b>15.2.4</b> Storage</a></li>
+<li class="chapter" data-level="15.2.5" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#research-platforms"><i class="fa fa-check"></i><b>15.2.5</b> Research Platforms</a></li>
+<li class="chapter" data-level="15.2.6" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#anvil"><i class="fa fa-check"></i><b>15.2.6</b> AnVIL</a></li>
+<li class="chapter" data-level="15.2.7" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#cyverse"><i class="fa fa-check"></i><b>15.2.7</b> CyVerse</a></li>
+<li class="chapter" data-level="15.2.8" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#sciserver"><i class="fa fa-check"></i><b>15.2.8</b> SciServer</a></li>
+<li class="chapter" data-level="15.2.9" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#materials-cloud"><i class="fa fa-check"></i><b>15.2.9</b> Materials Cloud</a></li>
+<li class="chapter" data-level="15.2.10" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#overture"><i class="fa fa-check"></i><b>15.2.10</b> Overture</a></li>
+<li class="chapter" data-level="15.2.11" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#globus"><i class="fa fa-check"></i><b>15.2.11</b> Globus</a></li>
+<li class="chapter" data-level="15.2.12" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#basespace-sequence-hub"><i class="fa fa-check"></i><b>15.2.12</b> BaseSpace Sequence Hub</a></li>
+<li class="chapter" data-level="15.2.13" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#atlas.ti"><i class="fa fa-check"></i><b>15.2.13</b> ATLAS.ti</a></li>
+<li class="chapter" data-level="15.2.14" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#genepattern"><i class="fa fa-check"></i><b>15.2.14</b> GenePattern</a></li>
+<li class="chapter" data-level="15.2.15" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#xnat"><i class="fa fa-check"></i><b>15.2.15</b> XNAT</a></li>
+<li class="chapter" data-level="15.2.16" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#ohif"><i class="fa fa-check"></i><b>15.2.16</b> OHIF</a></li>
+<li class="chapter" data-level="15.2.17" data-path="computing-infrastructure.html"><a href="computing-infrastructure.html#prism"><i class="fa fa-check"></i><b>15.2.17</b> PRISM</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html"><i class="fa fa-check"></i><b>16</b> Data Storage and Data Repositories</a>
+<ul>
+<li class="chapter" data-level="16.1" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-storage-concerns"><i class="fa fa-check"></i><b>16.1</b> Data Storage Concerns</a></li>
+<li class="chapter" data-level="16.2" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-repositories"><i class="fa fa-check"></i><b>16.2</b> Data Repositories</a></li>
+<li class="chapter" data-level="16.3" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#considerations-for-human-data"><i class="fa fa-check"></i><b>16.3</b> Considerations for Human Data</a></li>
+<li class="chapter" data-level="16.4" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#no-existing-repository"><i class="fa fa-check"></i><b>16.4</b> No Existing Repository?</a></li>
+<li class="chapter" data-level="16.5" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#data-repositories-1"><i class="fa fa-check"></i><b>16.5</b> Data repositories</a>
+<ul>
+<li class="chapter" data-level="16.5.1" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#genomic-data-repositories"><i class="fa fa-check"></i><b>16.5.1</b> Genomic Data Repositories</a></li>
+<li class="chapter" data-level="16.5.2" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#imaging-data-repositories"><i class="fa fa-check"></i><b>16.5.2</b> Imaging data repositories</a></li>
+<li class="chapter" data-level="16.5.3" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#repositories-for-journal-articles"><i class="fa fa-check"></i><b>16.5.3</b> Repositories for journal articles</a></li>
+<li class="chapter" data-level="16.5.4" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#small-datasets"><i class="fa fa-check"></i><b>16.5.4</b> Small datasets</a></li>
+</ul></li>
+<li class="chapter" data-level="16.6" data-path="data-storage-and-data-repositories.html"><a href="data-storage-and-data-repositories.html#finding-a-repository"><i class="fa fa-check"></i><b>16.6</b> Finding a repository</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="data-submission-tips.html"><a href="data-submission-tips.html"><i class="fa fa-check"></i><b>17</b> Data Submission Tips</a>
+<ul>
+<li class="chapter" data-level="17.0.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#use-consistent-and-clear-names"><i class="fa fa-check"></i><b>17.0.1</b> Use consistent and clear names</a></li>
+<li class="chapter" data-level="17.0.2" data-path="data-submission-tips.html"><a href="data-submission-tips.html#make-your-project-reproducible"><i class="fa fa-check"></i><b>17.0.2</b> Make your project reproducible</a></li>
+<li class="chapter" data-level="17.0.3" data-path="data-submission-tips.html"><a href="data-submission-tips.html#have-someone-else-review-your-code-and-data"><i class="fa fa-check"></i><b>17.0.3</b> Have someone else review your code and data!</a></li>
+<li class="chapter" data-level="17.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#health-care-data-sharing-tools"><i class="fa fa-check"></i><b>17.1</b> Health care data sharing tools</a>
+<ul>
+<li class="chapter" data-level="17.1.1" data-path="data-submission-tips.html"><a href="data-submission-tips.html#redcap-research-electronic-data-capture"><i class="fa fa-check"></i><b>17.1.1</b> REDCap (Research Electronic Data Capture)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="18" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>18</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://github.com/fhdsl/Data_Management_and_Sharing" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown by: </a> </p>
+<p style="text-align:center;"> <a href="https://hutchdatascience.org/"> The Fred Hutch Data Science Lab </a></p>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+<p style="padding-left: 40px;"><div class="trapezoid" style = "padding-left: 40px;"><span>  <a href="https://forms.gle/W6Mg4rzuMK6Yk3Am8"> Click here to provide feedback</a> <img src="assets/itcr_arrow.png" style=" width: 10%" ></span></div></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Proactive Data Management and Sharing</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/style_ITN.css" rel="stylesheet">
+</head>
+        
+
+
+<div class="hero-image-container"> 
+  <img class= "hero-image" src="assets/itcr_main_image.png">
+</div>
+<div id="why-documentation-is-worth-the-time" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Why Documentation is Worth the Time<a href="why-documentation-is-worth-the-time.html#why-documentation-is-worth-the-time" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_0.png" alt="Learning objectives This chapter will demonstrate how to:Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" /></p>
+<div id="the-context-of-bioinformatics-tool-development" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> The context of bioinformatics tool development<a href="why-documentation-is-worth-the-time.html#the-context-of-bioinformatics-tool-development" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Biomedical software development comes in all shapes and sizes, but many researchers don’t realize the work they are doing is software development.</p>
+<p>Software developers’ jobs are often defined something like this:</p>
+<p><strong>Software developers use programming to build software that meets the needs of users.</strong></p>
+<p>Let’s break this down:</p>
+<p>Software is often meaning a collection of instructions, data, or computer programs that are used to run machines and carry out particular activities – this can include but isn’t limited to:
+- Scripts
+- Workflows
+- Pipelines
+- Algorithms and computational methods</p>
+<p>Scientific software for cancer research includes all of the above items pretty frequently but scientists often don’t think of themselves as software developers. I think this is in part because they don’t picture that they have users.</p>
+<p>But users can really be anyone! It may start as the person developing the software but may expand to collaborators, random internet strangers, and others in the broader scientific community. The scientific community is full of users!</p>
+<p>So in fact, many scientific researchers are doing software development everyday! But many don’t have a computer science degree and many of them have never taken a programming class. Self-taught scientific programmers may dismiss themselves as being software developers since they often think of programming as a means to an end – a scientific question may be their main goal. But in the pursuit of that goal they are doing software development along the way!</p>
+<p>Research, whether code is involved or not, is an exciting but long process – filled with side investigations, tedious troubleshooting, but also ‘Aha’ moments that ultimately can result in an amazing results that you should be proud of!</p>
+<p>But the code and the methods you use are likely valuable to more than just the singular project you made it for. Indeed, others may have needs for the methods you use and will be excited to come across your code and tools!</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_10.png" alt="Upon finding Tina the Tool Developer’s awesome tool, Uri the Tool User says Tina’s tool is just what I need for my research project!" width="1250" /></p>
+<p>Other researchers are likely eager to apply your code and methods to their own work but its unfortunately all too common that scientific code is not able to be reused. Even scientists who are skilled with analysis often struggle to make work reproducible. In a large-scale study, only 24% of scientific notebooks ran without errors and only 4.03% produced the same results.</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_15.png" alt="Tina’s awesome tool says unintelligible warning, Error: The jargony sounding thing has encountered a problem and is on fire with the word error written all over it. Uri the Tool User is distressed and confused." width="1250" /></p>
+<p>There is a great need for reproducible work and a large part of reproducibility is clear and findable documentation! Open source code is a valuable practice for contributing to the scientific community but if the code lacks clear documentation it is incomplete. Undocumented code can lead to a lot of frustration and time inefficiently spent.</p>
+<p>If a code base’s documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.</p>
+<p>Lack of usability often leads researchers to ditch even the most well-programmed of tools and code.</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_20.png" alt="Uri the Tool User says I have other projects due! I can’t spend more time trying to figure this tool out. Tina’s awesome tool is still on fire with errors written all over it but has been thrown in a wastebasket by Uri the Tool User. There is no documentation to help Uri the Tool user figure out how to use Tina’s awesome tool. Uri the Tool User is even more distressed and has a tear in their eye from frustration. " width="1250" /></p>
+<p>This is the unfortunate and all-too-common result of many bioinformatics code.</p>
+</div>
+<div id="bioinformatics-and-usability" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Bioinformatics and usability<a href="why-documentation-is-worth-the-time.html#bioinformatics-and-usability" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The lack of emphasis on usability in bioinformatics software development not only hinders progress in cancer research but also undermines the efforts of software developers themselves, who have invested countless hours and significant effort into creating this software.</p>
+<p>We know that bioinformatics software development doesn’t occur in a vacuum. User experience designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools:</p>
+<ul>
+<li>Problem 1) Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability <span class="citation">(<a href="#ref-Mangul2019">Mangul et al. 2019</a>)</span>.</li>
+<li>Problem 2) Bioinformatics tool development teams generally don’t have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback <span class="citation">(<a href="#ref-Pavelin2012">Pavelin et al. 2012</a>)</span>.<br />
+</li>
+<li>Problem 3) There is a lack of resources/education about usability specific to bioinformatics tool developing communities <span class="citation">(<a href="#ref-Pavelin2012">Pavelin et al. 2012</a>)</span>.</li>
+</ul>
+<p>Unfortunately, this specific course cannot address issues 1 and 2, but will attempt to address problem 3.</p>
+</div>
+<div id="why-documentation-is-worth-the-time-1" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Why documentation is worth the time<a href="why-documentation-is-worth-the-time.html#why-documentation-is-worth-the-time-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We realize many software developers feel unenthused about the process of creating documentation or may lack bandwidth to do so. They may know its good for their research, but they just aren’t enthused about it.</p>
+<p>We’d like to assure you that the effort for creating documentation has a high return payoff for the continued success of your tool as a whole!</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_24.png" alt="Thorough and easy-to-digest documentation not only benefits users, but tool developers themselves!" width="1250" /></p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_28.png" alt="In this next scenario, Tina the Tool Developer has skillfully created documentation that goes along with her awesome tool. The documentation is a personified document icon." width="1250" /></p>
+<p>Other researchers are still likely encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_40.png" alt="Uri the Tool User is enamored with Tina’s awesome tool that has awesome documentation because it has helped them wrap up their research project that is represented by a wrapped gift. Uri the Tool User says, Tina’s awesome tool saved me so much time and let me complete this awesome work!." width="1250" /></p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_44.png" alt="Uri the Tool User is telling all their colleagues how much they love Tina’s awesome tool that has documentation. Uri has a phone is posting to their professional social media accounts about how great Tina’s awesome tool and documentation is. A megaphone is pointed at a crowd. More users are informed about Tina’s awesome tool and Tina’s work is disseminated." width="1250" /></p>
+<p>This is not only helpful for other researchers but make it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.</p>
+<p>Well-documented software help developers better maintain their code in the future because they may forget the mechanics of their software over time.</p>
+<p><img src="05-why-documentation_files/figure-html/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_48.png" alt="Future Tina the Tool Developer now has gray hair and Tina’s awesome documentation is between Tina and Tina’s awesome tool. The documentation says It’s been awhile, let me re-introduce you to the awesome tool you made a while back!" width="1250" /></p>
+<p>This helps with manuscript revisions, transparency or future research that builds on these methods!</p>
+
+</div>
+</div>
+<h3> References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Mangul2019" class="csl-entry">
+Mangul, Serghei, Lana S. Martin, Eleazar Eskin, and Ran Blekhman. 2019. <span>“Improving the Usability and Archival Stability of Bioinformatics Software.”</span> <em>Genome Biology</em> 20 (1). <a href="https://doi.org/10.1186/s13059-019-1649-8">https://doi.org/10.1186/s13059-019-1649-8</a>.
+</div>
+<div id="ref-Pavelin2012" class="csl-entry">
+Pavelin, Katrina, Jennifer A. Cham, Paula de Matos, Cath Brooksbank, Graham Cameron, and Christoph Steinbeck. 2012. <span>“Bioinformatics Meets User-Centred Design: A Perspective.”</span> Edited by Philip E. Bourne. <em><span>PLoS</span> Computational Biology</em> 8 (7): e1002554. <a href="https://doi.org/10.1371/journal.pcbi.1002554">https://doi.org/10.1371/journal.pcbi.1002554</a>.
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-privacy.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="discussion-on-benefits-of-data-sharing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>
