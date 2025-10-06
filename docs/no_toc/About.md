@@ -11,6 +11,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 |**Pedagogy**||
 |Lead Content Instructor(s)|[Carrie Wright] [Candace Savonen]|
 |Content Editor(s)/Reviewer(s) | [Nathan Boyd]|
+|Original Authors| This course uses content from other courses authored by [Carrie Wright] [Candace Savonen], [Ava Hoffman]|
 |**Technical**||
 |Course Publishing Engineer(s)|[Candace Savonen]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|

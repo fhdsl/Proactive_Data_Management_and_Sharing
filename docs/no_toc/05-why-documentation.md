@@ -4,31 +4,27 @@
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_0.png" alt="Learning objectives This chapter will demonstrate how to:Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" />
 
-## The context of bioinformatics tool development
+## The context of documentation in research
 
-Biomedical software development comes in all shapes and sizes, but many researchers don't realize the work they are doing is software development.
+Biomedical research comes in all shapes and sizes, varying from mostly experimental wet bench work to a combination of experimental and computational, to largely computational. 
 
-Software developers’ jobs are often defined something like this:
+Many researchers don't realize the work needed to document computational work.
 
-**Software developers use programming to build software that meets the needs of users.**
 
-Let’s break this down:
+These activities could include:
 
-Software is often meaning a collection of instructions, data, or computer programs that are used to run machines and carry out particular activities – this can include but isn’t limited to:
 - Scripts
 - Workflows
 - Pipelines
 - Algorithms and computational methods
 
-Scientific software for cancer research includes all of the above items pretty frequently but scientists often don’t think of themselves as software developers. I think this is in part because they don’t picture that they have users.
+Often projects may start with one person developing and using the computational work, but this may expand to other lab members, collaborators, and others in the broader scientific community. 
 
-But users can really be anyone! It may start as the person developing the software but may expand to collaborators, random internet strangers, and others in the broader scientific community. The scientific community is full of users!
+But many researchers don’t have a computer science background and many are self-taught and may not realize what is needed to document their process.
 
-So in fact, many scientific researchers are doing software development everyday! But many don’t have a computer science degree and many of them have never taken a programming class. Self-taught scientific programmers may dismiss themselves as being software developers since they often think of programming as a means to an end – a scientific question may be their main goal. But in the pursuit of that goal they are doing software development along the way!
+Research, whether code is involved or not, is an exciting but long process -- filled with side investigations, tedious troubleshooting, but also 'Aha' moments that ultimately can result in amazing results that you should be proud of!
 
-Research, whether code is involved or not, is an exciting but long process -- filled with side investigations, tedious troubleshooting, but also 'Aha' moments that ultimately can result in an amazing results that you should be proud of!
-
-But the code and the methods you use are likely valuable to more than just the singular project you made it for. Indeed, others may have needs for the methods you use and will be excited to come across your code and tools!
+The code and the methods you use are likely valuable to more than just the singular project you made it for. Indeed, others may have needs for the methods you use and will be excited to come across your code and tools!
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_10.png" alt="Upon finding Tina the Tool Developer’s awesome tool, Uri the Tool User says Tina’s tool is just what I need for my research project!" width="1250" />
 
@@ -39,45 +35,34 @@ Other researchers are likely eager to apply your code and methods to their own w
 
 There is a great need for reproducible work and a large part of reproducibility is clear and findable documentation! Open source code is a valuable practice for contributing to the scientific community but if the code lacks clear documentation it is incomplete. Undocumented code can lead to a lot of frustration and time inefficiently spent.
 
-If a code base's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.
+If a code base's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances are high that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.
 
 Lack of usability often leads researchers to ditch even the most well-programmed of tools and code.
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_20.png" alt="Uri the Tool User says I have other projects due! I can’t spend more time trying to figure this tool out. Tina’s awesome tool is still on fire with errors written all over it but has been thrown in a wastebasket by Uri the Tool User. There is no documentation to help Uri the Tool user figure out how to use Tina’s awesome tool. Uri the Tool User is even more distressed and has a tear in their eye from frustration. " width="1250" />
 
-This is the unfortunate and all-too-common result of many bioinformatics code.
+This is the unfortunate and all-too-common result of many bioinformatics tools.
 
-## Bioinformatics and usability
 
-The lack of emphasis on usability in bioinformatics software development not only hinders progress in cancer research but also undermines the efforts of software developers themselves, who have invested countless hours and significant effort into creating this software.
-
-We know that bioinformatics software development doesn’t occur in a vacuum. User experience designers in the field of bioinformatics have commented on reasons why documentation and usability sometimes suffer for bioinformatics tools:
-
-- Problem 1) Tools developed in academia are often left to deprecate after publication because novelty is often prioritized over long-term maintenance and usability [@Mangul2019].
-- Problem 2) Bioinformatics tool development teams generally don't have the resources to hire user-centered design experts and the small and specialized user communities are often overbooked and not incentivized to give feedback [@Pavelin2012].  
-- Problem 3) There is a lack of resources/education about usability specific to bioinformatics tool developing communities [@Pavelin2012].   
-
-Unfortunately, this specific course cannot address issues 1 and 2, but will attempt to address  problem 3.
 
 ## Why documentation is worth the time
 
-We realize many software developers feel unenthused about the process of creating documentation or may lack bandwidth to do so. They may know its good for their research, but they just aren't enthused about it.
+We realize many researchers feel unenthused about the process of creating documentation or may lack bandwidth to do so. They may know it's good for their research, but they just aren't enthused about it.
 
-We'd like to assure you that the effort for creating documentation has a high return payoff for the continued success of your tool as a whole!
+We'd like to assure you that the effort for creating documentation has a high return payoff for the continued success of your research code/scientific software  as a whole!
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_24.png" alt="Thorough and easy-to-digest documentation not only benefits users, but tool developers themselves!" width="1250" />
 
-<img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_28.png" alt="In this next scenario, Tina the Tool Developer has skillfully created documentation that goes along with her awesome tool. The documentation is a personified document icon." width="1250" />
 
-Other researchers are still likely encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!
+Other researchers are still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_40.png" alt="Uri the Tool User is enamored with Tina’s awesome tool that has awesome documentation because it has helped them wrap up their research project that is represented by a wrapped gift. Uri the Tool User says, Tina’s awesome tool saved me so much time and let me complete this awesome work!." width="1250" />
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_44.png" alt="Uri the Tool User is telling all their colleagues how much they love Tina’s awesome tool that has documentation. Uri has a phone is posting to their professional social media accounts about how great Tina’s awesome tool and documentation is. A megaphone is pointed at a crowd. More users are informed about Tina’s awesome tool and Tina’s work is disseminated." width="1250" />
 
-This is not only helpful for other researchers but make it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
+This is not only helpful for other researchers but makes it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
 
-Well-documented software help developers better maintain their code in the future because they may forget the mechanics of their software over time.
+Well-documented code helps developers better maintain their code in the future because they may forget the mechanics of their code over time.
 
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_48.png" alt="Future Tina the Tool Developer now has gray hair and Tina’s awesome documentation is between Tina and Tina’s awesome tool. The documentation says It’s been awhile, let me re-introduce you to the awesome tool you made a while back!" width="1250" />
 
