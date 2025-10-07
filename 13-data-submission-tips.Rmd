@@ -73,3 +73,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1SRokLaGAc2hiwJSN
 <div class = "warning">
 Keep in mind that your institution likely has their own guidelines for how to use REDCap should you decide to use it. Also remember to verify what you plan to do with your institutional review board (IRB) before you begin the study.
 </div>
+
+
+In summary, if you are using protected health information data, REDCap can be a very useful tool. There are many aspects like auditing and locking of data to ensure that the integrity of the data is maintained. We hope that this course has helped you identify new tools and methods to help you keep your research data organized and safe and to enable you to share it with the rest of the research community in a way that is usable to others.
