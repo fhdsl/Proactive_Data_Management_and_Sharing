@@ -1,6 +1,12 @@
 # Record keeping practices
 
+In this section we will cover the following learning objectives:
+
+<img src="10-record-keeping_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_34_1.png" alt="This chapter will demonstrate how to: Identify methods for keeping records of communication, Explain how notebooks can be especially helpful for collaboration and record keeping." width="1250" style="display: block; margin: auto;" />
+
 Once you have your project rolling, it is important to keep good records of your work, your collaborators work, and your communication. Keeping good records takes time and discipline but it can save you more time and heartache in the end. Here are some suggestions for how to optimize your record keeping.
+
+
 
 ### **Keep organized records of work**
 
@@ -18,7 +24,7 @@ Besides recording your work, keep a record of your communications. At a minimum 
 
 ### **Use reports**
 
-Instead of sending informal short emails (which are useful at some points in a workflow), we suggest intermittently sending lab reports with as much information about what was done and why. For informatics related work in R or Python (or other supported languages) we **highly** suggest using a method like [R markdown](https://rmarkdown.rstudio.com/lesson-10.html) or [Jupyter notebooks](https://jupyter.org/) to track what informatics steps you have performed and why. Beginning these reports with a short description of what raw data you used and when you received it can be critical for ensuring that you are using the correct data! We will describe more about how to use such reports in the final chapter of this course.
+Instead of sending informal short emails (which are useful at some points in a workflow), we suggest intermittently sending lab reports with as much information about what was done and why. For informatics related work in R or Python (or other supported languages) we **highly** suggest using a method like [R markdown](https://rmarkdown.rstudio.com/lesson-10.html) or [Jupyter notebooks](https://jupyter.org/) to track what informatics steps you have performed and why. Beginning these reports with a short description of what raw data you used and when you received it can be critical for ensuring that you are using the correct data! We recommend this chapter about [reproducible reports using these tools](https://hutchdatascience.org/Tools_for_Reproducible_Workflows_in_R/reproducible-reports.html) if you are interested in more information. 
 
 It is also important that the experimental biologists make similar reports defining what reagents they used, when they performed the study, what samples were used, who performed the experiment, and any notes about unusual events, such as the electricity went out during the experiment, left the samples overnight but usually leave two hours, mouse #blank unexpectedly died so we lost this sample thus it is not included, or the dye seemed unusually faint in this gel.  
 
@@ -29,7 +35,8 @@ It is also important that the experimental biologists make similar reports defin
 
 <img src="10-record-keeping_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gcf28d80132_0_360.png" alt="Charlie, the unclear leader and Jack, the lonely and only informaticist in his lab are having a meeting. Charlie says: I'm sorry Jack, we will need to redo the analysis with different data. It appears there was a miscommunication with our collaborator. Jack thinks to himself: Oh dear, It's looking like grad school will take 30 years. You can see dark clouds forming above them." width="100%" />
 
-In summary, we recommend the following record keeping tips:
+In summary, we recommend the following tips to maintain good records for your projects that goes beyond the documentation of your experiments or code, but instead also includes communications:
 
 
 <img src="10-record-keeping_files/figure-html//1OU5qeRgN_fojGbcyu2qEdwlcKpDO6BveWtYW_u1Hqd4_gcd0b5dd2d8_1_40.png" alt=" Record Keeping Tips: 1) Keep organized records of work - Take your own detailed notes - we suggest reports using R markdown or Jupyter notebooks 2) Keep organized records of communication - Keep emails organized in folders and name emails in a useful way to find later  - Consider a note-taking app to store emails, notes, and reports in one searchable place 3) Use reports and include as much detail as possible. Send these reports regularly to research teammates" width="100%" />
+

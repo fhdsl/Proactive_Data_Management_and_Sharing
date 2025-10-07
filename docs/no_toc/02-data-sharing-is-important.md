@@ -1,4 +1,9 @@
-# (PART\*) What is Data Sharing and Why is it Important? {-}
+# (PART\*) What is Data Sharing? {-}
+
+In this section we will cover the following learning objectives:
+
+
+<img src="02-data-sharing-is-important_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g2df9e1c7fe6_0_0.png" alt="Learning objectives: 1. Explain how data sharing encourages scientific advancement, 2. Describe the benefits of data sharing " width="100%" style="display: block; margin: auto;" />
 
 # Data Sharing is Important
 

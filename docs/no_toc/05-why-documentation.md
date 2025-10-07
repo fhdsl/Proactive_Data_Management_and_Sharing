@@ -1,8 +1,9 @@
 
 # Why Documentation is Worth the Time
 
+In the following section we will cover the following learning objectives: 
 
-<img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_0.png" alt="Learning objectives This chapter will demonstrate how to:Understand good documentation increases the impact and usability of software tools. Understand good documentation is helpful for both tool developers and users." width="1250" />
+<img src="05-why-documentation_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_5.png" alt="Learning Objectives: 1.Explain why documentation is so useful for reserach, 2. Describe how documentation of your analyses can help both you in the future and other researchers, ultimately saving time" width="100%" style="display: block; margin: auto;" />
 
 ## The context of documentation in research
 
@@ -67,3 +68,5 @@ Well-documented code helps developers better maintain their code in the future b
 <img src="05-why-documentation_files/figure-html//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_48.png" alt="Future Tina the Tool Developer now has gray hair and Tina’s awesome documentation is between Tina and Tina’s awesome tool. The documentation says It’s been awhile, let me re-introduce you to the awesome tool you made a while back!" width="1250" />
 
 This helps with manuscript revisions, transparency or future research that builds on these methods!
+
+In summary, all research should have good documentation, regardless of if it is mainly experimental wet bench science or mainly computational. Keeping good records of reagents, experimental protocols, software, methods, and more can help to ensure that our science is as transparent and rigorous as possible. It can also help speed up efficiency both within our own labs and for collaborators who wish to use our data or methods.  

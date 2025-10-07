@@ -1,5 +1,9 @@
 # Why is there an NIH DMS policy?
 
+In this section we will cover the following learning objectives: 
+
+<img src="07-why-nih-dms_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_24.png" alt="Learning Objectives: Discuss why the NIH decided to enact a new data management and sharing policy, explain what a data management and sharing plan is" width="1250" />
+
 First we will discuss the motivations behind the new data management and sharing policy that went into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
 
 
@@ -181,7 +185,7 @@ Scientific data should be made accessible as soon as possible, and no later than
 Under the NIH DMS Policy, is it possible to not share data?
 </div>
 
-There are legitimate reasons you might not share your data. Data might not be shareable due to ethical, legal, or technical concerns. **You will still need to submit a DMS Plan even if you plan to withhold data sharing**. You must explain your reasoning in your DMS Plan.
+There are legitimate reasons you might not share your data. Data might not be shareable due to ethical, legal, or technical concerns. **You will still need to submit a DMS plan even if you plan to withhold data sharing**. You must explain your reasoning in your DMS Plan.
 
 
 
@@ -227,3 +231,6 @@ The following are **NOT** good reasons to limit the sharing of your data:
 - Data are not thought to have a suitable repository
 - You don't have the right personnel to manage data or share data
 - You don't want to pay for data storage
+
+
+In summary, the data management and sharing (DMS) policy can support more efficient and cost-effective science, ultimately increasing our pace of scientific advancement. Most proposals that generate scientific data will require compliance, however you should check for the specific grant mechanism that you are writing a proposal for by searching in the table linked above. To comply, you need to write a data management and sharing plan, which describes who will manage the data, how the data will be stored, where you plan to share your data and more. There are some cases where you do not have to share your data, however you still need to submit a DMS plan where you describe your justification for not sharing data. 

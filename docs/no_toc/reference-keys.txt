@@ -1,3 +1,4 @@
+available-course-formats
 introduction
 motivation
 target-audience
@@ -5,7 +6,6 @@ topics-covered
 curriculum
 data-sharing-is-important
 defining-reproducibility
-learning-objectives
 what-is-reproducibility
 reproducibility-in-daily-life
 reproducibility-is-worth-the-effort
@@ -53,7 +53,6 @@ when-to-not-share
 elements-of-the-dms-plan
 overall-takeaways
 organizing-your-project
-learning-objectives-1
 organizational-strategies
 tips-for-organizing-your-project
 example-organizational-scheme
@@ -70,7 +69,6 @@ how-to-create-metadata
 the-goals-in-creating-your-metadata
 goal-a-make-it-crystal-clear-and-easily-readable-by-both-humans-and-computers
 goal-b-avoid-introducing-errors-into-your-metadata-in-the-future
-to-recap
 data-storage-and-data-repositories
 data-storage-concerns
 data-repositories

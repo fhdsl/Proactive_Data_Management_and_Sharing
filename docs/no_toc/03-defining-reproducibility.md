@@ -1,10 +1,10 @@
-# (PART\*) Fundamental Tips for Effective Data Management {-}
+# (PART\*) Effective Data Management {-}
 
 # Defining reproducibility
 
-## Learning Objectives
+In this section we will cover the following learning objectives:
 
-<img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_1205.png" alt="This chapter will demonstrate how to: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible saves your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results." width="1250" style="display: block; margin: auto;" />
+<img src="03-defining-reproducibility_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_18.png" alt="Learning Objectives: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible saves your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results." width="1250" style="display: block; margin: auto;" />
 
 ## What is reproducibility
 
@@ -107,4 +107,4 @@ Incremental work on your analyses is good! You do not need to make your analyses
 
 <img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_0.png" alt="Reproducibility is on a continuum. This graph shows a two sided arrow with a gradient. On the very left is a ‘not repeatable analysis’ it was ran once. To the right of that is an analysis that ‘re-runs sometimes’. To the right of this, is an analysis that ‘Re-runs reliably in most contexts’.  And all the way to the right is a ‘perfectly reproducible analysis’ that ‘Re-runs in every situation and gets the same result every time’. In red lettering we note that every analysis is started by being run once but no analysis is ‘perfectly reproducible’." width="1250" style="display: block; margin: auto;" />
 
-
+In Summary, reproducibility is on a continuum. You can improve your practices over time. While it takes extra effort upfront to make your research follow best practices, it saves. you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone to get the same result, it does not necessarily mean that it is correct. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 
