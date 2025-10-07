@@ -271,3 +271,5 @@ Sometimes there are remnants of your data still on your device!
 Accessing your data from an unsecured WIFI network can also make the data vulnerable.
 
 See [the Privacy Rule and research FAQs](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
+
+In summary,*personal identifiable information (PII)* and *protected health information (PHI)* are often collected for data and require extra care to protect our research participants from identity theft, discrimination, and other risks. [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) helps to protect patients by specifying requirements for how PHI should be protected. Common violations can be avoided from keeping good data security/privacy practices. 
