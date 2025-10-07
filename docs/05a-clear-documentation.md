@@ -2,6 +2,10 @@
 
 Our goal for documentation is to be as comprehensive, navigable, and as always, as clear as possible.
 
+In this section, we will cover the following learning objectives:
+
+![](05a-clear-documentation_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_24.png)
+
 ## Characteristics of clear documentation
 
 The following are tips to make your documentation as useful as possible. 
@@ -112,5 +116,6 @@ What do you think about the results? The plots and tables and other visualizatio
 
 See this [course about reproducible workflows in R](https://hutchdatascience.org/Tools_for_Reproducible_Workflows_in_R/reproducible-reports.html) for more information about the use of Notebooks to better inform others about your work!
 
+In summary, we've shared some tips for ensuring that your documentation can be as helpful as possible. We suggest that you make it easy to find, comprehensive (describing all aspects of your scientific process), organized (we suggest using a README to help people navigate), and include the reasoning behind your process, especially describing key decision points. We suggest that  notebooks can be especially useful for experimental and computational work.
 
 

@@ -1,9 +1,11 @@
 
 # Data Privacy
 
-Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this chapter we will discuss data management strategies to maintain compliance with these important regulations.
 
-![](04-data-privacy_files/figure-docx//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_1758.png){width=100%}
+
+Cancer research often involves personal health data that requires compliance with [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) regulations. In this section we will discuss data management strategies to maintain compliance with these important regulations.
+
+![](04-data-privacy_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_0.png){width=100%}
 
 Cancer research often involves the collection of information about research participants that is personal. There are two categories of such information:
 *personal identifiable information (PII)* and *protected health information (PHI)*
@@ -255,3 +257,5 @@ Sometimes there are remnants of your data still on your device!
 Accessing your data from an unsecured WIFI network can also make the data vulnerable.
 
 See [the Privacy Rule and research FAQs](https://privacyruleandresearch.nih.gov/faq.asp) for more information about HIPAA and research.
+
+In summary,*personal identifiable information (PII)* and *protected health information (PHI)* are often collected for data and require extra care to protect our research participants from identity theft, discrimination, and other risks. [Health Insurance Portability and Accountability Act (HIPAA)](https://searchhealthit.techtarget.com/definition/HIPAA) helps to protect patients by specifying requirements for how PHI should be protected. Common violations can be avoided from keeping good data security/privacy practices. 

@@ -1,8 +1,9 @@
 
 # Why Documentation is Worth the Time
 
+In the following section we will cover the following learning objectives: 
 
-![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_0.png)
+![](05-why-documentation_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_5.png){width=100%}
 
 ## The context of documentation in research
 
@@ -67,3 +68,5 @@ Well-documented code helps developers better maintain their code in the future b
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_48.png)
 
 This helps with manuscript revisions, transparency or future research that builds on these methods!
+
+In summary, all research should have good documentation, regardless of if it is mainly experimental wet bench science or mainly computational. Keeping good records of reagents, experimental protocols, software, methods, and more can help to ensure that our science is as transparent and rigorous as possible. It can also help speed up efficiency both within our own labs and for collaborators who wish to use our data or methods.  

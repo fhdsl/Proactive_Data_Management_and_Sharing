@@ -2,6 +2,10 @@
 
 # Elements of the DMS Plan
 
+In this section, we will cover the following learning objectives: 
+
+![](08-overview-nih-dms_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_29.png)
+
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
 The following are the major elements required to be included in an NIH DMS plan:
@@ -46,3 +50,5 @@ You can find more detailed requirements for each of these elements [on the NIH w
 
 This is a new policy for the NIH and they are expecting to have some growing pains. While they don't currently have specific expectations, the NIH has stated they will learn from the process as it happens along with the scientists submitting grant proposals under the new policies. In general, it's best to be mindful of what is **actually feasible** when it comes to managing and storing your data and try not overstate what you might be able to do.
 </div>
+
+In summary, DMS plans require information about the data types that you will generate, the tools you will use to manage and analyze the data, data standards that you intend to follow, when the data will be shared, where and how the data may be shared and considerations related to this, and finally who will be accountable for carrying out this plan. You can use tables provided by the NIH (discussed in more detail in a later section) to identify an appropriate repository for your data. The plan should be less than 2 pages and should also include a budget for data management related costs. Remember that reviewers will not score you for your DMS plan.

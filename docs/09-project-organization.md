@@ -3,9 +3,10 @@
 
 # Organizing your project
 
-## Learning Objectives
+In this section we will cover the following learning objectives:
 
-![](09-project-organization_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_51.png)
+
+![](09-project-organization_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_39.png)
 
 Keeping your files organized is a skill that has a high long-term payoff. During the initial development of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
 
@@ -129,3 +130,5 @@ Using your computer's GUI (drag, drop, and clicking), organize the files that ar
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**
+
+In summary, having a plan for how to organize your data from the very beginning can really help keep your scientific process smooth. We recommend having a different folder for your raw data that goes untouched. Keeping any analysis code organized can also help you keep track of your process and share your work with others.

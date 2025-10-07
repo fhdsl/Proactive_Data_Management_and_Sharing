@@ -1,10 +1,10 @@
-# (PART\*) Fundamental Tips for Effective Data Management {-}
+# (PART\*) Effective Data Management {-}
 
 # Defining reproducibility
 
-## Learning Objectives
+In this section we will cover the following learning objectives:
 
-![](03-defining-reproducibility_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_1205.png)
+![](03-defining-reproducibility_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_18.png)
 
 ## What is reproducibility
 
@@ -107,4 +107,4 @@ Incremental work on your analyses is good! You do not need to make your analyses
 
 ![](03-defining-reproducibility_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_0.png)
 
-
+In Summary, reproducibility is on a continuum. You can improve your practices over time. While it takes extra effort upfront to make your research follow best practices, it saves. you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone to get the same result, it does not necessarily mean that it is correct. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 
