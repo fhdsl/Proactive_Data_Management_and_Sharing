@@ -16,10 +16,12 @@ creativecommons
 css
 Datatrail
 DataTrail
+Dataverse
 DISCOVERABLE
 Dockerfile
 Dockerhub
 dropdown
+Dryad
 enforceability
 faq
 favicon
