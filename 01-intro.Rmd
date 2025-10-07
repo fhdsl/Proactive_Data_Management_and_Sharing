@@ -41,7 +41,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 
 ## Curriculum 
 
-```{r learning_objectives, echo=FALSE, fig.alt='Describe what data sharing is and why is it important, Effectively manage your scientific data, Maintain data privacy and comply with data privacy laws, Maintain and write effective documentation, Keep effective records that will help you track your project properly but securely, Create good metadata that can enhance the use your data, Organize your project so that it is reproducible and well understood by others, Explain what elements are in a data management sharing plan consistent with NIH requirements, Identify and use computing resources that best fit your project needs, Store and submit your data to repositories', out.width = '100%', fig.align = 'center'}
+```{r learning_objectives, echo=FALSE, fig.alt='Describe what data sharing is and why is it important, Effectively manage your scientific data, Maintain data privacy and comply with data privacy laws, Maintain and write effective documentation, Keep effective records that will help you track your project properly but securely, Create good metadata that can enhance the use your data, Organize your project so that it is reproducible and well understood by others, Explain what elements are in a data management sharing plan consistent with NIH requirements, Store and submit your data to repositories', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.gd422c5de97_0_10#slide=id.gd422c5de97_0_10")
 ```
 
