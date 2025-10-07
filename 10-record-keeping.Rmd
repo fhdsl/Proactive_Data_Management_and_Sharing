@@ -1,6 +1,14 @@
 # Record keeping practices
 
+In this section we will cover the following learning objectives:
+
+```{r, fig.align='center', echo = FALSE, fig.alt= "This chapter will demonstrate how to: Identify methods for keeping records of communication, Explain how notebooks can be especially helpful for collaboration and record keeping."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_34_1#slide=id.g3896feb580f_34_1")
+```
+
 Once you have your project rolling, it is important to keep good records of your work, your collaborators work, and your communication. Keeping good records takes time and discipline but it can save you more time and heartache in the end. Here are some suggestions for how to optimize your record keeping.
+
+
 
 ### **Keep organized records of work**
 

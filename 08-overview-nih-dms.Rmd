@@ -2,6 +2,12 @@
 
 # Elements of the DMS Plan
 
+In this section, we will cover the following learning objectives: 
+
+```{r, fig.alt="Learning Objectives: Describe the major considerations of a DMS plan, Identify the major elements of a DMS plan", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_29#slide=id.g3896feb580f_16_29")
+```
+
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
 The following are the major elements required to be included in an NIH DMS plan:

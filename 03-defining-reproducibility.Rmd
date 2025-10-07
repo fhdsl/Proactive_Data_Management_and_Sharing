@@ -2,10 +2,10 @@
 
 # Defining reproducibility
 
-## Learning Objectives
+In this section we will cover the following learning objectives:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "This chapter will demonstrate how to: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible saves your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results."}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE/edit#slide=id.gf1accd298e_0_1205")
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible saves your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results."}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_18#slide=id.g3896feb580f_16_18")
 ```
 
 ## What is reproducibility

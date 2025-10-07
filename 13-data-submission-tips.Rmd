@@ -4,6 +4,13 @@
 <!-- Amazon Comprehend -->
 <!-- Healthcare Cost and Utilization Project (HCUP) -->
 
+In this section we will cover the following learning objectives:
+
+```{r, fig.alt = "Learning objectives: Explain how REDCap can be used to help keep data secure, compliant with HIPAA  requirements, and allows for collaboration; Identify best practices for keeping data safe using REDCap", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_34_14#slide=id.g3896feb580f_34_14")
+```
+
+
 ### REDCap (Research Electronic Data Capture)
 
 [REDCap](https://www.project-redcap.org/) is a very widely used browser-based software application for managing surveys and databases. It is very often used for clinical data. In fact, it is so widely used that there is a [conference](https://i2b2transmart.org/redcapcon2022/) dedicated to it.

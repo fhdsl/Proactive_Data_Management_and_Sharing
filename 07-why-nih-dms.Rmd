@@ -1,5 +1,11 @@
 # Why is there an NIH DMS policy?
 
+In this section we will cover the following learning obejectives: 
+
+```{r, fig.alt="Learning Objectives: Discuss why the NIH decided to enact a new data management and sharing policy, explain what a data management and sharing plan is", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_24#slide=id.g3896feb580f_16_24")
+```
+
 First we will discuss the motivations behind the new data management and sharing policy that went into effect for (most) grant proposals submitted to the NIH after January 25, 2023.
 
 

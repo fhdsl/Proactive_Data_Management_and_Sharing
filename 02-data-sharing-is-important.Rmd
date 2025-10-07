@@ -1,6 +1,6 @@
 # (PART\*) What is Data Sharing? {-}
 
-In this section we will cover the folling learning objectives:
+In this section we will cover the following learning objectives:
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt= "Learning objectives: 1. Explain how data sharing encourages scientific advancement, 2. Describe the benefits of data sharing ", out.width="100%"}

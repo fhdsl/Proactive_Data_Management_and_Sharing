@@ -2,6 +2,11 @@
 
 To enable a more productive research experience and to ease your future compliance with any data sharing requirements, active data management during the research process can be very helpful.  
 
+In this section we will cover the following learning objectives:
+
+```{r, fig.alt = "Learning objectives: Identify considerations for storage of research data, Recognize the size of typical research file types, Identify resources for finding the appropriate data repository to meet your needs for data sharing", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_34_14#slide=id.g3896feb580f_34_14")
+```
 
 ## Data Storage Concerns
 
