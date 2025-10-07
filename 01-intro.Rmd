@@ -34,7 +34,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 This course covers how to properly manage and share data including:
 
 
-```{r topics_covered, echo=FALSE, fig.alt='Topics Discussed in the proactive data management and sharing course: Organizing and documenting your project. How computing hardware and software work. Keeping good records and metadata. Identifying computing resources that meet your needs. Create data sharing plans consistent with N I H requirements. Sharing and submitting data properlyE', out.width = '100%', fig.align = 'center'}
+```{r topics_covered, echo=FALSE, fig.alt='Topics Discussed in the proactive data management and sharing course: Organizing and documenting your project. How computing hardware and software work. Keeping good records and metadata. Identifying resources that meet your data needs. Creating data sharing plans consistent with N I H requirements. Sharing and submitting data properly', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gfd7c7a0ba8_0_0")
 ```
 
