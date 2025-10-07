@@ -26,7 +26,7 @@ The [course illustrations can be found at this link](https://docs.google.com/pre
 
 ## Available course formats
 
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
+This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for a certificate which can be for free or fee.
 
 - The material for this course can be viewed without login requirement on this [Bookdown website](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/). This format might be most appropriate for you if you rely on screen-reader technology.
 <!-- - This course can be taken for [free certification through Leanpub](https://leanpub.com/courses/fredhutch/ethical_data_handling/). -->
