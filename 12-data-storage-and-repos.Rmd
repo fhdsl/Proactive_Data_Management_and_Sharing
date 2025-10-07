@@ -187,3 +187,5 @@ If you don't find an appropriate repository for your data type:
 - Consider adding your data as a supplementary file to a manuscript if it is small
 - Consider an institutional repository
 - Check out the [generalist repositories](https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html)
+
+In summary, the NIH has resources to help you find the appropriate repository for your particular data. There are many repositories designed for specific types of data and or specific data uses. If you can't find an appropriate repository, consider using a repository that can be used for multiple types of data (aka a generalist repository), such as Dataverse, Dryad, Figshare, or Zenodo (see the link above for NIH suggested options). 
