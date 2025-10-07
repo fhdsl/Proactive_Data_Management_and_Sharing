@@ -34,14 +34,14 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 This course covers how to properly manage and share data including:
 
 
-```{r topics_covered, echo=FALSE, fig.alt='Topics Discussed in the proactive data management and sharing course: Organizing and documenting your project. How computing hardware and software work. Keeping good records and metadata. Identifying computing resources that meet your needs. Create data sharing plans consistent with N I H requirements. Sharing and submitting data properlyE', out.width = '100%', fig.align = 'center'}
+```{r topics_covered, echo=FALSE, fig.alt='Topics Discussed in the proactive data management and sharing course: Organizing and documenting your project. How computing hardware and software work. Keeping good records and metadata. Identifying resources that meet your data needs. Creating data sharing plans consistent with N I H requirements. Sharing and submitting data properly', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit#slide=id.gfd7c7a0ba8_0_0")
 ```
 
 
 ## Curriculum 
 
-```{r learning_objectives, echo=FALSE, fig.alt='Describe what data sharing is and why is it important, Effectively manage your scientific data, Maintain data privacy and comply with data privacy laws, Maintain and write effective documentation, Keep effective records that will help you track your project properly but securely, Create good metadata that can enhance the use your data, Organize your project so that it is reproducible and well understood by others, Explain what elements are in a data management sharing plan consistent with NIH requirements, Identify and use computing resources that best fit your project needs, Store and submit your data to repositories', out.width = '100%', fig.align = 'center'}
+```{r learning_objectives, echo=FALSE, fig.alt='Describe what data sharing is and why is it important, Effectively manage your scientific data, Maintain data privacy and comply with data privacy laws, Maintain and write effective documentation, Keep effective records that will help you track your project properly but securely, Create good metadata that can enhance the use your data, Organize your project so that it is reproducible and well understood by others, Explain what elements are in a data management sharing plan consistent with NIH requirements, Store and submit your data to repositories', out.width = '100%', fig.align = 'center'}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.gd422c5de97_0_10#slide=id.gd422c5de97_0_10")
 ```
 
