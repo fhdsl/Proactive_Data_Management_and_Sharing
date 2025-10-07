@@ -13,9 +13,9 @@ rmd_files: ["index.Rmd",
             "08-overview-nih-dms.Rmd",
             "09-project-organization.Rmd",
             "10-record-keeping.Rmd",
-            "13-guidines-for-metadata.Rmd",
-            "15-data-storage-and-repos.Rmd",
-            "16-data-submission-tips.Rmd",
+            "11-guidelines-for-metadata.Rmd",
+            "12-data-storage-and-repos.Rmd",
+            "13-data-submission-tips.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes

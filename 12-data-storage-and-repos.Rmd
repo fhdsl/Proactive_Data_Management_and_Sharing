@@ -2,6 +2,11 @@
 
 To enable a more productive research experience and to ease your future compliance with any data sharing requirements, active data management during the research process can be very helpful.  
 
+In this section we will cover the following learning objectives:
+
+```{r, fig.alt = "Learning objectives: Identify considerations for storage of research data, Recognize the size of typical research file types, Identify resources for finding the appropriate data repository to meet your needs for data sharing", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_34_14#slide=id.g3896feb580f_34_14")
+```
 
 ## Data Storage Concerns
 
@@ -182,3 +187,5 @@ If you don't find an appropriate repository for your data type:
 - Consider adding your data as a supplementary file to a manuscript if it is small
 - Consider an institutional repository
 - Check out the [generalist repositories](https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html)
+
+In summary, the NIH has resources to help you find the appropriate repository for your particular data. There are many repositories designed for specific types of data and or specific data uses. If you can't find an appropriate repository, consider using a repository that can be used for multiple types of data (aka a generalist repository), such as Dataverse, Dryad, Figshare, or Zenodo (see the link above for NIH suggested options). 

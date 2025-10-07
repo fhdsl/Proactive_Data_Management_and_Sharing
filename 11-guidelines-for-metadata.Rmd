@@ -1,5 +1,12 @@
 # Guidelines for Good Metadata
 
+In this section we will cover the following learning objectives:
+
+
+```{r, fig.alt = "Learning objectives: explain what metadata is, describe how to create metadata, identify best practices for creating good metadata to support your research", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_34_6#slide=id.g3896feb580f_34_6")
+```
+
 ## What are metadata?
 
 Metadata are critically important descriptive information about your data.
@@ -78,7 +85,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7
 ```
 </div>
 
-### To recap:
+In summary, we have covered some guidelines for how to create usable metadata, including consistency and keeping your data rectangular, avoiding color, making backups, and writing data dictionaries that explain more details about your data.
 
 ```{r, fig.alt = "Rules for creating metadata (from Broman & Woo, 2017) Be Consistent. Choose good names for things. Write Dates as YYYY-MM-DD.No Empty Cells. Put Just One Thing in a Cell. Make it a Rectangle", out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY/edit#slide=id.g12709027cba_1_52")

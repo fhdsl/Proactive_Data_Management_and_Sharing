@@ -1,8 +1,10 @@
 # Proactive Data Management and Sharing
 
+[![Render Bookdown, Leanpub, and Coursera](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml)
+
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
-You can see the rendered course material here: http://hutchdatascience.org/Data_Management_and_Sharing/
+You can see the rendered course material here: http://hutchdatascience.org/https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/
 
 If you would like to contribute to this course material, take a look at the [OTTR documentation](https://www.ottrproject.org/).
 
@@ -14,13 +16,14 @@ This course introduces best practices for biomedical data management, documentat
 
 This course will teach learners to:  
 
-- Understand what data sharing is and why is it important?
-- Effectively manage your data including the associated skills relating to data heavy projects
+- Describe what data sharing is and why is it important
+- Effectively manage your scientific data
+- Maintain data privacy and comply with data privacy laws
 - Maintain and write effective documentation
 - Keep effective records that will help you track your project properly but securely
 - Create good metadata that can enhance the use your data
+- Explain what elements are in data management and sharing plans consistent with NIH requirements
 - Organize your project so that it is reproducible and well understood by others
-- Create a data management and sharing plan consistent with NIH requirements
 - Identify and use computing resources that best fit your project needs
 - Store and submit your data to repositories
 
