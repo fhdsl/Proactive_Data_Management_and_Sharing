@@ -148,3 +148,5 @@ Using your computer's GUI (drag, drop, and clicking), organize the files that ar
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**
+
+In summary, having a plan for how to organize your data from the very beginning can really help keep your scientific process smooth. We recommend having a different folder for your raw data that goes untouched. Keeping any analysis code organized can also help you keep track of your process and share your work with others.
