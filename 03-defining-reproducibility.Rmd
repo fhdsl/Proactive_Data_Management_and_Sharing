@@ -146,4 +146,4 @@ Incremental work on your analyses is good! You do not need to make your analyses
 ottrpal::include_slide("https://docs.google.com/presentation/d/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE/edit#slide=id.gf7bed24491_1_0")
 ```
 
-
+In Summary, reproducibility is on a continuum. You can improve your practices over time. While it takes extra effort upfront to make your research follow best practices, it saves. you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone to get the same result, it does not necessarily mean that it is correct. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 
