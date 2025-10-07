@@ -24,7 +24,6 @@ This course will teach learners to:
 - Create good metadata that can enhance the use your data
 - Explain what elements are in data management and sharing plans consistent with NIH requirements
 - Organize your project so that it is reproducible and well understood by others
-- Identify and use computing resources that best fit your project needs
 - Store and submit your data to repositories
 
 ## Encountering problems?
