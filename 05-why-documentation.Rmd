@@ -84,3 +84,5 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0
 ```
 
 This helps with manuscript revisions, transparency or future research that builds on these methods!
+
+In summary, all research should have good documentation, regardless of if it is mainly experimental wet bench science or mainly computational. Keeping good records of reagents, experimental protocols, software, methods, and more can help to ensure that our science is as transparent and rigorous as possible. It can also help speed up efficency both within our own labs and for collaborators who wish to use our data or methods.  
