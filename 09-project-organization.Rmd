@@ -111,14 +111,14 @@ You can read through some of these articles to think about what kind of organiza
 <details> <summary>**Get the Python project example files**</summary>
 [Click this link to download](https://raw.githubusercontent.com/jhudsl/Reproducibility_in_Cancer_Informatics/main/chapter-zips/python-heatmap-chapt-3.zip).
 
-```{bash, include = FALSE}
+```{bash, eval = FALSE}
 mkdir -p chapter-zips
 wget -O chapter-zips/python-heatmap-chapt-3.zip https://raw.githubusercontent.com/jhudsl/Reproducibility_in_Cancer_Informatics/main/chapter-zips/python-heatmap-chapt-3.zip
 ```
 
 Now double click your chapter zip file to unzip. For Windows you may have to [follow these instructions](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc).
 
-```{bash, include = FALSE}
+```{bash, eval = FALSE}
 unzip -o chapter-zips/python-heatmap-chapt-3.zip -d chapter-zips/
 ```
 </details>
@@ -126,14 +126,14 @@ unzip -o chapter-zips/python-heatmap-chapt-3.zip -d chapter-zips/
 <details> <summary>**Get the R project example files**</summary>
 [Click this link to download](https://raw.githubusercontent.com/jhudsl/Reproducibility_in_Cancer_Informatics/main/chapter-zips/r-heatmap-chapt-3.zip).
 
-```{bash, include = FALSE}
+```{bash, eval = FALSE}
 mkdir -p chapter-zips
 wget -O chapter-zips/r-heatmap-chapt-3.zip https://raw.githubusercontent.com/jhudsl/Reproducibility_in_Cancer_Informatics/main/chapter-zips/r-heatmap-chapt-3.zip
 ```
 
 Now double click your chapter zip file to unzip. For Windows you may have to [follow these instructions](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc).
 
-```{bash, include = FALSE}
+```{bash, eval = FALSE}
 unzip -o chapter-zips/r-heatmap-chapt-3.zip -d chapter-zips/
 ```
 </details>
