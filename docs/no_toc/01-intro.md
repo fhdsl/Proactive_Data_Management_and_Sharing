@@ -18,7 +18,7 @@ As a member of the cancer research community, it is imperative that you maintain
 
 ## Target Audience  
 
-The course is intended for individuals in biomedical scientists and program managers who want to learn the best practices and techniques for data management and sharing.
+The course is intended for individuals in biomedical science labs and program managers who want to learn the best practices and techniques for data management and sharing.
 
 
 <img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="For individuals who: Have or plan to have biomedical data they need to manage, Have or plan to have or apply for NIH funding, Either work directly with the data or help mentor those who work with data,Have not had much training or background in data handling practices" width="100%" style="display: block; margin: auto;" />
