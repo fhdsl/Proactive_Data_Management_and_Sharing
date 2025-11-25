@@ -1,4 +1,6 @@
-# (PART\*) What is Data Sharing? {-}
+# (PART\*) Data Sharing Expectations? {-}
+
+# Data Sharing is Important
 
 In this section we will cover the following learning objectives:
 
@@ -7,7 +9,7 @@ In this section we will cover the following learning objectives:
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g2df9e1c7fe6_0_0#slide=id.g2df9e1c7fe6_0_0")
 ```
 
-# Data Sharing is Important
+
 
 Sharing data is critical for optimizing the advancement of scientific understanding. Now that labs all over the world are producing massive amounts of data, there are many discoveries that can be made by simply re-using/re-analyzing this existing data.
 
