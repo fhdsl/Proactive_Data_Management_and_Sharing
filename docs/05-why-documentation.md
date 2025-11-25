@@ -9,7 +9,7 @@ In the following section we will cover the following learning objectives:
 
 Biomedical research comes in all shapes and sizes, varying from mostly experimental wet bench work to a combination of experimental and computational, to largely computational. 
 
-Many researchers don't realize the work needed to document computational work.
+Many researchers don't realize the work needed to document computational work to ensure it is reproducible and transparent.
 
 
 These activities could include:

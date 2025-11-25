@@ -8,7 +8,7 @@ In this section we will cover the following learning objectives:
 
 ![](09-project-organization_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_39.png)
 
-Keeping your files organized is a skill that has a high long-term payoff. During the initial development of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
+Keeping your files organized is a skill that has a high long-term payoff and also assists in helping make your research transparent and reproducible. During the initial development of an analysis, you may underestimate how many files and terms you have floating around. But a short time later, you may return to your files and realize your organization was not as clear as you hoped.   
 
 ![](09-project-organization_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_56.png)
 

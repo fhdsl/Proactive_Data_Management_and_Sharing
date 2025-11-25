@@ -1,4 +1,3 @@
-# (PART\*) Data sharing Expectations {-}
 
 # Elements of the DMS Plan
 
