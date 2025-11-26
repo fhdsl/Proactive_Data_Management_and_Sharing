@@ -4,7 +4,7 @@
 
 In this section we will cover the following learning objectives:
 
-```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: Understand the fundamental concepts of repeatability vs reproducibility vs replicability. Recognize how working to make your analyses reproducible saves you and your collaborators time. Describe how working toward reproducible analyses can assist in enhancing the accuracy of analysis results. Explain how reproducibility is on a continuum"}
+```{r, fig.align='center', echo = FALSE, fig.alt= "Learning Objectives: Understand the fundamental concepts of repeatability vs reproducibility vs replicability. Recognize how working to make your analyses reproducible saves you and your collaborators time. Explain how reproducibility is on a continuum. Describe how working toward reproducible analyses can assist in enhancing the accuracy of analysis results. "}
 ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_18#slide=id.g3896feb580f_16_18")
 ```
 
@@ -146,4 +146,12 @@ Incremental work on your analyses is good! You do not need to make your analyses
 ottrpal::include_slide("https://docs.google.com/presentation/d/1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE/edit#slide=id.gf7bed24491_1_0")
 ```
 
-In Summary, while it takes extra effort upfront to make your research follow best practices for reproducibility, it ultimately saves you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone with the same results, **it does not necessarily mean that it is correct**. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. If your analysis is not transparent it is difficult to discern how correct it is. If you can't get the same results twice, you shouldn't trust your analysis yet. Therefore, reproducibility practices can help ensure that our work is as correct as our current understanding of methods. 
+
+## Reproducibility practices helps rigor
+
+If your analysis is not transparent it is difficult for others to discern how correct it is. Also, if you can't get the same results twice, you shouldn't trust your analysis yet, as something might be missing from your code or protocol. Therefore, reproducibility practices can help ensure that our work is as correct as our current understanding of methods. 
+
+If our understanding of methods changes, for example we learn that we need to use a new normalization technique to mitigate for batch effects, we can still find value in our older research if it is clear exactly how the work was done. We can use our previous data and update or methods using new techniques much more easily.
+
+
+In Summary, while it takes extra effort upfront to make your research follow best practices for reproducibility, it ultimately saves you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone with the same results, **it does not necessarily mean that it is correct**. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 
