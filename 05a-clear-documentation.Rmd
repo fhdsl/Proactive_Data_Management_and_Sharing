@@ -5,7 +5,7 @@ Our goal for documentation is to be as comprehensive, navigable, and as always, 
 In this section, we will cover the following learning objectives:
 
 ```{r, fig.alt="Learning Objectives: Describe best practices for project documentation, Explain what a README file is and why it can be very useful for  organizing scientific research projects, Identify what aspects might be included in a research notebook", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_24#slide=id.g3896feb580f_16_24")
+ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM/edit?slide=id.g3896feb580f_16_5#slide=id.g3896feb580f_16_5")
 ```
 
 ## Characteristics of clear documentation
