@@ -33,7 +33,7 @@ The code and the methods you use are likely valuable to more than just the singu
 ottrpal::include_slide("https://docs.google.com/presentation/d/1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg/edit#slide=id.g2dfa045ca2b_0_10")
 ```
 
-Other researchers are likely eager to apply your code and methods to their own work but its unfortunately all too common that scientific code is not able to be reused. Even scientists who are skilled with analysis often struggle to make work reproducible. In a large-scale study, only 24% of scientific notebooks ran without errors and only 4.03% produced the same results {@Samuel2021}.
+Other researchers are likely eager to apply your code and methods to their own work but its unfortunately all too common that scientific code is not able to be reused. Even scientists who are skilled with analysis often struggle to make work reproducible. In a large-scale study, only 24% of scientific notebooks ran without errors and only 4.03% produced the same results {@samuel_understanding_2021}.
 
 
 ```{r, fig.alt="Tina’s awesome tool says unintelligible warning, Error: The jargony sounding thing has encountered a problem and is on fire with the word error written all over it. Uri the Tool User is distressed and confused.", echo = FALSE}
