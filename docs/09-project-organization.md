@@ -124,9 +124,9 @@ Now double click your chapter zip file to unzip. For Windows you may have to [fo
 
 Using your computer's GUI (drag, drop, and clicking), organize the files that are part of this project.
 
-1. Organized these files using an organizational scheme similar to [what is described above](#example organizational-scheme).
+1. Organize these files using an organizational scheme similar to [what is described above](#example organizational-scheme).
 1. Create folders like `plots`, `results`, and `data` folder. Note that `aggregated_metadata.json` and `LICENSE.TXT` also belong in the `data` folder.
-1. You will want to delete any files that say "OLD". Keeping multiple versions of your scripts around is a recipe for mistakes and confusion. In the advanced course we will discuss how to use version control to help you track this more elegantly.  
+1. You will want to delete any files that say "OLD". Keeping multiple versions of your scripts around is a recipe for mistakes and confusion. In the [ITN reproducibility courses](https://www.itcrtraining.org/resources/courses) we will discuss how to use version control to help you track this more elegantly.  
 
 
 **Any feedback you have regarding this exercise is greatly appreciated; you can fill out [this form](https://forms.gle/ygSSwoGaEATA2S65A)!**

@@ -6,7 +6,7 @@
 
 In this section we will cover the following learning objectives:
 
-![](13-data-submission-tips_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_34_14.png){width=100%}
+![](13-data-submission-tips_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_10.png){width=100%}
 
 
 ### REDCap (Research Electronic Data Capture)
@@ -35,7 +35,7 @@ These roles should be verified by your institutional review board (IRB) before b
 
 2) Reports
 
-Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see the section on [de-identification](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification) to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.
+Reports that are exported can be customized to only show data that should be shared with the individual that you plan to share with. Please see this section on [de-identification](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-security.html#de-identification) to better understand what data you might want to be restrictive about sharing. Again, the way you intend to share your data should be reviewed by your IRB before you begin your study.
 
 For example, you might remove the dates from the following report:
 
@@ -44,7 +44,7 @@ For example, you might remove the dates from the following report:
 
 3) Auditing
 
-REDCap keeps track of all data modifications, as well as data exports or report generations, in addition to keeping track of who performs those actions. This can be helpful for checking what has happened and when, in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint - you have a record of any modifications to the data. This information can be obtained from the `logging` menu.
+REDCap keeps track of all data modifications, as well as data exports or report generations, in addition to keeping track of who performs those actions. This can be helpful for checking what has happened and when, in case anything happens that is unexpected or unintended. This is also great from a reproducibility or transparency standpoint. You have a record of any modifications to the data. This information can be obtained from the `logging` menu.
 
 4) Keep instruments short
 
