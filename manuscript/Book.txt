@@ -1,0 +1,17 @@
+1-Introduction.md
+2-Data-Sharing-is-Important.md
+3-Why-is-there-an-NIH-DMS-policy.md
+4-Elements-of-the-DMS-Plan.md
+5-Discussion-on-Benefits-of-Data-Management-and-Sharing.md
+6-Defining-reproducibility.md
+7-Data-Privacy.md
+8-Creating-Clear-Documentation.md
+9-Why-Documentation-is-Worth-the-Time.md
+10-Organizing-your-project.md
+11-Record-keeping-practices.md
+12-Guidelines-for-Good-Metadata.md
+13-Data-Storage-and-Data-Repositories.md
+14-Health-care-data-sharing-tools.md
+15-References.md
+About-this-Course.md
+About-the-Authors.md
