@@ -11,7 +11,7 @@ Metadata are critically important descriptive information about your data.
 
 **Without metadata, the data themselves are useless or at best vastly limited.**
 
-Metadata describe how your data came to be, what organism or patient the data are from and include any and every relevant piece of information about the samples in your data set.
+Metadata describe how your data came to be, what organism or patient the data are from, and any and every relevant piece of information about the samples in your data set.
 
 <img src="11-guidelines-for-metadata_files/figure-html//1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY_g12709027cba_1_12.png" alt="Question: What are metadata? Answer: Anything and everything that should be known about your samples! Samples labeled A-H are in test tubes. A corresponding spreadsheet has metadata such as mouse id, processing date, treatment and etc. The researcher says ‘I know everything I need to know about these samples from their metadata!’" width="100%" />
 
@@ -20,7 +20,7 @@ Metadata includes but isn't limited to, the following example categories:
 <img src="11-guidelines-for-metadata_files/figure-html//1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY_g12709027cba_1_45.png" alt="Examples of metadata categories: Patient/organism of origin, Patient/organism information including: Demographics, Disease state, Treatment state, Time point (if applicable). Metadata also includes: Processing information like: Batch information and Processing details (for example: Isolation methods: Poly-A vs Ribo-minus) Metadata is Anything that should be known about the samples and their handling!" width="100%" />
 
 <div class = "warning">
-At this time it's important to note that if you work with human data or samples, your metadata will likely contain personal identifiable information (PII) and protected health information (PHI). It's critical that you protect this information! For more details on this, we encourage you to see our [course about data management](https://jhudatascience.org/Ethical_Data_Handling_for_Cancer_Research/data-privacy.html).
+At this time it's important to note that if you work with human data or samples, your metadata will likely contain personal identifiable information (PII) and protected health information (PHI). It's critical that you protect this information! For more details on this, we encourage you to see our previous chapter or this [course about ethical data management](https://hutchdatascience.org/Ethical_Data_Handling_for_Cancer_Research/).
 </div>
 
 
@@ -72,7 +72,7 @@ Toward these two goals, [this excellent article](https://www.tandfonline.com/doi
 
 
 <div class = "warning">
-Note that it is very dangerous to open gene data with Excel. According to @Ziemann2016, approximately one-fifth of papers with Excel gene lists have errors. This happens because Excel wants to interpret everything as a date. We strongly caution against opening (and saving afterward) gene data in Excel.
+Note that it is very dangerous to open gene data with Excel. According to @Ziemann2016, approximately one-fifth of papers with Excel gene lists have errors. This happens because Excel wants to interpret everything as a date. Although there have been measures to mitigate this, we strongly caution against opening (and saving afterward) gene data in Excel. It is best to make a seperate copy for viewing, if you really want to use Excel just to look at the data.
 
 <img src="11-guidelines-for-metadata_files/figure-html//1YwxXy2rnUgbx_7B7ENH9wpDX-j6JpJz6lGVzOkjo0qY_g13a7f78e577_0_0.png" alt="‘Approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions’ Ziemann, Eren, El-Osta, 2016. On the left, a meme that shows Excel asking ‘is this a date?’ in response to seeing ‘any data at all’. " width="100%" />
 </div>

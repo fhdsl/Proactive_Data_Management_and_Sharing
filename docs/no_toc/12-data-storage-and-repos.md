@@ -15,7 +15,7 @@ In this section we will cover the following learning objectives:
 How should you store and interact with data while doing research?
 </div>
 
-Your data storage needs will depend greatly on the type of data you will be working with as well as the number of samples you might have. File sizes vary considerably based on the data being stored. A single file can be as small as 1 MB in size (for a PET scan image of the heart) to 60 GB (for an uncompressed fastq of a whole genome sequence). Storing files in a compressed format, especially raw files, can help decrease your storage needs and costs. Below is a table of common types of data and sizes for single files. This list is not comprehensive but instead should be taken as a general guide. You should always get a more specific estimate for your particular project before submitting your grant proposal.
+Your data storage needs will depend greatly on the type of data you will be working with as well as the number of samples you might have. File sizes vary considerably based on the data being stored. A single file can be as small as 1 MB in size (for a PET scan image of the heart) to 60 GB (for an uncompressed fastq of a whole genome sequence). Storing files in a compressed format, especially raw files, can help decrease your storage needs and costs. Below is a table of common types of data and sizes for single files. This list is not comprehensive but instead should be taken as a general guide. You should always get a more specific estimate for your particular project before submitting a grant proposal.
 
 | **Type of data** | **Common size for a _single_ file** |
 |------------------|------------------|
@@ -53,8 +53,6 @@ If you don't find a repository there, additional repositories can also be found 
 - [Registry of research data repositories](https://www.re3data.org/)
 
 Researchers should aim to find a repository with the following characteristics according to the NIH:
-
-
 
 - **Established**: If the repository is established (well-known or has been around for a significant period of time), it is likely to improve the FAIRness [@wilkinson_citation_2016] of the data.
 - **Specific**: Repositories that are discipline or data-type specific should be prioritized to promote reuse.

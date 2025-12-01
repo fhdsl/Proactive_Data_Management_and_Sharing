@@ -4,15 +4,15 @@
 
 In this section we will cover the following learning objectives:
 
-<img src="03-defining-reproducibility_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_18.png" alt="Learning Objectives: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible saves your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results." width="1250" style="display: block; margin: auto;" />
+<img src="03-defining-reproducibility_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_18.png" alt="Learning Objectives: Understand the fundamental concepts of repeatability vs reproducibility vs replicability. Recognize how working to make your analyses reproducible saves you and your collaborators time. Explain how reproducibility is on a continuum. Describe how working toward reproducible analyses can assist in enhancing the accuracy of analysis results. " width="1250" style="display: block; margin: auto;" />
 
 ## What is reproducibility
 
-There's been much discussion about what is included in the term `reproducibility` and there is some discrepancy between fields. For the broad field of cancer research, a _reproducible analysis is one that can be re-run by a different researcher and the same result and conclusion is found_.
+There's been much discussion about what is included in the term `reproducibility` and there is some discrepancy between fields. For the broad field of cancer research, a _reproducible analysis is one that can be re-run by a different researcher, yet the same result and conclusion is found_.
 
 <img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_146.png" alt="Reproducibility is a different analyst re­-performing the same analysis with the same code and data." width="1250" style="display: block; margin: auto;" />
 
-Reproducibility is related to repeatability and replicability but it is worth taking time to differentiate these terms
+Reproducibility is related to repeatability and replicability but it is worth taking time to differentiate these terms.
 
 Perhaps you are like Ruby and have just found an interesting pattern through your data analysis! This has probably been the result of many months or years on your project and it's worth celebrating!
 
@@ -22,7 +22,7 @@ But before she considers these results a done deal, Ruby should test whether she
 
 <img src="03-defining-reproducibility_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g35294cebb05_0_482.png" alt="Repeatable means that if you keep everything the same but repeat the analysis (or experimental protocol) - do you get the same results? Ruby the researcher has her same code or experimental protocol and data but a repeat sign around them. If she re-runs the analysis, will she get the same scatterplot of results we’ve seen previously?" width="1250" style="display: block; margin: auto;" />
 
-Given that Ruby's analysis is repeatable; she may feel confident now to share her preliminary results with her colleague, Avi the Associate. Whether or not someone else will be able to take Ruby's code and data, re-run the analysis and obtain the same results is known as _reproducibility_. The same could be true for running the same experimental protocol with the same samples by another colleague.
+Given that Ruby's analysis is repeatable; she may feel confident now to share her preliminary results with her colleague, Avi the Associate. Whether or not someone else will be able to take Ruby's code and data, re-run the analysis, and obtain the same results is known as _reproducibility_. The same could be true for running the same experimental protocol with the same samples by another colleague.
 
 <img src="03-defining-reproducibility_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g35294cebb05_0_146.png" alt="Reproducible: using the same data and analysis or experimental protocol but in the hands of another researcher - do we get the same results? Ruby the researcher sends her code and data to Avi the Associate who then tries to re-run the same analysis  on his own computer." width="1250" style="display: block; margin: auto;" />
 
@@ -56,7 +56,7 @@ Avi is also interested in Ruby's analysis methods and results. So, Ruby sends Av
 
 Ruby may have spent a lot of time on her code and getting it to work on her computer, but whether it will successfully run on Avi's computer is another story. Often when researchers share their analysis code it leads to a substantial amount of effort on the part of the researcher who has received the code to get it working and this often cannot be done successfully without help from the original code author [@BeaulieuJones2017]. This same concept applies to experimental research methods in a laboratory setting.
 
-Avi is encountering errors because Ruby's code was written with Ruby's computer and local setup in mind and she didn't know how to make it more generally applicable. Avi is spending a lot of time just trying to re-run Ruby's same analysis on her same data; he has yet to be able to try the code on any additional data (which will likely bring up even more errors). Imagine a trying to follow an experimental research method in the lab with vague or unclear instructions!
+Avi is encountering errors because Ruby's code was written with Ruby's computer and local setup in mind and she didn't know how to make it more generally applicable. Avi is spending a lot of time just trying to re-run Ruby's same analysis on her same data; he has yet to be able to try the code on any additional data (which will likely bring up even more errors). This is similar to trying to follow an experimental research method in the lab with vague or unclear instructions!
 
 <img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_993.png" alt="Avi the associate is confused and sweating. His computer has the word ‘error’ written all over it and its on fire trying to use Ruby’s code on Ruby’s data. This is using a substantial amount of time and effort on Avi’s part. " width="1250" style="display: block; margin: auto;" />
 
@@ -75,7 +75,7 @@ Lack of errors also doesn't mean that either Ruby or Avi's runs of the code ran 
 
 Perhaps you've found yourself in a situation like Ruby and Avi; struggling to re-run code or a method that you thought for sure was working a minute ago. In the upcoming chapters, we will discuss how to bolster your projects' reproducibility.
 
-As you apply these reproducible techniques to your own projects, you may feel like it is taking more time to reach endpoints, but keep in mind that reproducible analyses and projects have higher upfront costs but these will absolutely pay off in the long term.
+As you apply these reproducible techniques to your own projects, you may feel like it is taking more time to reach endpoints, but keep in mind that reproducible analyses and projects have higher upfront costs but these will absolutely pay off in the long run.
 
 <img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_38.png" alt="Reproducibility is a tortoise’s game - it’s an incremental and slow process but it has high payoffs!" width="1250" style="display: block; margin: auto;" />
 
@@ -103,8 +103,16 @@ But, reproducible code and methods saves everyone exponential amounts of time an
 
 ## Reproducibility exists on a continuum!
 
-Incremental work on your analyses is good! You do not need to make your analyses perfect on the first try or even within a particular time frame. The first step in creating an analysis is to get it to work once! But the work does not end there. Furthermore, no analysis is or will ever be perfect in that it will not be reproducible in every single context throughout time. Incrementally pushing our analyses toward the right of this continuum is the goal.
+Incremental work on your analyses is good! You do not need to make your analyses perfect on the first try or even within a particular time frame. The first step in creating an analysis is to get it to work once! But the work does not end there. Furthermore, no analysis is or will ever be perfect in that it will not be reproducible in every single context throughout time. Incrementally pushing our analyses toward the perfect side of the continuum is the goal.
 
 <img src="03-defining-reproducibility_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_0.png" alt="Reproducibility is on a continuum. This graph shows a two sided arrow with a gradient. On the very left is a ‘not repeatable analysis’ it was ran once. To the right of that is an analysis that ‘re-runs sometimes’. To the right of this, is an analysis that ‘Re-runs reliably in most contexts’.  And all the way to the right is a ‘perfectly reproducible analysis’ that ‘Re-runs in every situation and gets the same result every time’. In red lettering we note that every analysis is started by being run once but no analysis is ‘perfectly reproducible’." width="1250" style="display: block; margin: auto;" />
 
-In Summary, while it takes extra effort upfront to make your research follow best practices for reproducibility, it ultimately saves you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone with the same results, it does not necessarily mean that it is correct. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 
+
+## Reproducibility practices helps rigor
+
+If your analysis is not transparent it is difficult for others to discern how correct it is. Also, if you can't get the same results twice, you shouldn't trust your analysis yet, as something might be missing from your code or protocol. Therefore, reproducibility practices can help ensure that our work is as correct as our current understanding of methods. 
+
+If our understanding of methods changes, for example we learn that we need to use a new normalization technique to mitigate for batch effects, we can still find value in our older research if it is clear exactly how the work was done. We can use our previous data and update or methods using new techniques much more easily.
+
+
+In Summary, while it takes extra effort upfront to make your research follow best practices for reproducibility, it ultimately saves you much more time in the end and makes your work much more transparent to others and you future self. Remember that being reproducible means that your work can be consistently redone with the same results, **it does not necessarily mean that it is correct**. However, this consistency is the first step to ensure that your science is rigorous and enables you and others to more deeply understand why others may or may not reproduce your work in the future. 

@@ -4,7 +4,7 @@ Our goal for documentation is to be as comprehensive, navigable, and as always, 
 
 In this section, we will cover the following learning objectives:
 
-<img src="05a-clear-documentation_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_24.png" alt="Learning Objectives: Describe best practices for project documentation, Explain what a README file is and why it can be very useful for  organizing scientific research projects, Identify what aspects might be included in a research notebook" width="1250" />
+<img src="05a-clear-documentation_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_5.png" alt="Learning Objectives: Describe best practices for project documentation, Explain what a README file is and why it can be very useful for  organizing scientific research projects, Identify what aspects might be included in a research notebook" width="1250" />
 
 ## Characteristics of clear documentation
 

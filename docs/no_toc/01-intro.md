@@ -7,7 +7,7 @@
 
 ## Motivation
 
-The cancer research discipline has evolved into an increasingly complex mix of datasets - research projects are typically cross-disciplinary and contain many types of data in various formats. They often involve multiple collaborators generating data across different sites, with different data standards and infrastructure used to generate those data. Therefore, it is more important than ever to be well-versed in the best practices of data management and sharing.
+The cancer research discipline has evolved into an increasingly complex mix of datasets. Research projects are typically cross-disciplinary and contain many types of data in various formats. They often involve multiple collaborators generating data across different sites, with different data standards and infrastructure used to generate those data. Therefore, it is more important than ever to be well-versed in the best practices of data management and sharing.
 
 Proper data management and sharing is a necessity for cancer research projects to succeed in positively impacting cancer care. Now, it is more important than ever to understand the appropriate methods and best practices in data management and sharing as you plan for your research. The NIH and other cancer research funders have implemented mandates that require you to proactively plan to manage and share your data.
 
@@ -21,19 +21,19 @@ As a member of the cancer research community, it is imperative that you maintain
 The course is intended for individuals in biomedical science labs and program managers who want to learn the best practices and techniques for data management and sharing.
 
 
-<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="For individuals who: Have or plan to have biomedical data they need to manage, Have or plan to have or apply for NIH funding, Either work directly with the data or help mentor those who work with data,Have not had much training or background in data handling practices" width="100%" style="display: block; margin: auto;" />
+<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g1173f7473f7_0_0.png" alt="For individuals who: Have or plan to have biomedical data they need to manage, Have or plan to apply for NIH funding, Either work directly with the data or help mentor those who work with data,Have not had much training or background in data handling practices" width="100%" style="display: block; margin: auto;" />
 
 ## Topics covered
 
 This course covers how to properly manage and share data including:
 
 
-<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png" alt="Topics Discussed in the proactive data management and sharing course: Organizing and documenting your project. How computing hardware and software work. Keeping good records and metadata. Identifying resources that meet your data needs. Creating data sharing plans consistent with N I H requirements. Sharing and submitting data properly" width="100%" style="display: block; margin: auto;" />
+<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gfd7c7a0ba8_0_0.png" alt="Topics discussed: Creating data sharing plans consistent with N I H requirements. Sharing and submitting data properly. Identifying repositories that meet your data sharing needs.Complying with data privacy regulations.Organizing and documenting your project. Keeping good records and metadata." width="100%" style="display: block; margin: auto;" />
 
 
 ## Curriculum 
 
-<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png" alt="Describe what data sharing is and why is it important, Effectively manage your scientific data, Maintain data privacy and comply with data privacy laws, Maintain and write effective documentation, Keep effective records that will help you track your project properly but securely, Create good metadata that can enhance the use your data, Organize your project so that it is reproducible and well understood by others, Explain what elements are in a data management sharing plan consistent with NIH requirements, Store and submit your data to repositories" width="100%" style="display: block; margin: auto;" />
+<img src="01-intro_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_gd422c5de97_0_10.png" alt="Curriculum covered: Describe what data sharing is and why is it important.Effectively manage your scientific data. Explain what elements are in data management and sharing plans consistent with NIH requirements. Store and submit your data to repositories. Maintain data privacy and comply with data privacy laws. Maintain and write effective documentation. Keep effective records that will help you track your project properly but securely. Organize your project so that it is reproducible and well understood by others. Create good metadata that can enhance the use of your data" width="100%" style="display: block; margin: auto;" />
 
  
 **How to use this course:** This course contains high-level concepts for data management and sharing and can be used as a reference of suggested best practices and associated skills needed for data management and sharing in biomedical research.

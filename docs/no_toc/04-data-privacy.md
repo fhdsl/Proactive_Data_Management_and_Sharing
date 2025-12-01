@@ -52,7 +52,7 @@ Thus, this information is categorized in two ways: nonsensitive, which is easy t
 
 What is the risk of PII getting into the hands of people it shouldn't? Why was the Privacy Act necessary?
 
-PII can pose a risk for identity theft, which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
+PII can pose a risk for identity theft which can have financial, professional, criminal, and personal consequences [@dinardi_14_2022], as criminals can get loans and credit card in other people's names, as well as commit crimes under the guise of other people's identities. This can result in reputation loss and loss of opportunities.
 
 In addition, the leak of PII can also pose a safety risk, as criminals can identify the likely locations of specific individuals if performing targeted crimes.
 
@@ -97,7 +97,7 @@ PHI is a subset of PII. It is personal identifiable information that relates to 
 
 <img src="04-data-privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_497.png" alt="PHI is a subset of PII that pertains to health" width="100%" style="display: block; margin: auto;" />
 
-Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless they are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to  distinguish the identity of people in the study.
+Some PII is always PHI, like health insurance numbers or clinical data such as radiology reports with names or other distinguishing features. Other PII becomes PHI based on context. For example, name and email address aren't necessarily PHI, unless they are in the context of medical care or research. This could be the case if a patient receives notes from the doctor through email or researchers have a database of participants with email addresses that could be used to distinguish the identity of people in the study.
 
 ## PHI Risk
 
@@ -111,7 +111,7 @@ Certain omics or genomics data, such as whole genome sequencing (essentially a g
 
 <img src="04-data-privacy_files/figure-html//1SRokLaGAc2hiwJSN26FHE0ZEEhPr3KQdyMICic8kAcs_g20f61f033e7_18_509.png" alt="Genomics and Clinical data currently typically pose a higher risk for identifcation than most imaging data" width="100%" style="display: block; margin: auto;" />
 
-### What genomic data is protected?
+<!--### What genomic data is protected?-->
 <!-- Need to talk more about the difference between protected and shareable - want to talk about HIPAA vs GINA etc. and if participants are alive or not etc.-->
 
 <!-- The Genetic Information Nondiscrimination Act prohibits employers and health insurance companies from using genetic information to discriminate against individuals. -->
@@ -176,7 +176,7 @@ The following articles have more extensive information about the current re-iden
 
 ## How to ensure the privacy of this information
 
-Your institution will have guidance on how to protect sensitive data but in general there are 4 main strategies we will summarize here:
+Your institution will have guidance on how to protect sensitive data, but in general there are 4 main strategies we will summarize here:
 
 1. Limit access to the data
 
@@ -193,7 +193,7 @@ A Data Use Agreement (DUA) is required even for de-identified data, particularly
 
 Data use agreements restrict who can access and use the data that you might share, as well as what they may do with the data. Importantly this needs to be agreed upon by an IRB and consented to by the research participants in some manner before it is in use.
 
-See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this practices guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
+See [this guidance on DUAs](https://assets.campbell.edu/wp-content/uploads/2018/09/Guidance-When-Do-I-Need-a-DUA.v1.pdf) and [this guide for DUAs](https://www.hhs.gov/sites/default/files/ocio/eplc/EPLC%20Archive%20Documents/55-Data%20Use%20Agreement%20%28DUA%29/eplc_dua_practices_guide.pdf) for more information about when you might need a data use agreement. Note that your particular situation and institute may have slightly different rules or restrictions.
 
 Check out these DUA templates to get started:
 
@@ -238,7 +238,7 @@ If your email or data transfer is intercepted it is important to keep your data 
 
 2) Computer hacking or phishing
 
-If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. The data security practices that we will describe in the next chapter will help avoid this.
+If your computer gets hacked by hackers through a phishing email or otherwise, they could sell the data to third party organizations who could profit off of the information. 
 
 3) Unauthorized Access
 
