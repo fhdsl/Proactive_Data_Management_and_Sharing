@@ -4,7 +4,7 @@ Our goal for documentation is to be as comprehensive, navigable, and as always, 
 
 In this section, we will cover the following learning objectives:
 
-![](05a-clear-documentation_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_24.png)
+![](05a-clear-documentation_files/figure-docx//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_5.png)
 
 ## Characteristics of clear documentation
 

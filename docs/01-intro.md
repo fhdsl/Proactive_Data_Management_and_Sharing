@@ -7,7 +7,7 @@
 
 ## Motivation
 
-The cancer research discipline has evolved into an increasingly complex mix of datasets - research projects are typically cross-disciplinary and contain many types of data in various formats. They often involve multiple collaborators generating data across different sites, with different data standards and infrastructure used to generate those data. Therefore, it is more important than ever to be well-versed in the best practices of data management and sharing.
+The cancer research discipline has evolved into an increasingly complex mix of datasets. Research projects are typically cross-disciplinary and contain many types of data in various formats. They often involve multiple collaborators generating data across different sites, with different data standards and infrastructure used to generate those data. Therefore, it is more important than ever to be well-versed in the best practices of data management and sharing.
 
 Proper data management and sharing is a necessity for cancer research projects to succeed in positively impacting cancer care. Now, it is more important than ever to understand the appropriate methods and best practices in data management and sharing as you plan for your research. The NIH and other cancer research funders have implemented mandates that require you to proactively plan to manage and share your data.
 

@@ -5,8 +5,6 @@ target-audience
 topics-covered
 curriculum
 data-sharing-is-important
-discussion-on-benefits-of-data-management-and-sharing
-discussion
 why-is-there-an-nih-dms-policy
 key-terms
 no-sharing
@@ -20,11 +18,14 @@ no-cost-extensions
 when-to-not-share
 elements-of-the-dms-plan
 overall-takeaways
+discussion-on-benefits-of-data-management-and-sharing
+discussion
 defining-reproducibility
 what-is-reproducibility
 reproducibility-in-daily-life
 reproducibility-is-worth-the-effort
 reproducibility-exists-on-a-continuum
+reproducibility-practices-helps-rigor
 data-privacy
 pii-personal-identifiable-information
 pii-risk
@@ -32,7 +33,6 @@ phi-protected-health-information
 phi-is-a-subset-of-pii
 phi-risk
 cancer-research-data-and-phi
-what-genomic-data-is-protected
 how-to-ensure-the-privacy-of-this-information
 how-is-hipaa-enforced
 common-violations

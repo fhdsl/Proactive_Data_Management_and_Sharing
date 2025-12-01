@@ -29,12 +29,12 @@ The code and the methods you use are likely valuable to more than just the singu
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_10.png)
 
-Other researchers are likely eager to apply your code and methods to their own work but its unfortunately all too common that scientific code is not able to be reused. Even scientists who are skilled with analysis often struggle to make work reproducible. In a large-scale study, only 24% of scientific notebooks ran without errors and only 4.03% produced the same results.
+Other researchers are likely eager to apply your code and methods to their own work but its unfortunately all too common that scientific code is not able to be reused. Even scientists who are skilled with analysis often struggle to make work reproducible. In a large-scale study, only 24% of scientific notebooks ran without errors and only 4.03% produced the same results {@samuel_understanding_2021}.
 
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_15.png)
 
-There is a great need for reproducible work and a large part of reproducibility is clear and findable documentation! Open source code is a valuable practice for contributing to the scientific community but if the code lacks clear documentation it is incomplete. Undocumented code can lead to a lot of frustration and time inefficiently spent.
+There is a great need for reproducible work and a large part of reproducibility is clear and findable documentation! Open source code is a valuable practice for contributing to the scientific community, but if the code lacks clear documentation it is incomplete. Undocumented code can lead to a lot of frustration and time inefficiently spent.
 
 If a code base's documentation is non-existent, scarce, out-of-date, or filled with too much jargon, the chances are high that no one will be able to successfully and efficiently re-use this work, despite their needs to do so.
 
@@ -50,23 +50,23 @@ This is the unfortunate and all-too-common result of many bioinformatics tools.
 
 We realize many researchers feel unenthused about the process of creating documentation or may lack bandwidth to do so. They may know it's good for their research, but they just aren't enthused about it.
 
-We'd like to assure you that the effort for creating documentation has a high return payoff for the continued success of your research code/scientific software  as a whole!
+We'd like to assure you that the effort for creating good documentation has a high return payoff for the continued success of your research methods/code/scientific software as a whole!
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_24.png)
 
 
-Other researchers are still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code that will better guide their next steps!
+Other researchers are still likely to encounter errors and problems, but with thorough and easy-to-digest documentation, they are better equipped to troubleshoot these problems! They may also learn more about the features and limitations of the code/methods that will better guide their next steps!
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_40.png)
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_44.png)
 
-This is not only helpful for other researchers but makes it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
+This is not only helpful for other researchers, but makes it more likely that more individuals in the community will use these methods and share them in the community. These types of citations and usage metrics can be valuable to report to funding institutions to describe the impact of the work.
 
 Well-documented code helps developers better maintain their code in the future because they may forget the mechanics of their code over time.
 
 ![](05-why-documentation_files/figure-docx//1PH9_KlLVggYpNJI0fgvcIcft2vDtGA_mlCqKFA8gnAg_g2dfa045ca2b_0_48.png)
 
-This helps with manuscript revisions, transparency or future research that builds on these methods!
+This helps with manuscript revisions or future research that builds on these methods!
 
 In summary, all research should have good documentation, regardless of if it is mainly experimental wet bench science or mainly computational. Keeping good records of reagents, experimental protocols, software, methods, and more can help to ensure that our science is as transparent and rigorous as possible. It can also help speed up efficiency both within our own labs and for collaborators who wish to use our data or methods.  
