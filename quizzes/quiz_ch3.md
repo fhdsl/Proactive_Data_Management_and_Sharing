@@ -1,29 +1,29 @@
 
 {quiz, id: quiz_name_here, attempts: 10}
 
-## Template quiz
+## NIH DMS Policy Quiz
 
-Put any other instructions your quiz takers need to know here like: Choose the best answer.
-
-{choose-answers: 4}
-? First question to ask goes here. (Note- you need a question mark at end like this. Just one is required if using a question mark in your question field)?
-
-C) One correct answer here marked with a "C"
-C) A second correct answer here
-m) Mandatory incorrect answers have an "m"
-m) A second mandatory incorrect answer
-o) An optional incorrect answer here marked with an "o"
-o) A second optional incorrect answer here
+Choose the best answer.
 
 {choose-answers: 4}
-? Question example with just a question mark?
+? What are additional reasons why data sharing is useful?
 
-C) One correct answer here marked with a "C"
-C) A second correct answer here
-m) Mandatory incorrect answers have an "m"
-m) A second mandatory incorrect answer
-o) An optional incorrect answer here marked with an "o"
-o) A second optional incorrect answer here
+C) All of the other answers are reasons
+C) All of the other answers
+m) It supports mult-modal work
+m) It increases the impact of papers
+o) It improves the opportunity for collaboration
+o) Data citations may be a way to show contributions to science
+
+{choose-answers: 4}
+? What is data management?
+
+C) All of the answers are ways data sharing helps advance science
+C) All of the answers are correct
+m) Additional studies on the same data can be done faster than if the were to create new data every time 
+m) Researchers at institutions with limited resources can contribute more by performing more economical studies where the can reuse data rather than create it
+o) Scientific research is more transparent, helping others understand more about what was previously done
+o) Scientific research is more reproducible
 
 {choose-answers: 4}
 ? Second question to ask goes here?
