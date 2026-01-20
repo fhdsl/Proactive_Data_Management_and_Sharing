@@ -87,7 +87,7 @@ The DMS Policy does not apply to research and other activities that do not gener
 - Conference Grants (R13)
 - Resource (G)
 
-You can look up the [NIH Activity Code in this table] to see if a DMS Plan is required](https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf){target="_blank"} for your particular grant type.
+You can look up the [NIH Activity Code in this table to see if a DMS Plan is required](https://sharing.nih.gov/sites/default/files/flmngr/List-of-Activity-Codes-Applicable-to-DMS-Policy.pdf){target="_blank"} for your particular grant type.
 
 For example, I am interested in applying to a **R03** award.
 
