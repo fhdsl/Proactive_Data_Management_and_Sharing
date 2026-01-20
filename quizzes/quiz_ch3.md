@@ -18,44 +18,83 @@ o) Data citations may be a way to show contributions to science
 {choose-answers: 4}
 ? What is data management?
 
-C) All of the answers are ways data sharing helps advance science
-C) All of the answers are correct
-m) Additional studies on the same data can be done faster than if the were to create new data every time 
-m) Researchers at institutions with limited resources can contribute more by performing more economical studies where the can reuse data rather than create it
-o) Scientific research is more transparent, helping others understand more about what was previously done
-o) Scientific research is more reproducible
+C) The work to ensure data is accessible, reliable and of high quality
+C) The work to validate, process, organize, maintain, and protect data
+m) The work to manage those who work with data
+m) The work to manage expectations of work with data
+o) The work to ensure data is available as quickly as possible regardless of quality issues
+o) The work to organize data regardless of if that organization is maintained
 
 {choose-answers: 4}
-? Second question to ask goes here?
+? What is data sharing?
 
-C) A correct answer here!
-m) Mandatory incorrect answers have an "m"
-m) A second mandatory incorrect answer
-o) An optional incorrect answer here marked with an "o"
-o) A second optional incorrect answer here
+C) The act of making data available in an established repository for others to use
+m) Sharing information about yourself
+m) Sharing information about your lab
+o) Sharing your code on GitHub
+o) Sharing your contact info for others to get your data
+
+{choose-answers: 4}
+? What is Metadata?
+
+C) Information that makes other data usable (and reusable) for research
+C) Information about other data that makes it more usable
+m) Doesn't include information like sample or collection dates
+m) Doesn't describe how variables were made like transformations
+o) Doesn't include information about variables in a dataset
+o) Information that makes data less usable
 
 
 {choose-answers: 4}
-? A more complicated example. Note the question mark at the end of the options! Which of the following are correct
-1. An option described
-2. A second option
-3. A third option
-4. A fourth option
-5. A fifth option ?
+? Would a K99 award require a DMS plan?
 
-C) All of the examples listed except 5
-C) All of the listed examples except 5
-m) 1, 3, and 5
-m) 1, 2, and 3
-o) All of the examples except 1 and 5
-o) All of the examples listed
+C) According to the table provided by the NIH, yes it would
+C) According to the mechanisms described in the table by NIH, yes it would
+m) No K awards do not require a DMS plan
+m) There is no way of knowing
+o) It depends on the study
+o) It depends on the PI
 
-{random-choice-order: false}
-? A question in which the order of choices is important?
+{choose-answers: 4}
+? What is scientific data?
 
-a) The possible responses should be labeled a, b, c, etc
-b) The correct answer has a capital letter, in this case "D" is correct
-c) both a and b
-D) All of the above will always be last choice in this question
+C) Data for work with null findings
+C) Data for results in publish papers
+m) Lab notebooks
+m) Peer reviews
+o) Plans for future research
+o) Case report forms
+o) Drafts of scientific papers
+
+{choose-answers: 4}
+? How does the DMS plan impact the review of grants?
+
+C) For proposals where data sharing isn't specified in the Notice of Funding Opportunity, the reviewers will not see your DMS plan
+C) For proposals where data sharing is specified in the Notice of Funding Opportunity, the reviewers will have access to the plan 
+m) A Program Officer will write the DMS plan for you
+m) Proposals will always be reviewed and will always impact your score
+o) Program staff will not have access to the DMS plan
+o) DMS plans can't be changed
+
+{choose-answers: 4}
+? When should you not share data?
+
+C) Any of the other options listed but you still need to submit a plan
+C) All of the other options listed but you still need to submit a plan
+m) Consent of the participants does not permit sharing
+m) Existing consent of the participants prohibits sharing
+o) The data can not practically be digitized reasonably 
+o) Federal, state, or tribal law prohibits data sharing
+
+
+{choose-answers: 4}
+? What are not considered good reasons to not share data?
+
+C) Any of the other options listed are not considered good reasons
+C) All of the other options listed are not considered good reasons
+m) Data are too small
+m) Data will not be used by many
+o) Storage costs will inhibit work
+o) Can't find a good repository
 
 {/quiz}
