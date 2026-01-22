@@ -42,7 +42,7 @@ A plan describing an approach to data management, preservation, and sharing of s
 
 </div>
 
-# How will this policy affect me?
+## How will this policy affect me?
 
 Whether you are an investigator applying for a NIH grant, or a researcher or trainee supported by a NIH grant, it is important to know how this policy applies to you and your work. You can refer to the [NIH overview](https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/research-covered-under-the-data-management-sharing-policy#research-covered-by-the-2023-data-management-&-sharing-policy){target="_blank"} of which research will be covered by this new policy.  
 
@@ -66,7 +66,7 @@ To determine if your research requires compliance with other policies that may i
 In addition to these questions, there are ethical considerations that you may want to think about. See the [ethics section](https://hutchdatascience.org/NIH_Data_Sharing/ethics.html) of our other course for more information.
 </div>
 
-## Grant Mechanisms {#no-sharing}
+### Grant Mechanisms {#no-sharing}
 <div class = "question">
 What grant mechanisms require compliance with the DMS policy?
 </div>
