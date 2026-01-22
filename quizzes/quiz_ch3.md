@@ -1,7 +1,7 @@
 
 {quiz, id: quiz_name_here, attempts: 10}
 
-## NIH DMS Policy Quiz
+## Why did the NIH implement the DMS policy Quiz
 
 Choose the best answer.
 
@@ -10,7 +10,7 @@ Choose the best answer.
 
 C) All of the other answers are reasons
 C) All of the other answers
-m) It supports mult-modal work
+m) It supports multi-modal work
 m) It increases the impact of papers
 o) It improves the opportunity for collaboration
 o) Data citations may be a way to show contributions to science
