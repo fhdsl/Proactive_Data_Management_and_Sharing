@@ -48,6 +48,7 @@ Leanpub
 Licensor
 LICENSOR
 Markua
+metaverse
 mentorship
 MERCHANTABILITY
 Muschelli
@@ -93,6 +94,8 @@ bioinformatics
 Bioinformatics
 Bioinformatics
 Biometric
+Biomedical
+biomedical
 biospecimens
 BioStars
 BIRN
