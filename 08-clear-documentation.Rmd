@@ -39,17 +39,19 @@ This includes all:
 - Shows how to re-run the entire experimental protocol or analysis, example lines of code go a long way.
 - Tries to avoid the use of jargon, but if it is absolutely necessary to use a jargon-y term it links to information about the meaning of the term.
 
-### Data formats are described
+### Data formats or samples are described
 
-Perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
+Explaining what type of samples or files are necessary to start the process is clearly described. Ideally, your software or protocol can use a sampel or data format that is common. 
 
-Ideally, your software or analysis can use a data format that is common. But the more that your protocol or tool is particular about an odd data format, the more your documentation needs to be specific about what the odd data format looks like. It’s very helpful to include subsetted, de-identified example files for a positive control/example.
+If this is a computational process, perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
+
+The more that your protocol or tool is particular about an odd sample or data format, the more your documentation needs to be specific about what the odd format looks like. It’s very helpful to include subsetted, de-identified example files for a positive control/example.
 
 ## Types of documentation you should have
 
 Documentation strategies are not one size fits all but there are two types of documentation we strongly advise every project has: READMEs and analysis notebooks.
 
-We refer you to see the OpenPBTA project as a real life example of well documented open source data analysis.
+We refer you to see the [OpenPBTA project](https://www.alexslemonade.org/childhood-cancer-data-lab/openpbta) as a real life example of well documented open source data analysis.
 
 ### READMEs!
 
@@ -67,8 +69,8 @@ READMEs stick out in a project and are generally universal signal for new people
 
 1) General purpose of the project
 1) Instructions on how to re-run the project
-1) Lists of any software required by the project
-1) Input and output file descriptions
+1) Lists of any software/materials required by the project
+1) Input and output file/sample descriptions
 1) Descriptions of any additional tools included in the project
 
 You can take a look at this [template README](https://raw.githubusercontent.com/jhudsl/Reproducibility_in_Cancer_Informatics/main/resources/README-template.md) to get your started.
@@ -99,11 +101,11 @@ Data analyses can lead one on a winding trail of decisions and side investigatio
 
 **Your scientific notebook should include descriptions that describe:**
 
-### The purposes of the notebook
+#### The purposes of the notebook
 
 What scientific question are you trying to answer? Describe the dataset (or samples) you are using to try to answer this and why.
 
-### The reasons behind your decisions
+#### The reasons behind your decisions
 
 Describe any unconventional method steps or anything that might be forgotten or confusing later or to someone not involved in the study. Note this can be for experimental work or computational data analysis.
 
@@ -115,12 +117,14 @@ For example:
 
 - For data wrangling steps, why are you wrangling the data in such a way – is this because a certain package you are using requires it?
 
-###	Your observations of the results
+####	Your observations of the results
 
 What do you think about the results? The plots and tables and other visualizations and results that you show in the notebook – how do they inform your original questions?
 
 
 See this [course about reproducible workflows in R](https://hutchdatascience.org/Tools_for_Reproducible_Workflows_in_R/reproducible-reports.html) for more information about the use of Notebooks to better inform others about your work!
+
+## Summary
 
 In summary, we've shared some tips for ensuring that your documentation can be as helpful as possible. We suggest that you make it easy to find, comprehensive (describing all aspects of your scientific process), organized (we suggest using a README to help people navigate), and include the reasoning behind your process, especially describing key decision points. We suggest that  notebooks can be especially useful for experimental and computational work.
 
