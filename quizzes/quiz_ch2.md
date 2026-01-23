@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_data_sharing, attempts: 10}
 
 ## Data Sharing Importance Quiz
 

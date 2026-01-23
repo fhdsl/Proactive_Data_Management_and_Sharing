@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_reproducibility, attempts: 10}
 
 ## Defining Reproducibility Quiz
 
@@ -24,8 +24,6 @@ m) Someone else uses different code and the same data and gets the same result
 m) Someone else uses the same code and different data and gets the same result
 o) Someone uses the same code at a different time with different data and gets the same results
 o) Someone uses different data at a different time and gets the same result
-
-
 
 {choose-answers: 4}
 ? What is replicability?

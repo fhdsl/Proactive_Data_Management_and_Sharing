@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_data_privacy, attempts: 10}
 
 ## Data Privacy Quiz
 

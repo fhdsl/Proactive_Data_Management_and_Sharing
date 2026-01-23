@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_nih_policy, attempts: 10}
 
 ## Why did the NIH implement the DMS policy Quiz
 

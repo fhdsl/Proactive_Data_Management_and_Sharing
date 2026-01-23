@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_dms_elements, attempts: 10}
 
 ## Elements of the DMS Plan Quiz
 

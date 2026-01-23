@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_data_storage_and_repositories, attempts: 10}
 
 ## Data Storage and Repositories Quiz
 
@@ -15,6 +15,7 @@ m) Imaging files tend to be quite small
 o) Whole genome sequencing files (WGS) are rarely too big for a typical computer
 o) Some biomedical files like proteomics files may be larger and will always exceed that of a typical laptop
 
+{choose-answers: 4}
 ? How does one find an appropriate repository for sharing data?
 
 C) All of the listed methods can help in finding an appropriate repository
@@ -24,6 +25,7 @@ m) Look for an established repository that many others use and that has been aro
 o) Look for a more specific repository that will promote reuse
 o) Look for a repository with security and confidentiality information if sharing any sensitive data 
 
+{choose-answers: 4}
 ? How should one NOT do in finding a repository for human data?
 
 C) Human data can be shared on any repository
@@ -33,7 +35,7 @@ m) Find a repository that has methods to restrict access and uses security safeg
 o) Use a repository that states its plan in case of a breach
 o) Makes use of an established and transparent process for reviewing data access requests
 
-
+{choose-answers: 4}
 ? If there does not appear to be an appropriate existing repository what should you do?
 
 C) All of the are options are possibilities

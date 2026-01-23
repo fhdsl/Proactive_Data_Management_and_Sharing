@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_documentation_is_worth_it, attempts: 10}
 
 ## Documentation is Worth the Time Quiz
 

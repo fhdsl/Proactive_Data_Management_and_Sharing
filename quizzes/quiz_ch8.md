@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_clear_documentation, attempts: 10}
 
 ## Clear Documentation Quiz
 

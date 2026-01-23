@@ -1,5 +1,5 @@
 
-{quiz, id: quiz_name_here, attempts: 10}
+{quiz, id: quiz_health_care_data_sharing_tools, attempts: 10}
 
 ## Heath care data sharing tools Quiz
 
