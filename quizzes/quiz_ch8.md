@@ -8,7 +8,7 @@ Choose the best answer.
 {choose-answers: 4}
 ? Which are characteristics of clear documentation?
 
-C) All of the options are charactersistics of clear documentation
+C) All of the options are characteristics of clear documentation
 C) All of the answers are characteristics of clear documentation
 m) It is comprehensive
 m) It is easy to find

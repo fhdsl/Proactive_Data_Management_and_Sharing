@@ -41,7 +41,7 @@ This includes all:
 
 ### Data formats or samples are described
 
-Explaining what type of samples or files are necessary to start the process is clearly described. Ideally, your software or protocol can use a sampel or data format that is common. 
+Explaining what type of samples or files are necessary to start the process is clearly described. Ideally, your software or protocol can use a sample or data format that is common. 
 
 If this is a computational process, perhaps after installation, getting data formatted correctly is one of the other very large hurdles users will need to deal with.
 

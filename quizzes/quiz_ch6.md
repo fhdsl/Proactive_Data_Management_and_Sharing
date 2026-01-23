@@ -44,8 +44,8 @@ C) All of the answers are correct
 C) All of the answers are true
 m) If an analysis is repeatable then it might be reproducible and replicable
 m) If your results are not repeatable they can not be reproducible
-o) Replicability builds on reprudibility which builds on repeatability
-o) If you can't get the same results twice then someone else is unlikely to use your code/protocol and data or sampels and obtain similar results
+o) Replicability builds on reproducibility which builds on repeatability
+o) If you can't get the same results twice then someone else is unlikely to use your code/protocol and data or samples and obtain similar results
 
 
 
