@@ -17,12 +17,12 @@ o) Some biomedical files like proteomics files may be larger and will always exc
 
 ? How does one find an appropriate repository for sharing data?
 
-C) All of the listed methods can help in finding an appopriate repository
+C) All of the listed methods can help in finding an appropriate repository
 C) All of these options can be helpful
 m) Check the NIH interactive data table and the NIH domain-specific repositories
 m) Look for an established repository that many others use and that has been around for significant period of time
-o) Look for a more specific repository that will promote reusue
-o) Look for a repository with security and confidentiatliy information if sharing any sensitive data 
+o) Look for a more specific repository that will promote reuse
+o) Look for a repository with security and confidentiality information if sharing any sensitive data 
 
 ? How should one NOT do in finding a repository for human data?
 

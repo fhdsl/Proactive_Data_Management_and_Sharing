@@ -10,7 +10,7 @@ Choose the best answer.
 
 C) All of the other answers are methods that can be helpful
 C) All of the other answers
-m) Always check with your insitution about guidelines for REDCap usage and verify your plans with your local internal review board before use
+m) Always check with your institution about guidelines for REDCap usage and verify your plans with your local internal review board before use
 m) You can set roles to restrict access and tasks that could change the data
 m) Reports can be generated that don't share data that should be kept private
 o) You can keep track of all data modifications, exports, and report generations, as well as who did them
