@@ -16,7 +16,7 @@ The following are tips to make your documentation as useful as possible.
 
 No matter how well your documentation is crafted, it is of no use if no one can find them. Having documents that are standard and at the top of your directory is key. READMEs for example are standard documents in software that give the TL;DR of the project. In science, READMEs are incredibly valuable
 
-## It is comprehensive
+### It is comprehensive
 
 All items are covered in the documentation in an organized fashion – **every. single. thing.** 
 
