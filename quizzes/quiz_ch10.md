@@ -18,7 +18,7 @@ o) It can more easily be understood by others
 {choose-answers: 4}
 ? Which of the following are helpful practices to stay organized?
 
-C) All of the answers are ways data sharing helps advance science
+C) All of the answers are ways to stay organized
 C) All of the answers are correct
 m) Putting raw data and processed data in different directories so that raw data does not get change
 m) Following consistent patterns for naming
