@@ -1,64 +1,36 @@
 
 {quiz, id: quiz_name_here, attempts: 10}
 
-## Data Sharing Importance Quiz
+## Data Storage and Repositories Quiz
 
 Choose the best answer.
 
 {choose-answers: 4}
-? What are reasons why data sharing is useful?
+? How do the file sizes of typical genomic files compare to the storage capacity of a typical laptop?
 
-C) All of the other answers are reasons
-C) All of the other answers
-m) Your work is more transparent
-m) Science can advance faster as some analysis are useful with existing data
-o) Your work is more likely to get cited
-o) You don't have to deal with requests for your data
-o) More people can work with your data to maximize its potential use
-o) Others are more likely to trust your analysis
-o) It is more economical 
+C) Just a small number of genomics files can get close to or exceed the file storage capacity of a typical laptop
+C) Biomedical files, especially genomics files or imaging files can quickly reach the capacity of a laptop
+m) Genomics files tend to be very small
+m) Imaging files tend to be quite small
+o) Whole genome sequencing files (WGS) are rarely too big for a typical computer
+o) Some biomedical files like proteomics files may be larger and will always exceed that of a typical laptop
 
-{choose-answers: 4}
-? How does data sharing advance science?
+? How does one find an appropriate repository for sharing data?
 
-C) All of the answers are ways data sharing helps advance science
-C) All of the answers are correct
-m) Additional studies on the same data can be done faster than if the were to create new data every time 
-m) Researchers at institutions with limited resources can contribute more by performing more economical studies where the can reuse data rather than create it
-o) Scientific research is more transparent, helping others understand more about what was previously done
-o) Scientific research is more reproducible
+C) All of the listed methods can help in finding an appopriate repository
+C) All of these options can be helpful
+m) Check the NIH interactive data table and the NIH domain-specific repositories
+m) Look for an established repository that many others use and that has been around for significant period of time
+o) Look for a more specific repository that will promote reusue
+o) Look for a repository with security and confidentiatliy information if sharing any sensitive data 
 
-{choose-answers: 4}
-? Second question to ask goes here?
+? If there does not appear to be an appropriate existing repository what should you do?
 
-C) A correct answer here!
-m) Mandatory incorrect answers have an "m"
-m) A second mandatory incorrect answer
-o) An optional incorrect answer here marked with an "o"
-o) A second optional incorrect answer here
-
-
-{choose-answers: 4}
-? A more complicated example. Note the question mark at the end of the options! Which of the following are correct
-1. An option described
-2. A second option
-3. A third option
-4. A fourth option
-5. A fifth option ?
-
-C) All of the examples listed except 5
-C) All of the listed examples except 5
-m) 1, 3, and 5
-m) 1, 2, and 3
-o) All of the examples except 1 and 5
-o) All of the examples listed
-
-{random-choice-order: false}
-? A question in which the order of choices is important?
-
-a) The possible responses should be labeled a, b, c, etc
-b) The correct answer has a capital letter, in this case "D" is correct
-c) both a and b
-D) All of the above will always be last choice in this question
+C) All of the are options are possibilities
+C) All of the options are correct about finding a place to share your data
+m) If the data are small enough, you could publish as supplemental material with a publication
+m) Check to see if your institution supports a data repository
+o) Use a generalist repository like Dryad, Dataverse, or Figshare
+o) Only use a generalist repository, institutional repository, or publish as supplemental material if an appropriate relevant data repository doesn't exist
 
 {/quiz}
