@@ -1,64 +1,51 @@
 
 {quiz, id: quiz_name_here, attempts: 10}
 
-## Data Sharing Importance Quiz
+## Data Privacy Quiz
 
 Choose the best answer.
 
 {choose-answers: 4}
-? What are reasons why data sharing is useful?
+? Which of the following are NOT true?
 
-C) All of the other answers are reasons
-C) All of the other answers
-m) Your work is more transparent
-m) Science can advance faster as some analysis are useful with existing data
-o) Your work is more likely to get cited
-o) You don't have to deal with requests for your data
-o) More people can work with your data to maximize its potential use
-o) Others are more likely to trust your analysis
-o) It is more economical 
+C) PII stands for Personal Interesting Information
+C) PII is a subset of PHI
+m) PII stands for Personal Identifiable Information
+m) PHI is a subset of PII
+o) PHI stands for Protected Health Information
+o) An example of PII is a full face photograph
+
 
 {choose-answers: 4}
-? How does data sharing advance science?
+? What risks are associated with PII?
 
 C) All of the answers are ways data sharing helps advance science
 C) All of the answers are correct
-m) Additional studies on the same data can be done faster than if the were to create new data every time 
-m) Researchers at institutions with limited resources can contribute more by performing more economical studies where the can reuse data rather than create it
-o) Scientific research is more transparent, helping others understand more about what was previously done
-o) Scientific research is more reproducible
+m) People could commit crimes in another person's name
+m) People could take out a loan in the name of another person's name
+o) The location of someone could be identified
+o) An institute could lose trust from the public
 
 {choose-answers: 4}
-? Second question to ask goes here?
+? What is NOT true about PHI?
 
-C) A correct answer here!
-m) Mandatory incorrect answers have an "m"
-m) A second mandatory incorrect answer
-o) An optional incorrect answer here marked with an "o"
-o) A second optional incorrect answer here
+C) PHI does not include medical billing information
+C) PHI does not include mental health
+m) A patient's name is an example of PHI data when associated with other health information 
+m) PHI includes data related to the past, present or future of someone's health
+o) PHI includes data related to physical or mental health
+o) PHI leaks could impact employment or insurance
 
 
 {choose-answers: 4}
-? A more complicated example. Note the question mark at the end of the options! Which of the following are correct
-1. An option described
-2. A second option
-3. A third option
-4. A fourth option
-5. A fifth option ?
+? What are ways to protect data?
 
-C) All of the examples listed except 5
-C) All of the listed examples except 5
-m) 1, 3, and 5
-m) 1, 2, and 3
-o) All of the examples except 1 and 5
-o) All of the examples listed
+C) All of the answers are methods that can help protect data
+C) All of the answers are methods to help protect data
+m) Encrypting data when transferring it
+m) Minimizing access to data to only those who must have access
+o) Being careful about the disposal of a device
+o) Using secure WIFI
 
-{random-choice-order: false}
-? A question in which the order of choices is important?
-
-a) The possible responses should be labeled a, b, c, etc
-b) The correct answer has a capital letter, in this case "D" is correct
-c) both a and b
-D) All of the above will always be last choice in this question
 
 {/quiz}
