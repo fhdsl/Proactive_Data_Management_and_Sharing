@@ -13,4 +13,6 @@
 
 ![testing image](![The Original Mac](https://raw.githubusercontent.com/fhdsl/Proactive_Data_Management_and_Sharing/main/manuscript/resources/chapt_screen_images/introduction.png)
 
-![testing_image_not_url](resources/chapt_screen_images/introduction.pmg)
+![testing_image_not_url](resources/chapt_screen_images/introduction.png)
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png)
