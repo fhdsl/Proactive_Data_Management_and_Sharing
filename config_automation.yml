@@ -33,7 +33,7 @@ render-coursera: true
 
 ## Automate the creation of Book.txt file? yes/no
 ## This is only relevant if render-leanpub is yes, otherwise it will be ignored
-make-book-txt: true
+make-book-txt: false
 
 # What docker image should be used for rendering?
 # The default is jhudsl/base_ottr:main
