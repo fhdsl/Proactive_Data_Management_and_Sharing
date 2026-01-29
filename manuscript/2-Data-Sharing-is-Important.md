@@ -2,7 +2,7 @@
  
 ![](resources/chapt_screen_images/data-sharing-is-important.png)
 
-Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/idata-sharing-is-important.html) to go to the course content.
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/data-sharing-is-important.html) to go to the course content.
 
 {quiz, id: quiz_data_sharing, attempts: 10}
 
