@@ -11,6 +11,6 @@
 {type: iframe, poster: https://markua.com/Markua.png, width: 300, height: 200}
 ![](https://markua.com/Markua.pdf "Introducing Markua")
 
-![testing image](![The Original Mac](https://raw.githubusercontent.com/fhdsl/Proactive_Data_Management_and_Sharing/main/manuscript/resources/chapt_screen_images/introduction.png)
+![testing image](https://raw.githubusercontent.com/fhdsl/Proactive_Data_Management_and_Sharing/main/manuscript/resources/chapt_screen_images/introduction.png)
 
 ![testing_image_not_url](resources/chapt_screen_images/introduction.pmg)
