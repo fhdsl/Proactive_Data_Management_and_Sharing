@@ -6,4 +6,4 @@
 
 ![testing_image_not_url](resources/chapt_screen_images/introduction.png)
 
-Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/introduction.html) to go to the course content.
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/introduction.html) to go to the course content.
