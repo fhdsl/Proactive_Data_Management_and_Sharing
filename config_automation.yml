@@ -28,7 +28,7 @@ url-check-periodically: true
 ##### Renderings run upon merge to main branch #####
 # Rendering each platform's content
 render-website: rmd
-render-leanpub: true
+render-leanpub: false
 render-coursera: true
 
 ## Automate the creation of Book.txt file? yes/no
