@@ -4,7 +4,7 @@
 
 Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/why-documentation-is-worth-the-time.html) to go to the course content.
 
- {quiz, id: quiz_documentation_is_worth_it, attempts: 10}
+{quiz, id: quiz_documentation_is_worth_it, attempts: 10}
 
 ## Documentation is Worth the Time Quiz
 
