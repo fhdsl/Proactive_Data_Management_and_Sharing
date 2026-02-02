@@ -7,6 +7,7 @@ curriculum
 data-sharing-is-important
 why-is-there-an-nih-dms-policy
 key-terms
+how-will-this-policy-affect-me
 no-sharing
 scientific-data
 scientific-data-1
@@ -40,7 +41,7 @@ creating-clear-documentation
 characteristics-of-clear-documentation
 it-is-easy-to-find
 it-is-comprehensive
-data-formats-are-described
+data-formats-or-samples-are-described
 types-of-documentation-you-should-have
 readmes
 more-about-writing-readmes
@@ -49,6 +50,7 @@ notebooks
 the-purposes-of-the-notebook
 the-reasons-behind-your-decisions
 your-observations-of-the-results
+summary
 why-documentation-is-worth-the-time
 the-context-of-documentation-in-research
 why-documentation-is-worth-the-time-1
