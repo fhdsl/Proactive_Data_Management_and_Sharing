@@ -1,8 +1,10 @@
 # 11 Record keeping practices
  
-{type: iframe, title:11 Record keeping practices, width:800, height:600, poster:/__w/Proactive_Data_Management_and_Sharing/Proactive_Data_Management_and_Sharing/manuscript/resources/chapt_screen_images/record-keeping-practices.png}
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/record-keeping-practices.html)
- 
+![](resources/chapt_screen_images/record-keeping-practices.png)
+
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/record-keeping-practices.html) to go to the course content.
+
+
 {quiz, id: quiz_record_keeping, attempts: 10}
 
 ## Record Keeping Quiz
