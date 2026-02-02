@@ -1,6 +1,6 @@
 ---
 title: "Proactive Data Management and Sharing"
-date: "December, 2025"
+date: "February, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -24,6 +24,6 @@ The [course illustrations can be found at this link](https://docs.google.com/pre
 <!-- - This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for a certificate which can be for free or fee. -->
 
 - The material for this course can be viewed without login requirement on this [Bookdown website](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/). This format might be most appropriate for you if you rely on screen-reader technology.
-<!-- - This course can be taken for free certification through Leanpub. -->
+- This course can be taken for [free certification through Leanpub](https://leanpub.com/c/proactive_data).
 <!-- - This course can be taken on Coursera for certification here (but it is not available for free on Coursera). -->
 - Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing).
