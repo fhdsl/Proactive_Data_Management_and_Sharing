@@ -1,7 +1,9 @@
 # 8 Creating Clear Documentation
- 
-{type: iframe, title:8 Creating Clear Documentation, width:800, height:600, poster:/__w/Proactive_Data_Management_and_Sharing/Proactive_Data_Management_and_Sharing/manuscript/resources/chapt_screen_images/creating-clear-documentation.png}
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/creating-clear-documentation.html)
+
+ ![](resources/chapt_screen_images/creating-clear-documentation.png)
+
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/creating-clear-documentation.html) to go to the course content.
+
  
 {quiz, id: quiz_clear_documentation, attempts: 10}
 
