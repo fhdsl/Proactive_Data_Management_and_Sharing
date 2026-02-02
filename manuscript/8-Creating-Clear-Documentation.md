@@ -7,7 +7,7 @@ Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/
  
 {quiz, id: quiz_clear_documentation, attempts: 10}
 
-Clear Documentation Quiz
+## Clear Documentation Quiz
 Choose the best answer.
 
 {choose-answers: 4} 
