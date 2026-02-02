@@ -1,6 +1,7 @@
 # 6 Defining reproducibility
  
 ![](resources/chapt_screen_images/defining-reproducibility.png)
+
 Click [here](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/defining-reproducibility.html) to access course content.
  
 
