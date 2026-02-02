@@ -1,6 +1,6 @@
 # 1 Introduction
 
-{type: iframe, title:12 Guidelines for Good Metadata, width:800, height:600, poster:resources/chapt_screen_images/introduction.png}
+{type: iframe, title:12 introduction, width:800, height:600, poster:resources/chapt_screen_images/introduction.png}
 ![](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/introduction.html)
 
 
