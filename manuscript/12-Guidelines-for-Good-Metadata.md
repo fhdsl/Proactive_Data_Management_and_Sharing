@@ -1,10 +1,11 @@
 # 12 Guidelines for Good Metadata
- 
-{type: iframe, title:12 Guidelines for Good Metadata, width:800, height:600, poster:/__w/Proactive_Data_Management_and_Sharing/Proactive_Data_Management_and_Sharing/manuscript/resources/chapt_screen_images/guidelines-for-good-metadata.png}
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/guidelines-for-good-metadata.html)
- 
 
- {quiz, id: quiz_metadata, attempts: 10}
+![](resources/chapt_screen_images/guidelines-for-good-metadata.png)
+
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/guidelines-for-good-metadata.html) to go to the course content.
+
+
+{quiz, id: quiz_metadata, attempts: 10}
 
 ## Metadata Quiz
 
