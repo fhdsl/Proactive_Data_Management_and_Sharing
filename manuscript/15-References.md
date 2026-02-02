@@ -1,7 +1,7 @@
 # 15 References
- 
-{type: iframe, title:15 References, width:800, height:600, poster:/__w/Proactive_Data_Management_and_Sharing/Proactive_Data_Management_and_Sharing/manuscript/resources/chapt_screen_images/references.png}
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/references.html)
- 
+  
+![](resources/chapt_screen_images/references.png)
 
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/references.html) to go to the course content.
+ 
  
