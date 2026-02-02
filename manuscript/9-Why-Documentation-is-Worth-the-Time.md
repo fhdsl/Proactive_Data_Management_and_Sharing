@@ -1,8 +1,8 @@
 # 9 Why Documentation is Worth the Time
  
-{type: iframe, title:9 Why Documentation is Worth the Time, width:800, height:600, poster:/__w/Proactive_Data_Management_and_Sharing/Proactive_Data_Management_and_Sharing/manuscript/resources/chapt_screen_images/why-documentation-is-worth-the-time.png}
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/why-documentation-is-worth-the-time.html)
- 
+![](resources/chapt_screen_images/why-documentation-is-worth-the-time.png)
+
+Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/why-documentation-is-worth-the-time.html) to go to the course content.
 
  {quiz, id: quiz_documentation_is_worth_it, attempts: 10}
 
