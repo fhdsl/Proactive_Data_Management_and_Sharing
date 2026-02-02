@@ -5,7 +5,7 @@
 Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/organizing-your-project.html) to go to the course content.
 
 
- {quiz, id: quiz_project_organization, attempts: 10}
+{quiz, id: quiz_project_organization, attempts: 10}
 
 ## Project Organization Quiz
 
