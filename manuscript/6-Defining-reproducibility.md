@@ -51,8 +51,6 @@ m) If your results are not repeatable they can not be reproducible
 o) Replicability builds on reproducibility which builds on repeatability
 o) If you can't get the same results twice then someone else is unlikely to use your code/protocol and data or samples and obtain similar results
 
-
-
 {choose-answers: 4}
 ? Which of the following is NOT true?
 
@@ -62,7 +60,6 @@ m) Reproducibility exists on a continuum, it is something we aim to improve over
 m) Reproducibility practices take more time day to day but save time in the long run
 o) Your analysis/protocol being reproducible doesn't mean it is correct
 o) Following best practices for reproducibility encourages others to reuse your analysis code or protocol
-
 
 
 {/quiz}
