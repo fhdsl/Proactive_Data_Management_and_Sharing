@@ -1,7 +1,7 @@
 # 7 Data Privacy
  
 
-![](http://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/data-privacy.html)
+![](resources/chapt_screen_images/data-privacy.png)
 
 Click [here](https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/no_toc/data-privacy.html) to go to the course content.
  
