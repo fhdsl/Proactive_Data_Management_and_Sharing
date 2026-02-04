@@ -14,7 +14,6 @@ Choose the best answer.
 ? What are reasons why data sharing is useful?
 
 C) All of the other answers are reasons
-C) All of the other answers
 m) Your work is more transparent
 m) Science can advance faster as some analysis are useful with existing data
 o) Your work is more likely to get cited
