@@ -40,14 +40,14 @@ o) Sharing your code on GitHub
 o) Sharing your contact info for others to get your data
 
 {choose-answers: 4}
-? What is Metadata?
+? What is true about Metadata?
 
-C) Information that makes other data usable (and reusable) for research
-C) Information about other data that makes it more usable
-m) Doesn't include information like sample or collection dates
-m) Doesn't describe how variables were made like transformations
-o) Doesn't include information about variables in a dataset
-o) Information that makes data less usable
+C) It is information that makes other data usable (and reusable) for research
+C) It is information about other data that makes it more usable
+m) It doesn't include information like sample or collection dates
+m) It doesn't describe how variables were made like transformations
+o) It doesn't include information about variables in a dataset
+o) It is Information that makes data less usable
 
 
 {choose-answers: 4}
@@ -85,12 +85,10 @@ o) DMS plans can't be changed
 ? When should you not share data?
 
 C) Any of the other options listed but you still need to submit a plan
-C) All of the other options listed but you still need to submit a plan
-m) Consent of the participants does not permit sharing
-m) Existing consent of the participants prohibits sharing
-o) The data can not practically be digitized reasonably 
-o) Federal, state, or tribal law prohibits data sharing
-
+m) No consent was obtained for sharing identifiable human data  (Truly de-identified data may still possibly be shared, check with your IRB.)
+m) The data can't practically be digitized reasonably 
+o) Existing consent of participants prohibits sharing
+o) Federal, state, or tribal law prohibits data sharing 
 
 {choose-answers: 4}
 ? What are not considered good reasons to not share data?

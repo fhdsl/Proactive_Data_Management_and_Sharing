@@ -18,7 +18,7 @@ Choose the best answer.
 C) The same researcher repeats an analysis without changing anything and gets the same result
 C) A researcher repeats the same process or analysis without changing anything and gets the same result
 m) Repeating your analysis with different data and getting the same result
-m) Repeating your analysis with the different data and getting the same result
+m) Repeating your analysis with different data and getting different results
 o) It is the same as reproducibility
 o) It is the same as replicability
 
