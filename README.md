@@ -4,7 +4,7 @@
 
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
-You can see the rendered course material here: http://hutchdatascience.org/https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/
+You can see the rendered course material here: https://hutchdatascience.org/Proactive_Data_Management_and_Sharing/
 
 If you would like to contribute to this course material, take a look at the [OTTR documentation](https://www.ottrproject.org/).
 
