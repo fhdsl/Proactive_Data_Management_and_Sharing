@@ -40,14 +40,14 @@ o) Sharing your code on GitHub
 o) Sharing your contact info for others to get your data
 
 {choose-answers: 4}
-? What is Metadata?
+? What is true about Metadata?
 
-C) Information that makes other data usable (and reusable) for research
-C) Information about other data that makes it more usable
-m) Doesn't include information like sample or collection dates
-m) Doesn't describe how variables were made like transformations
-o) Doesn't include information about variables in a dataset
-o) Information that makes data less usable
+C) It is information that makes other data usable (and reusable) for research
+C) It is information about other data that makes it more usable
+m) It doesn't include information like sample or collection dates
+m) It doesn't describe how variables were made like transformations
+o) It doesn't include information about variables in a dataset
+o) It is Information that makes data less usable
 
 
 {choose-answers: 4}

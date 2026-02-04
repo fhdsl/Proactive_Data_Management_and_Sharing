@@ -25,7 +25,6 @@ o) It is more economical
 {choose-answers: 4}
 ? How does data sharing advance science?
 
-C) All of the answers are ways data sharing helps advance science
 C) All of the answers are correct
 m) Additional studies on the same data can be done faster than if the were to create new data every time 
 m) Researchers at institutions with limited resources can contribute more by performing more economical studies where the can reuse data rather than create it
