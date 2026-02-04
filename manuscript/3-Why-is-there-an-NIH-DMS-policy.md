@@ -85,12 +85,10 @@ o) DMS plans can't be changed
 ? When should you not share data?
 
 C) Any of the other options listed but you still need to submit a plan
-C) All of the other options listed but you still need to submit a plan
-m) No consent of the participants was obtained to permit data sharing (Truly de-identified data may still possibly be shared.)
-m) The data can not practically be digitized reasonably 
-o) Existing consent of the participants prohibits sharing
-o) Federal, state, or tribal law prohibits data sharing
-
+m) No consent was obtained for sharing identifiable human data  (Truly de-identified data may still possibly be shared, check with your IRB.)
+m) The data can't practically be digitized reasonably 
+o) Existing consent of participants prohibits sharing
+o) Federal, state, or tribal law prohibits data sharing 
 
 {choose-answers: 4}
 ? What are not considered good reasons to not share data?
