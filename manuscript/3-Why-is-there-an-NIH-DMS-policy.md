@@ -86,7 +86,7 @@ o) DMS plans can't be changed
 
 C) Any of the other options listed but you still need to submit a plan
 C) All of the other options listed but you still need to submit a plan
-m) Consent of the participants does not permit sharing
+m) No consent of the participants was obtained to permit sharing
 m) Existing consent of the participants prohibits sharing
 o) The data can not practically be digitized reasonably 
 o) Federal, state, or tribal law prohibits data sharing
