@@ -32,7 +32,7 @@ o) Look for a more specific repository that will promote reuse
 o) Look for a repository with security and confidentiality information if sharing any sensitive data 
 
 {choose-answers: 4}
-? How should one NOT do in finding a repository for human data?
+? What should one NOT do in finding a repository for human data?
 
 C) Human data can be shared on any repository
 C) Human data does not require any extra consideration for sharing
