@@ -82,16 +82,16 @@ o) Program staff will not have access to the DMS plan
 o) DMS plans can't be changed
 
 {choose-answers: 4}
-? When should you not share data?
+? When is it acceptable to NOT share data under the NIH Data Management and Sharing (DMS) Policy?
 
-C) Any of the other options listed but you still need to submit a plan
-m) No consent was obtained for sharing identifiable human data  (Truly de-identified data may still possibly be shared, check with your IRB.)
-m) The data can't practically be digitized reasonably 
+C) Any of the situations listed, but you still need to submit a DMS plan and explain your reason for not sharing
+m) No consent was obtained for sharing identifiable human data  (Truly de-identified data may still be shared in some cases, check with your IRB.)
+m) The data can't practically be digitized reasonably due to practical or technical limitations
 o) Existing consent of participants prohibits sharing
 o) Federal, state, or tribal law prohibits data sharing 
 
 {choose-answers: 4}
-? What are not considered good reasons to not share data?
+? What are NOT considered good reasons to NOT share data?
 
 C) Any of the other options listed are not considered good reasons
 C) All of the other options listed are not considered good reasons
