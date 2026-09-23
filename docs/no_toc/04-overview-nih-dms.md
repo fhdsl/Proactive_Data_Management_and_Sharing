@@ -5,6 +5,15 @@ In this section, we will cover the following learning objectives:
 
 <img src="04-overview-nih-dms_files/figure-html//10nOR2t1-F0E01fItN_l8uYRWslH2PmebPvhQzCBeCPM_g3896feb580f_16_29.png" alt="Learning Objectives: Describe the major considerations of a DMS plan, Identify the major elements of a DMS plan" width="1250" />
 
+<div class = "warning"> 
+
+As of May 2026, there is a new Data Management and Sharing (DMS) Plan format (more information can be found on [this NIH webpage](https://grants.nih.gov/grants-process/write-application/forms-directory/data-management-and-sharing-plan-format-page)). While the information in this section may still be useful for preparing a DMS Plan, many of the components described are no longer included in the DMS Plan. Please see the new format before proceeding with your DMS Plan. This course will be updated based on the new DMS Plan format shortly.
+
+</div>
+
+&nbsp;
+&nbsp;
+
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
 The following are the major elements required to be included in an NIH DMS plan:
