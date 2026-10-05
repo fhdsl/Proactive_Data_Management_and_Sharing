@@ -1,6 +1,7 @@
 # Proactive Data Management and Sharing
 
 [![Render Bookdown, Leanpub, and Coursera](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml/badge.svg)](https://github.com/fhdsl/Proactive_Data_Management_and_Sharing/actions/workflows/render-all.yml)
+<a href="https://doi.org/10.5281/zenodo.23167752"><img src="https://zenodo.org/badge/785798911.svg" alt="DOI"></a>
 
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
