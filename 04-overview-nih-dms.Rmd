@@ -9,7 +9,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
-The following are the major questions that need to be answered in an NIH DMS plan:
+The following are the questions that need to be answered in an NIH DMS plan:
 
 1. Will there be maximum appropriate sharing of scientific data resulting from work supported by the award? (Yes/no.)
 2. Will the scientific data underlying peer-reviewed publications be shared by the time of publication? (Yes/no.)
