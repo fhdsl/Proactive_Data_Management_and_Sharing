@@ -14,7 +14,7 @@ The following are the questions that need to be answered in an NIH DMS plan:
 1. Will there be maximum appropriate sharing of scientific data resulting from work supported by the award? (Yes/no.)
 2. Will the scientific data underlying peer-reviewed publications be shared by the time of publication? (Yes/no.)
 3. Will shared scientific data be made available for as long as data repository policies or journal policies require? (Yes/no.)
-4. If the answer to any questions 1-3 is no, explain why. 
+4. If the answer to any questions 1-3 is no, explain why (these [examples of justifiable factors for limiting scientific data sharing](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) be be helpful).
 5. If scientific data from human research participants will be shared, will privacy of participants be protected?
 6. List expected data that will be generated, including data type and repositories. 
 7. For studies subject to the NIH Genomic Data Sharing Policy, will all large-scale genomic and associated data be shared? 
