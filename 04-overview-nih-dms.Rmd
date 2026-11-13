@@ -19,7 +19,7 @@ The following are the questions that need to be answered in an NIH DMS plan:
 6. List expected data that will be generated, including data type and repositories. 
 7. For studies subject to the NIH Genomic Data Sharing Policy, will all large-scale genomic and associated data be shared? 
 
-You can find more detailed requirements for each of these elements [on the NIH website](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#preparing-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
+You can find more detailed requirements for each of these questions [on the NIH website](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#preparing-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
 
 ## Overall Takeaways
 
