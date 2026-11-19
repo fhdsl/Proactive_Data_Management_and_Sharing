@@ -9,15 +9,18 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/10nOR2t1-F0E01fIt
 
 The NIH has provided an outline for what components of the Data Sharing and Management Plan are required.
 
-The following are the questions that need to be answered in an NIH DMS plan:
+The following are (simplified versions of) the questions that need to be answered in an NIH DMS plan:
 
 1. Will there be maximum appropriate sharing of scientific data resulting from work supported by the award? (Yes/no.)
 2. Will the scientific data underlying peer-reviewed publications be shared by the time of publication? (Yes/no.)
 3. Will shared scientific data be made available for as long as data repository policies or journal policies require? (Yes/no.)
-4. If the answer to any questions 1-3 is no, explain why (these [examples of justifiable factors for limiting scientific data sharing](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) be be helpful).
+4. If the answer to any questions 1-3 or 7 is no, explain why (300 words maximum).
+
+  * These [examples of justifiable factors for limiting scientific data sharing](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#maximum-appropriate-sharing-of-scientific-data) be be helpful.
+  
 5. If scientific data from human research participants will be shared, will privacy of participants be protected?
-6. List expected data that will be generated, including data type and repositories. 
-7. For studies subject to the NIH Genomic Data Sharing Policy, will all large-scale genomic and associated data be shared? 
+6. In table format, list expected data that will be generated, including data type and repositories (100 words maximum). 
+7. For studies subject to the NIH Genomic Data Sharing Policy, will all large-scale genomic and associated data be shared (Yes/no/NA)? 
 
 You can find more detailed requirements for each of these questions [on the NIH website](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/writing-dms-plan#preparing-a-data-management-and-sharing-plan). To aid in proactively planning for data management and sharing over the life of your research project, it may be helpful to consider the data types and size you plan to generate, the repositories available, and the corresponding budgetary implications before you begin your research.
 
